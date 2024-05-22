@@ -1,0 +1,70 @@
+import os
+from openai import OpenAI
+from dotenv import load_dotenv
+
+from thinker.thinker import Thinker
+from io_system.input_object import InputObject
+from io_system.output_object import OutputObject
+from game.agent_command import AgentCommand
+
+load_dotenv()
+
+class OpenaiWrapper(Thinker):
+
+    def __init__(self) -> None:
+        self.game_name = os.environ.get("GAME_NAME")
+        self.client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+
+    def think(self, input: InputObject) -> OutputObject:
+        
+        # Given a set of input (player instruction, game state), determine a set of actions to take for the agent
+        prompt = self.generate_prompt(input)
+        response = self.run(prompt)
+
+        # Split the response by new line and remove any empty strings
+        action_codes_str = list(filter(None, response.split("\n")))
+        action_codes = list(map(lambda action_code_str: int(action_code_str), action_codes_str))
+        actions = list(map(lambda action_code: AgentCommand(action_code, AgentCommand.get_action_str_from_code(action_code)), action_codes))
+
+        # Return the set of actions
+        return OutputObject(actions)
+
+    def generate_prompt(self, input: InputObject) -> str:
+        
+        return f"""
+        
+You are an AI agent who is a virtual companion for a player playing {self.game_name}.
+
+The player has just given you the following instruction:
+{input.player_instruction}
+
+The current state of the game is as follows:
+{input.game_state}
+
+You are required to generate a set of actions that the agent should take in response to the player instruction and the game state.
+The actions that you can take are as follows:
+
+1. Follow the player
+2. Get wood
+3. Get stone
+
+Please generate a set of actions that the agent should take in response to the player instruction and the game state. 
+Output the action codes in the following format as illustrated in the example below.
+Do not include any additional information in the output, only the action codes.
+
+Example:
+
+1
+3
+
+        """
+
+    def run(self, prompt: str, model="gpt-4", temperature=1.0) -> str:
+
+        response = self.client.chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=temperature
+        )
+
+        return response.choices[0].message.content
