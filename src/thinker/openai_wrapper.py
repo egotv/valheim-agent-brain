@@ -1,6 +1,7 @@
 import os
 from openai import OpenAI
 from dotenv import load_dotenv
+import re
 
 from thinker.thinker import Thinker
 from io_system.input_object import InputObject
@@ -22,12 +23,17 @@ class OpenaiWrapper(Thinker):
         text_response_prompt = self.generate_text_response_prompt(input)
 
         # Get the actions
-        actions = self.run(actions_prompt)
+        actions_raw = self.run(actions_prompt)
+        if not self.validate_actions_response(actions_raw):
+            actions_raw = None
 
         # Split the response by new line and remove any empty strings
-        action_codes_str = list(filter(None, actions.split("\n")))
-        action_codes = list(map(lambda action_code_str: int(action_code_str), action_codes_str))
-        actions = list(map(lambda action_code: AgentCommand(action_code, AgentCommand.get_action_str_from_code(action_code)), action_codes))
+        if actions_raw is None:
+            actions = []
+        else:
+            action_codes_str = list(filter(None, actions_raw.split("\n")))
+            action_codes = list(map(lambda action_code_str: int(action_code_str), action_codes_str))
+            actions = list(map(lambda action_code: AgentCommand(action_code, AgentCommand.get_action_str_from_code(action_code)), action_codes))
 
         # Get the text response (TODO: The text response should include the actions taken by the agent)
         text_response = self.run(text_response_prompt)
@@ -88,3 +94,11 @@ Respond in less than 20 words.
         )
 
         return response.choices[0].message.content
+    
+    def validate_actions_response(self, response: str) -> bool:
+
+        pattern = r'^(0|[1-9]\d*)(?:\r?\n|$)+'
+        if re.fullmatch(pattern, response):
+            return True
+        else:
+            return False
