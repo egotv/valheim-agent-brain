@@ -1,11 +1,21 @@
-from flask import Flask, request
+import sys
+import os
 
-from brain import Brain
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
+
+from flask import Flask, request
+from flask_cors import CORS
 from game.game_state import GameState
+from brain.brain import Brain
 
 app = Flask(__name__)
+CORS(app)
 
 agent_brain = Brain()
+
+@app.route('/hello_world')
+def hello_world():
+    return "Hello, World!"
 
 @app.route('/get_agent_output')
 def get_agent_output():
@@ -22,4 +32,4 @@ def get_agent_output():
     }
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0')
