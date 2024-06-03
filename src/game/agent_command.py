@@ -7,6 +7,12 @@ class AgentCommand:
     def __repr__(self) -> str:
         return f"[{self.action_code}] {self.action_str}"
     
+    def to_json(self) -> dict:
+        return {
+            "action_code": self.action_code,
+            "action_str": self.action_str
+        }
+    
     @staticmethod
     def get_action_str_from_code(action_code: int) -> str:
         return {

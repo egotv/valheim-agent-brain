@@ -11,9 +11,9 @@ class Brain:
     def __init__(self) -> None:
         self.thinker = OpenaiWrapper()
 
-    def generate_agent_commands(self, player_instruction: str, game_state: GameState) -> List[AgentCommand]:
+    def generate_agent_output(self, player_instruction: str, game_state: GameState) -> OutputObject:
         
         input = InputObject(player_instruction, game_state)
         output = self.thinker.think(input)
 
-        return output.agent_commands
+        return output

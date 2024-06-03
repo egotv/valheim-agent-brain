@@ -18,18 +18,24 @@ class OpenaiWrapper(Thinker):
     def think(self, input: InputObject) -> OutputObject:
         
         # Given a set of input (player instruction, game state), determine a set of actions to take for the agent
-        prompt = self.generate_prompt(input)
-        response = self.run(prompt)
+        actions_prompt = self.generate_actions_prompt(input)
+        text_response_prompt = self.generate_text_response_prompt(input)
+
+        # Get the actions
+        actions = self.run(actions_prompt)
 
         # Split the response by new line and remove any empty strings
-        action_codes_str = list(filter(None, response.split("\n")))
+        action_codes_str = list(filter(None, actions.split("\n")))
         action_codes = list(map(lambda action_code_str: int(action_code_str), action_codes_str))
         actions = list(map(lambda action_code: AgentCommand(action_code, AgentCommand.get_action_str_from_code(action_code)), action_codes))
 
-        # Return the set of actions
-        return OutputObject(actions)
+        # Get the text response (TODO: The text response should include the actions taken by the agent)
+        text_response = self.run(text_response_prompt)
 
-    def generate_prompt(self, input: InputObject) -> str:
+        # Return the set of actions
+        return OutputObject(actions, text_response)
+    
+    def generate_actions_prompt(self, input: InputObject) -> str:
         
         return f"""
         
@@ -56,6 +62,17 @@ Example:
 
 1
 3
+
+        """
+    
+    def generate_text_response_prompt(self, input: InputObject) -> str:
+
+        return f"""
+
+You are an AI agent who is a virtual companion for a player playing {self.game_name}.
+The player has just given you the following instruction:
+{input.player_instruction}
+Respond to the player in a fun and playful manner. Tease the player a little bit, but also provide them with some useful information.
 
         """
 
