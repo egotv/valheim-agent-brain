@@ -80,7 +80,7 @@ The player has just given you the following instruction:
 {input.player_instruction}
 
 Respond to the player in a fun and playful manner. Tease the player a little bit, but also provide them with some useful information.
-Respond in less than 20 words.
+Respond in less than 15 words.
 
         """
     

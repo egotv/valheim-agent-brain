@@ -34,27 +34,6 @@ class RollingPlayerInstructionManager:
         self.instructions.append(Instruction(timestamp, player_instruction))
         self.clear_old_instructions(timestamp)
 
-    def has_player_finished_speaking(self) -> bool:
-
-        if len(self.instructions) == 0:
-            return False
-
-        instructions_joined_by_newline = "\n".join([instruction.player_instruction for instruction in self.instructions])
-        
-        prompt = f"""
-
-The following phrases are what a player says, transcribed by a speech-to-text API, broken up into 3-second segments with ends potentially overlapping.
-
-{instructions_joined_by_newline}
-
-Does it look like that the player has finished saying what they want to say? Answer yes or no.
-
-        """
-
-        response: str = run(prompt, model='gpt-4')
-        
-        return ("yes" in response.lower())
-
     def get_coherent_player_instruction(self) -> str:
 
         if len(self.instructions) == 0:
@@ -68,7 +47,8 @@ The following phrases are what a player says, transcribed by a speech-to-text AP
 
 {instructions_joined_by_newline}
 
-Rewrite this into a coherent sentence without overlaps, correcting any words that could have been transcribed wrongly. No inverted commas.
+Rewrite this into a coherent sentence without overlaps, correcting any words that could have been transcribed wrongly. 
+Use the player's words as much as possible. Do not paraphrase. No inverted commas.
 
         """
 

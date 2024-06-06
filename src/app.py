@@ -29,32 +29,38 @@ def get_agent_output():
     player_this_instruction = request.args.get('player_instruction')
     timestamp = request.args.get('timestamp', time.time(), float)
 
-    print(f"Player ID: {player_id}")
-    print(f"Player Instruction: {player_this_instruction}")
-    print(f"Timestamp: {timestamp}")
+    # print(f"Player ID: {player_id}")
+    # print(f"Player Instruction: {player_this_instruction}")
+    # print(f"Timestamp: {timestamp}")
 
-    # Add the player instruction to the memory manager
-    has_player_finished_speaking = memory_manager.add_player_instruction(player_id, player_this_instruction, timestamp)
-    if not has_player_finished_speaking:
+    # Player has finished speaking if the instruction is empty string
+    if player_this_instruction == "" and memory_manager.does_player_have_instructions(player_id):
+
+        game_state = GameState() # TODO: Implement the game state
+        coherent_player_instruction = memory_manager.get_coherent_player_instruction(player_id)
+        memory_manager.clear_all_instructions(player_id)
+
+        output = agent_brain.generate_agent_output(coherent_player_instruction, game_state)
+
+        print(output.agent_text_response)
+
         return {
-            "coherent_player_instruction": None,
-            "agent_commands": None,
-            "agent_text_response": None
+            "coherent_player_instruction": coherent_player_instruction,
+            "agent_commands": list(map(lambda agent_command: agent_command.to_json(), output.agent_commands)),
+            "agent_text_response": output.agent_text_response
         }
-    
-    print("Player has finished speaking")
 
-    # Process the request
-    game_state = GameState() # TODO: Implement the game state
-    coherent_player_instruction = memory_manager.get_coherent_player_instruction(player_id)
+    # Player has not finished speaking
+    elif player_this_instruction != "":
+        memory_manager.add_player_instruction(player_id, player_this_instruction, timestamp)
 
-    output = agent_brain.generate_agent_output(coherent_player_instruction, game_state)
-
+    # Nothing to return
     return {
-        "coherent_player_instruction": coherent_player_instruction,
-        "agent_commands": list(map(lambda agent_command: agent_command.to_json(), output.agent_commands)),
-        "agent_text_response": output.agent_text_response
+        "coherent_player_instruction": None,
+        "agent_commands": None,
+        "agent_text_response": None
     }
+    
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
