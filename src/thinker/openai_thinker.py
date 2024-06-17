@@ -28,7 +28,7 @@ class OpenaiThinker(Thinker):
         if actions_raw is None:
             actions = []
         else:
-            action_codes_str = list(filter(None, actions_raw.split("\n")))
+            action_codes_str = list(filter(None, actions_raw.split(",")))
             action_codes = list(map(lambda action_code_str: int(action_code_str), action_codes_str))
             actions = list(map(lambda action_code: AgentCommand(action_code, AgentCommand.get_action_str_from_code(action_code)), action_codes))
 
@@ -61,15 +61,19 @@ The actions that you can take are as follows:
 4. StartPatrolling
 
 Please generate a set of actions that the agent should take in response to the player instruction and the game state. 
-You can take one or more actions. Each action should be on a new line.
+You can take zero, one or more actions. Every action should be separated by a comma.
+If you do not want to take any actions, please enter NO_ACTIONS.
 Output the action codes in the following format as illustrated in the example below.
 Do not include any additional information in the output, only the action codes.
 
-Example:
+Example 1:
+1,2
 
-1
-3
+Example 2:
 4
+
+Example 3 (no actions):
+NO_ACTIONS
 
         """
     

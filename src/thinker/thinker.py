@@ -13,8 +13,7 @@ class Thinker(ABC):
     @staticmethod
     def validate_actions_response(response: str) -> bool:
 
-        pattern = r'^(0|[1-9]\d*)(?:\r?\n|$)+'
-        if re.fullmatch(pattern, response):
-            return True
-        else:
-            return False
+        pattern = r"^\d+(,\d+)*$"
+        result = re.match(pattern, response)
+
+        return (result is not None)

@@ -76,6 +76,10 @@ def get_audio_file():
     audio_file_id = request.args.get('audio_file_id')
     audio_file_path = f"audio_files\\response_{audio_file_id}.wav"
 
+    # If the file does not exist, return a 404 error
+    if not os.path.exists(audio_file_path):
+        return "Audio file not found", 404
+
     # Return the audio file
     return send_file("..\\" + audio_file_path)
     
