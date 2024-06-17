@@ -1,10 +1,12 @@
+import json
+
 class GameState:
 
     # Factory method from json
     @staticmethod
-    def from_json(json: dict):
+    def from_json(json_object: dict):
         return GameState(
-            description=json['description']
+            description=json.loads(json_object)
         )
     
     def __init__(self, description: str) -> None:

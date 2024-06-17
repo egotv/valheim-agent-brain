@@ -15,3 +15,15 @@ def run(prompt: str, model="gpt-4", temperature=1.0) -> str:
     )
 
     return response.choices[0].message.content
+
+def transcribe_audio(file_path: str, prompt: str="") -> str:
+    
+    audio_file= open(file_path, "rb")
+    transcription = client.audio.transcriptions.create(
+        model="whisper-1", 
+        language="en",
+        file=audio_file,
+        prompt=prompt
+    )
+
+    return transcription.text

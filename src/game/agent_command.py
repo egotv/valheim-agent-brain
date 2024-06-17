@@ -16,7 +16,8 @@ class AgentCommand:
     @staticmethod
     def get_action_str_from_code(action_code: int) -> str:
         return {
-            1: "Follow the player",
-            2: "Get wood",
-            3: "Get stone"
+            1: "StartFollowingPlayer",
+            2: "StartAttacking",
+            3: "StartHarvesting",
+            4: "StartPatrolling"
         }.get(action_code, "Invalid action code")
