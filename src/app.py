@@ -1,6 +1,8 @@
 import sys
 import os
 import time
+import base64
+import uuid
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
 
@@ -35,12 +37,17 @@ def instruct_agent():
     request_json = request.get_json()
     player_id = request_json['player_id']
     timestamp = request_json.get('timestamp', time.time())
-    game_state = GameState.from_json(request_json.get('game_state'))
+    print(request_json['game_state'])
+    game_state = GameState.from_json(request_json['game_state'])
 
-    # Get the audio file sent through the HTTP POST
-    player_instruction_audio_file = request.files['player_instruction_audio_file']
-    player_instruction_audio_file_path = f"audio_files/{player_id}_{timestamp}.wav"
-    player_instruction_audio_file.save(player_instruction_audio_file_path)
+    # Get the audio file sent through the HTTP POST request
+    player_instruction_audio_file_encoded_string = request_json['player_instruction_audio_file_base64']
+    player_instruction_audio_file_decoded_bytes = base64.b64decode(player_instruction_audio_file_encoded_string.encode("utf-8"))
+
+    # Save the audio file to the audio_files folder
+    player_instruction_audio_file_path = os.path.join("audio_files", f"instruction_{uuid.uuid4()}.wav")
+    with open(player_instruction_audio_file_path, "wb") as file:
+        file.write(player_instruction_audio_file_decoded_bytes)
 
     # Convert the audio file to text
     player_instruction = stt.transcribe_audio(player_instruction_audio_file_path)
@@ -53,6 +60,8 @@ def instruct_agent():
 
     # Return the output object (agent commands and agent text response audio file)
     return {
+        "player_id": player_id,
+        "timestamp": timestamp,
         "player_instruction_transcription": player_instruction,
         "agent_commands": list(map(lambda agent_command: agent_command.to_json(), output.agent_commands)),
         "agent_text_response": output.agent_text_response,

@@ -6,7 +6,7 @@ class GameState:
     @staticmethod
     def from_json(json_object: dict):
         return GameState(
-            description=json.loads(json_object)
+            description=json.dumps(json_object)
         )
     
     def __init__(self, description: str) -> None:
