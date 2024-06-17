@@ -37,7 +37,6 @@ def instruct_agent():
     request_json = request.get_json()
     player_id = request_json['player_id']
     timestamp = request_json.get('timestamp', time.time())
-    print(request_json['game_state'])
     game_state = GameState.from_json(request_json['game_state'])
 
     # Get the audio file sent through the HTTP POST request
