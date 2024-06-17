@@ -45,7 +45,8 @@ def instruct_agent():
     player_instruction_audio_file_decoded_bytes = base64.b64decode(player_instruction_audio_file_encoded_string.encode("utf-8"))
 
     # Save the audio file to the audio_files folder
-    player_instruction_audio_file_path = os.path.join("audio_files", f"instruction_{uuid.uuid4()}.wav")
+    player_instruction_audio_file_id = uuid.uuid4()
+    player_instruction_audio_file_path = os.path.join("audio_files", f"instruction_{player_instruction_audio_file_id}.wav")
     with open(player_instruction_audio_file_path, "wb") as file:
         file.write(player_instruction_audio_file_decoded_bytes)
 
@@ -56,7 +57,7 @@ def instruct_agent():
     output = agent_brain.generate_agent_output(player_instruction, game_state)
 
     # Speak the agent text response
-    agent_text_response_audio_file_path = tts.synthesize_text(output.agent_text_response)
+    agent_text_response_audio_file_id = tts.synthesize_text(output.agent_text_response)
 
     # Return the output object (agent commands and agent text response audio file)
     return {
@@ -65,17 +66,18 @@ def instruct_agent():
         "player_instruction_transcription": player_instruction,
         "agent_commands": list(map(lambda agent_command: agent_command.to_json(), output.agent_commands)),
         "agent_text_response": output.agent_text_response,
-        "agent_text_response_audio_file_path": agent_text_response_audio_file_path
+        "agent_text_response_audio_file_id": agent_text_response_audio_file_id
     }
 
 @app.route('/get_audio_file', methods=['GET'])
 def get_audio_file():
 
-    # Get the path of the audio file
-    audio_file_path = request.args.get('audio_file_path')
+    # Get the ID of the audio file
+    audio_file_id = request.args.get('audio_file_id')
+    audio_file_path = f"audio_files\\response_{audio_file_id}.wav"
 
     # Return the audio file
-    return send_file(audio_file_path)
+    return send_file("..\\" + audio_file_path)
     
 if __name__ == '__main__':
     app.run(host='0.0.0.0')

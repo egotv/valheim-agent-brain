@@ -18,9 +18,10 @@ def synthesize_text(text: str) -> str:
         "text": text
     }
 
-    random_filename = f"audio_files/response_{uuid.uuid4()}.wav"
+    random_file_id = uuid.uuid4()
+    random_filename = f"audio_files/response_{random_file_id}.wav"
 
     response = deepgram.speak.v("1").save(random_filename, payload, deepgram_options, timeout=15)
     response = response.to_dict()
 
-    return random_filename
+    return random_file_id
