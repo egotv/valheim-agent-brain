@@ -6,7 +6,7 @@ load_dotenv()
 
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
-def run(prompt: str, model="gpt-4", temperature=1.0) -> str:
+def run(prompt: str, model="gpt-4o", temperature=1.0) -> str:
 
     response = client.chat.completions.create(
         model=model,
