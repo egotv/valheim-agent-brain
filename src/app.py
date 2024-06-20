@@ -13,13 +13,13 @@ from brain.brain import Brain
 from memory.memory_manager import MemoryManager
 import speech.stt as stt
 import speech.tts as tts
+import memory.log_components as lc
 
 app = Flask(__name__)
 CORS(app)
 
 # Set up the variables
 agent_brain = Brain()
-memory_manager = MemoryManager()
 
 # Set up the folder for audio files
 os.makedirs("audio_files", exist_ok=True)
@@ -53,10 +53,16 @@ def instruct_agent():
     player_instruction = stt.transcribe_audio(player_instruction_audio_file_path)
 
     # Get the output
-    output = agent_brain.generate_agent_output(player_instruction, game_state)
+    output = agent_brain.generate_agent_output(player_instruction, game_state, agent_brain.get_memory_manager().get_player_memory(player_id))
 
     # Speak the agent text response
     agent_text_response_audio_file_id = tts.synthesize_text(output.agent_text_response)
+
+    # Log this exchange
+    agent_brain.get_memory_manager().get_player_memory(player_id).log_conversation(lc.PLAYER_SAID, player_instruction, timestamp)
+    agent_brain.get_memory_manager().get_player_memory(player_id).log_conversation(lc.AGENT_SAID, output.agent_text_response, timestamp)
+    agent_brain.get_memory_manager().get_player_memory(player_id).log_agent_commands(output.agent_commands, timestamp)
+    agent_brain.get_memory_manager().get_player_memory(player_id).log_game_state(game_state, timestamp)
 
     # Return the output object (agent commands and agent text response audio file)
     return {

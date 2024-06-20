@@ -1,51 +1,50 @@
 from typing import Dict, List
 import time
 
-from memory.rolling_player_instruction import RollingPlayerInstructionManager
 from game.agent_command import AgentCommand
-from game.agent_commands_list import AgentCommandsList
 from game.game_state import GameState
+from memory.log_components import ConversationLineEntry, AgentCommandEntry, GameStateEntry
 
+class PlayerMemory:
+
+    def __init__(self):
+
+        self.conversation_log: List[ConversationLineEntry] = []
+        self.agent_commands_log: List[AgentCommandEntry] = []
+        self.game_states_log: List[GameStateEntry] = []
+
+    def log_conversation(self, who_said: int, content: str, timestamp: float=time.time()) -> None:
+        self.conversation_log.append(ConversationLineEntry(who_said, content, timestamp))
+
+    def log_agent_commands(self, commands: List[AgentCommand], timestamp: float=time.time()) -> None:
+        for command in commands:
+            self.agent_commands_log.append(AgentCommandEntry(command, timestamp))
+
+    def log_game_state(self, game_state: GameState, timestamp: float=time.time()) -> None:
+        self.game_states_log.append(GameStateEntry(game_state, timestamp))
+
+    def get_last_n_conversation_lines(self, n: int) -> List[ConversationLineEntry]:
+        return self.conversation_log[-n:]
+    
+    def get_last_n_agent_commands(self, n: int) -> List[AgentCommandEntry]:
+        return self.agent_commands_log[-n:]
+    
+    def get_last_n_game_states(self, n: int) -> List[GameStateEntry]:
+        return self.game_states_log[-n:]
+    
 class MemoryManager:
 
     def __init__(self):
 
-        self.rolling_player_instruction_sets: Dict[str, RollingPlayerInstructionManager] = {} # Key: player_id, Value: RollingPlayerInstruction
-        self.agent_commands_sets: Dict[str, AgentCommandsList] = {} # Key: player_id, Value: List[AgentCommand]
-        self.game_state_sets: Dict[str, GameState] = {} # Key: player_id, Value: GameState
+        self.player_memories: Dict[str, PlayerMemory] = {}
 
-    def add_player_instruction(self, player_id: str, player_instruction: str, timestamp: float):
-        
-        if player_id not in self.rolling_player_instruction_sets:
-            self.rolling_player_instruction_sets[player_id] = RollingPlayerInstructionManager(player_id)
+    def get_player_memory(self, player_id: str) -> PlayerMemory:
 
-        self.rolling_player_instruction_sets[player_id].add_player_instruction(timestamp, player_instruction)
+        if player_id not in self.player_memories:
+            self.player_memories[player_id] = PlayerMemory()
+            
+        return self.player_memories[player_id]
 
-    def get_coherent_player_instruction(self, player_id: str) -> str:
-
-        if player_id not in self.rolling_player_instruction_sets:
-            return None
-
-        return self.rolling_player_instruction_sets[player_id].get_coherent_player_instruction()
-    
-    def clear_all_instructions(self, player_id: str):
-        if player_id in self.rolling_player_instruction_sets:
-            self.rolling_player_instruction_sets[player_id].clear_all_instructions()
-
-    def does_player_have_instructions(self, player_id: str) -> bool:
-        return player_id in self.rolling_player_instruction_sets and len(self.rolling_player_instruction_sets[player_id].instructions) > 0
-    
-    def set_agent_commands(self, player_id: str, agent_commands: List[AgentCommand]):
-        self.agent_commands_sets[player_id] = AgentCommandsList(agent_commands)
-
-    def get_agent_commands(self, player_id: str) -> AgentCommandsList:
-        return self.agent_commands_sets.get(player_id, AgentCommandsList([], time.time()))
-    
-    def set_game_state(self, player_id: str, game_state: GameState):
-        self.game_state_sets[player_id] = game_state
-
-    def get_game_state(self, player_id: str) -> GameState:
-        return self.game_state_sets.get(player_id, GameState("No game state available"))
     
 
 

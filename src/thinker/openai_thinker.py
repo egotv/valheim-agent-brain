@@ -33,7 +33,7 @@ class OpenaiThinker(Thinker):
             actions = list(map(lambda action_code: AgentCommand(action_code, AgentCommand.get_action_str_from_code(action_code)), action_codes))
 
         # Get the text response
-        input = InputObject(input.player_instruction, input.game_state, actions)
+        input = InputObject(input.player_instruction, input.game_state, input.player_memory, actions)
         text_response_prompt = self.generate_text_response_prompt(input)
         text_response = run(text_response_prompt)
 
@@ -85,6 +85,9 @@ You are an AI agent who is a virtual companion for a player playing {self.game_n
 
 The player has just given you the following instruction:
 {input.player_instruction}
+
+The history of the last five exchanges between the player and the agent is as follows:
+{input.player_memory.get_last_n_conversation_lines(10)}
 
 The current state of the game is as follows:
 {input.game_state}
