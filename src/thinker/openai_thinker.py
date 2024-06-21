@@ -1,5 +1,6 @@
 import os
 from dotenv import load_dotenv
+from typing import List
 
 from thinker.thinker import Thinker
 from io_system.input_object import InputObject
@@ -12,11 +13,22 @@ load_dotenv()
 class OpenaiThinker(Thinker):
 
     def __init__(self) -> None:
-        self.game_name = os.environ.get("GAME_NAME")
+        self.game_name = "Valheim"
 
     def think(self, input: InputObject) -> OutputObject:
         
-        # Given a set of input (player instruction, game state), determine a set of actions to take for the agent
+        # Get actions
+        actions = self.get_actions(input)
+
+        # Get the text response
+        text_response = self.get_text_response(input, actions)
+
+        # Return the set of actions
+        return OutputObject(actions, text_response)
+    
+    def get_actions(self, input: InputObject) -> List[AgentCommand]:
+        
+         # Given a set of input (player instruction, game state), determine a set of actions to take for the agent
         actions_prompt = self.generate_actions_prompt(input)
 
         # Get the actions
@@ -32,13 +44,19 @@ class OpenaiThinker(Thinker):
             action_codes = list(map(lambda action_code_str: int(action_code_str), action_codes_str))
             actions = list(map(lambda action_code: AgentCommand(action_code, AgentCommand.get_action_str_from_code(action_code)), action_codes))
 
+        return actions
+    
+    def get_text_response(self, input: InputObject, actions: List[AgentCommand]) -> str:
+
         # Get the text response
         input = InputObject(input.player_instruction, input.game_state, input.player_memory, actions)
         text_response_prompt = self.generate_text_response_prompt(input)
         text_response = run(text_response_prompt)
 
-        # Return the set of actions
-        return OutputObject(actions, text_response)
+        return text_response
+    
+    def get_crafting_recipes(self, input: InputObject) -> List[str]:
+        pass
     
     def generate_actions_prompt(self, input: InputObject) -> str:
         
