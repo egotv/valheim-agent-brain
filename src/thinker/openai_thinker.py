@@ -70,7 +70,7 @@ The player has just given you the following instruction:
 The current state of the game is as follows:
 {input.game_state}
 
-You are required to generate a set of actions that the agent should take in response to the player instruction and the game state.
+You are required to generate an action that the agent should take in response to the player instruction and the game state.
 The actions that you can take are as follows:
 
 1. StartFollowingPlayer
@@ -78,19 +78,15 @@ The actions that you can take are as follows:
 3. StartHarvesting
 4. StartPatrolling
 
-Please generate a set of actions that the agent should take in response to the player instruction and the game state. 
-You can take zero, one or more actions. Every action should be separated by a comma.
+Please generate zero or one action that the agent should take in response to the player instruction and the game state. 
 If you do not want to take any actions, please enter NO_ACTIONS.
-Output the action codes in the following format as illustrated in the example below.
-Do not include any additional information in the output, only the action codes.
+Output the action code in the following format as illustrated in the example below.
+Do not include any additional information in the output, only the action code.
 
 Example 1:
-1,2
-
-Example 2:
 4
 
-Example 3 (no actions):
+Example 2 (no actions):
 NO_ACTIONS
 
         """
