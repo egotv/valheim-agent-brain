@@ -15,6 +15,9 @@ class Thinker(ABC):
     @staticmethod
     def validate_actions_response(response: str) -> bool:
 
+        if response is None:
+            return False
+
         pattern = r"^\d+(,\d+)*$"
         result = re.match(pattern, response)
 

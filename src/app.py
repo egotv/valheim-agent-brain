@@ -3,6 +3,7 @@ import os
 import time
 import base64
 import uuid
+from dotenv import load_dotenv
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
 
@@ -14,12 +15,23 @@ from memory.memory_manager import MemoryManager
 import speech.stt as stt
 import speech.tts as tts
 import memory.log_components as lc
+from thinker.claude_thinker import ClaudeThinker
+from thinker.openai_thinker import OpenaiThinker
+
+load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
 
 # Set up the variables
-agent_brain = Brain()
+if os.getenv("THINKER_AI_TOOLKIT") == "claude":
+    thinker_class = ClaudeThinker
+elif os.getenv("THINKER_AI_TOOLKIT") == "openai":
+    thinker_class = OpenaiThinker
+else:
+    raise ValueError("THINKER_AI_TOOLKIT environment variable must be either 'claude' or 'openai'")
+
+agent_brain = Brain(thinker_class=thinker_class)
 
 # Set up the folder for audio files
 os.makedirs("audio_files", exist_ok=True)
@@ -71,7 +83,8 @@ def instruct_agent():
         "player_instruction_transcription": player_instruction,
         "agent_commands": list(map(lambda agent_command: agent_command.to_json(), output.agent_commands)),
         "agent_text_response": output.agent_text_response,
-        "agent_text_response_audio_file_id": agent_text_response_audio_file_id
+        "agent_text_response_audio_file_id": agent_text_response_audio_file_id,
+        "thinker_ai_toolkit": os.getenv("THINKER_AI_TOOLKIT"),
     }
 
 @app.route('/get_audio_file', methods=['GET'])
@@ -81,12 +94,14 @@ def get_audio_file():
     audio_file_id = request.args.get('audio_file_id')
     audio_file_path = f"audio_files/response_{audio_file_id}.wav"
 
-    # If the file does not exist, return a 404 error
-    if not os.path.exists(audio_file_path):
-        return "Audio file not found", 404
-
     # Return the audio file (quick fix on fly machines)
-    return send_file('/workspace/' + audio_file_path)
-    
+    fly_path = '/workspace/' + audio_file_path
+    local_path = '../' + audio_file_path
+
+    if os.path.exists(fly_path):
+        return send_file(fly_path)
+    else:
+        return send_file(local_path)
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
