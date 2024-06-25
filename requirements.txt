@@ -6,3 +6,4 @@ gunicorn
 websockets
 deepgram-sdk
 anthropic
+pydub
