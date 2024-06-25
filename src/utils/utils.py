@@ -1,12 +1,23 @@
 from datetime import datetime
 import wave
-import discord
+import time
 from io import BufferedIOBase
 import pydub
 
 NUMBER_OF_CHANNELS = 2
 SAMPLE_WIDTH = 2
 FRAME_RATE = 48000
+
+def get_timestamp() -> str:
+    # Get the current timestamp in seconds since the epoch
+    return str(time.time())
+
+def log_timestamp(marker: str=None) -> None:
+    # Log the current timestamp in seconds since the epoch
+    if marker is None:
+        print(get_timestamp(), flush=True)
+    else:
+        print(f"{marker} - {get_timestamp()}", flush=True)
 
 def get_datetime() -> str:
     # Get the datetime up to the microsecond in YYYYMMDD_HHMMSSUUUUUU format

@@ -4,6 +4,8 @@ import uuid
 from deepgram import SpeakOptions
 import speech.deepgram_wrapper as deepgram_wrapper
 
+import utils.utils as utils
+
 deepgram = deepgram_wrapper.deepgram
 
 deepgram_options: SpeakOptions = SpeakOptions(
@@ -21,7 +23,11 @@ def synthesize_text(text: str) -> str:
     random_file_id = uuid.uuid4()
     random_filename = f"audio_files/response_{random_file_id}.wav"
 
+    utils.log_timestamp(marker=f"Deepgram TTS Start ({text})")
+
     response = deepgram.speak.v("1").save(random_filename, payload, deepgram_options, timeout=15)
     response = response.to_dict()
+    
+    utils.log_timestamp(marker="Deepgram TTS End")
 
     return random_file_id
