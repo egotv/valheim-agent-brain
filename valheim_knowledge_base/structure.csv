@@ -1,0 +1,40 @@
+Structure,Category,Materials Required,Description
+Workbench,Crafting Station,10 Wood,Basic crafting station for early game items.
+Forge,Crafting Station,"4 Stone, 4 Coal, 10 Wood, 6 Copper",Basic crafting station for metal items.
+Cauldron,Crafting Station,10 Tin,Basic crafting station for cooking.
+Black Forge,Crafting Station,"10 Black Metal, 10 Yggdrasil Wood",Advanced crafting station for Mistlands items.
+Galdr Table,Crafting Station,"10 Black Metal, 10 Yggdrasil Wood, 5 Refined Eitr",Crafting station for magical items.
+Artisan Table,Crafting Station,2 Dragon Tear,Crafting station for advanced items and structures.
+Chopping Block,Workbench Upgrade,"10 Wood, 10 Flint",Upgrade to workbench for higher-level crafting.
+Tanning Rack,Workbench Upgrade,"10 Wood, 15 Flint, 20 Leather Scraps, 5 Deer Hide",Upgrade to workbench for higher-level crafting.
+Adze,Workbench Upgrade,"10 Fine Wood, 3 Bronze",Upgrade to workbench for higher-level crafting.
+Tool Shelf,Workbench Upgrade,"4 Iron, 4 Copper, 10 Fine Wood",Final upgrade to workbench for highest-level crafting.
+Forge Bellows,Forge Upgrade,"5 Wood, 5 Deer Hide, 4 Chain",Upgrade to forge for higher-level crafting.
+Anvils,Forge Upgrade,"5 Wood, 2 Bronze",Upgrade to forge for higher-level crafting.
+Smith's Anvil,Forge Upgrade,"20 Iron, 5 Wood",Upgrade to forge for higher-level crafting.
+Forge Cooler,Forge Upgrade,"25 Fine Wood, 10 Copper",Upgrade to forge for higher-level crafting.
+Forge Toolrack,Forge Upgrade,"10 Wood, 15 Iron",Upgrade to forge for highest-level crafting.
+Forge Grinding Wheel,Forge Upgrade,"25 Wood, 1 Sharpening Stone",Final upgrade to forge for highest-level crafting.
+Spice Rack,Cauldron Upgrade,"5 Carrot, 3 Turnip, 3 Thistle, 3 Dandelion",Upgrade to cauldron for higher-level cooking recipes.
+Butcher's Table,Cauldron Upgrade,"2 Ancient Bark, 4 Core Wood, 4 Fine Wood, 2 Silver",Upgrade to cauldron for higher-level cooking recipes.
+Pots and Pans,Cauldron Upgrade,"5 Iron, 5 Copper, 5 Black Metal",Upgrade to cauldron for highest-level cooking recipes.
+Black Forge Cooler,Black Forge Upgrade,"5 Black Metal, 5 Yggdrasil Wood",Upgrade to black forge for higher-level crafting.
+Black Forge Bellows,Black Forge Upgrade,"5 Black Metal, 10 Yggdrasil Wood",Upgrade to black forge for highest-level crafting.
+Galdr Table Brazier,Galdr Table Upgrade,"5 Black Metal, 5 Yggdrasil Wood, 5 Refined Eitr",Upgrade to Galdr table for higher-level magical crafting.
+Bed,Miscellaneous,"8 Wood, 2 Leather Scraps",Simple bed for sleeping and setting spawn point.
+Chest,Miscellaneous,10 Wood,Storage container for items.
+Portal,Miscellaneous,"10 Greydwarf Eye, 20 Fine Wood, 2 Surtling Core",Structure for fast travel between locations.
+Campfire,Miscellaneous,"5 Stone, 2 Wood",Basic fire for cooking and warmth.
+Bonfire,Miscellaneous,"5 Core Wood, 5 Fine Wood, 5 Surtling Core, 5 Ancient Bark",Large fire providing light and warmth.
+Ward,Miscellaneous,"5 Fine Wood, 5 Greydwarf Eye, 1 Surtling Core",Protective barrier to prevent unauthorized building.
+Stonecutter,Miscellaneous,"10 Wood, 2 Iron, 4 Stone",Station for crafting stone structures.
+Spinning Wheel,Miscellaneous,"20 Fine Wood, 10 Iron Nails, 5 Leather Scraps",Station for processing flax into linen thread.
+Windmill,Miscellaneous,"20 Stone, 30 Wood, 30 Iron Nails",Station for processing barley into barley flour.
+Blast Furnace,Miscellaneous,"20 Stone, 10 Iron, 20 Fine Wood, 5 Surtling Core",Station for smelting black metal scrap.
+Fermenter,Miscellaneous,"30 Fine Wood, 5 Bronze, 10 Resin",Structure for fermenting mead bases.
+Beehive,Miscellaneous,"10 Wood, 1 Queen Bee",Structure for producing honey.
+Cart,Miscellaneous,"10 Wood, 10 Bronze Nails",Wheeled vehicle for transporting items.
+Smelter,Crafting Structure,"20 Stone, 5 Surtling Core",Structure for smelting ores into bars.
+Charcoal Kiln,Crafting Structure,"20 Stone, 5 Surtling Core",Structure for producing charcoal from wood.
+Stone Oven,Crafting Structure,"15 Iron, 20 Stone, 4 Surtling Core",Structure for baking recipes.
+Obliterator,Crafting Structure,"8 Iron, 4 Copper, 1 Thunder Stone",Structure for destroying unwanted items.

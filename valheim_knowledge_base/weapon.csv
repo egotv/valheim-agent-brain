@@ -1,0 +1,30 @@
+Weapon Type,Weapon,Crafting Station,Crafting Station Level,Recipe,Description
+Club,Club,Workbench,1,6 Wood,Basic melee weapon made from wood.
+Flint Weapons,Flint Axe,Workbench,1,"6 Wood, 4 Flint, 2 Leather Scraps",Sharp axe made from flint for cutting and combat.
+Flint Weapons,Flint Knife,Workbench,1,"4 Wood, 2 Flint, 2 Leather Scraps",Sharp knife made from flint for close combat.
+Flint Weapons,Flint Spear,Workbench,1,"5 Wood, 10 Flint, 2 Leather Scraps",Spear made from flint for thrusting attacks.
+Crude Bow,Crude Bow,Workbench,1,"10 Wood, 8 Leather Scraps",Basic bow for ranged combat.
+Fine Wood Weapons,Finewood Bow,Workbench,2,"10 Fine Wood, 10 Core Wood, 2 Deer Hide",Superior bow made from fine wood for better ranged attacks.
+Fine Wood Weapons,Finewood Club,Workbench,2,"10 Fine Wood, 4 Bone Fragments",Superior club made from fine wood for melee combat.
+Bronze Weapons,Bronze Sword,Forge,1,"2 Wood, 8 Bronze, 2 Leather Scraps",Strong sword made from bronze for melee combat.
+Bronze Weapons,Bronze Axe,Forge,1,"4 Wood, 8 Bronze, 2 Leather Scraps",Durable axe made from bronze for cutting and combat.
+Bronze Weapons,Bronze Mace,Forge,1,"4 Wood, 8 Bronze, 2 Leather Scraps",Heavy mace made from bronze for melee combat.
+Bronze Weapons,Bronze Spear,Forge,1,"5 Wood, 6 Bronze, 2 Leather Scraps",Sturdy spear made from bronze for thrusting attacks.
+Iron Weapons,Iron Sword,Forge,2,"2 Wood, 20 Iron, 2 Leather Scraps",Powerful sword made from iron for melee combat.
+Iron Weapons,Iron Axe,Forge,2,"4 Wood, 20 Iron, 2 Leather Scraps",Heavy axe made from iron for cutting and combat.
+Iron Weapons,Iron Mace,Forge,2,"4 Wood, 20 Iron, 2 Leather Scraps",Powerful mace made from iron for melee combat.
+Iron Weapons,Iron Atgeir,Forge,2,"10 Wood, 20 Iron, 2 Leather Scraps",Polearm made from iron for melee combat.
+Silver Weapons,Silver Sword,Forge,3,"2 Wood, 40 Silver, 3 Leather Scraps",Sharp sword made from silver for melee combat.
+Silver Weapons,Silver Shield,Forge,3,"10 Fine Wood, 8 Silver, 5 Iron",Shield made from silver for defense.
+Silver Weapons,Draugr Fang,Forge,3,"10 Ancient Bark, 20 Silver, 2 Deer Hide, 10 Guck",Powerful bow made from Draugr materials for ranged attacks.
+Blackmetal Weapons,Blackmetal Sword,Black Forge,1,"2 Fine Wood, 20 Black Metal, 5 Linen Thread",Superior sword made from black metal for melee combat.
+Blackmetal Weapons,Blackmetal Axe,Black Forge,1,"6 Fine Wood, 20 Black Metal, 5 Linen Thread",Heavy axe made from black metal for cutting and combat.
+Blackmetal Weapons,Blackmetal Atgeir,Black Forge,1,"10 Fine Wood, 20 Black Metal, 5 Linen Thread",Polearm made from black metal for melee combat.
+Blackmetal Weapons,Blackmetal Knife,Black Forge,1,"4 Fine Wood, 10 Black Metal, 5 Linen Thread",Sharp knife made from black metal for close combat.
+Frostner,Frostner,Forge,3,"10 Ancient Bark, 30 Silver, 5 Ymir Flesh, 5 Freeze Gland",Mace imbued with frost for melee combat.
+Porcupine,Porcupine,Forge,3,"5 Fine Wood, 20 Iron, 5 Needles, 10 Linen Thread",Mace with spikes for powerful melee attacks.
+Mistlands Weapons,Mistwalker Sword,Black Forge,2,"2 Yggdrasil Wood, 20 Mistland Metal, 5 Refined Eitr",Sword made from Mistlands materials for melee combat.
+Mistlands Weapons,Mistwalker Bow,Black Forge,2,"10 Yggdrasil Wood, 20 Mistland Metal, 5 Refined Eitr, 10 Eitr Arrow",Bow made from Mistlands materials for ranged attacks.
+Ashlands Weapons,Ashen Mace,"(Speculative, Black Forge)",(Speculative) 2,"(Speculative) 10 Ashen Bark, 20 Ashen Metal, 5 Refined Eitr","Mace forged in the fiery depths of the Ashlands, providing powerful melee attacks."
+Ashlands Weapons,Ashen Sword,"(Speculative, Black Forge)",(Speculative) 2,"(Speculative) 10 Ashen Bark, 20 Ashen Metal, 5 Refined Eitr","Sword forged from Ashlands materials, offering superior melee combat."
+Ashlands Weapons,Ashen Bow,"(Speculative, Black Forge)",(Speculative) 2,"(Speculative) 10 Ashen Bark, 20 Ashen Metal, 5 Refined Eitr, 10 Fire Arrow","Bow forged from Ashlands materials, offering powerful ranged attacks."

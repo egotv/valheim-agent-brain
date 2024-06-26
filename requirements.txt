@@ -7,3 +7,5 @@ websockets
 deepgram-sdk
 anthropic
 pydub
+pandas
+numpy

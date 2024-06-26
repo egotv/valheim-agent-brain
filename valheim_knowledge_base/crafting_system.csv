@@ -1,0 +1,29 @@
+Crafting Station,Upgrade,Crafting Station Level,Materials Required,Description
+Workbench,Workbench,1,10 Wood,Basic crafting station for early game items.
+Workbench,Chopping Block,2,"10 Wood, 10 Flint",Upgrade to workbench for higher-level crafting.
+Workbench,Tanning Rack,3,"10 Wood, 15 Flint, 20 Leather Scraps, 5 Deer Hide",Upgrade to workbench for higher-level crafting.
+Workbench,Adze,4,"10 Fine Wood, 3 Bronze",Upgrade to workbench for higher-level crafting.
+Workbench,Tool Shelf,5,"4 Iron, 4 Copper, 10 Fine Wood",Final upgrade to workbench for highest-level crafting.
+Forge,Forge,1,"4 Stone, 4 Coal, 10 Wood, 6 Copper",Basic crafting station for metal items.
+Forge,Forge Bellows,2,"5 Wood, 5 Deer Hide, 4 Chain",Upgrade to forge for higher-level crafting.
+Forge,Anvils,2,"5 Wood, 2 Bronze",Upgrade to forge for higher-level crafting.
+Forge,Smith's Anvil,3,"20 Iron, 5 Wood",Upgrade to forge for higher-level crafting.
+Forge,Forge Cooler,4,"25 Fine Wood, 10 Copper",Upgrade to forge for higher-level crafting.
+Forge,Forge Toolrack,5,"10 Wood, 15 Iron",Upgrade to forge for highest-level crafting.
+Forge,Forge Grinding Wheel,6,"25 Wood, 1 Sharpening Stone",Final upgrade to forge for highest-level crafting.
+Cauldron,Cauldron,1,10 Tin,Basic crafting station for cooking.
+Cauldron,Spice Rack,2,"5 Carrot, 3 Turnip, 3 Thistle, 3 Dandelion",Upgrade to cauldron for higher-level cooking recipes.
+Cauldron,Butcher's Table,3,"2 Ancient Bark, 4 Core Wood, 4 Fine Wood, 2 Silver",Upgrade to cauldron for higher-level cooking recipes.
+Cauldron,Pots and Pans,4,"5 Iron, 5 Copper, 5 Black Metal",Upgrade to cauldron for highest-level cooking recipes.
+Black Forge,Black Forge,1,"10 Black Metal, 10 Yggdrasil Wood",Advanced crafting station for Mistlands items.
+Black Forge,Black Forge Cooler,2,"5 Black Metal, 5 Yggdrasil Wood",Upgrade to black forge for higher-level crafting.
+Black Forge,Black Forge Bellows,3,"5 Black Metal, 10 Yggdrasil Wood",Upgrade to black forge for highest-level crafting.
+Galdr Table,Galdr Table,1,"10 Black Metal, 10 Yggdrasil Wood, 5 Refined Eitr",Crafting station for magical items.
+Galdr Table,Galdr Table Brazier,2,"5 Black Metal, 5 Yggdrasil Wood, 5 Refined Eitr",Upgrade to Galdr table for higher-level magical crafting.
+Artisan Table,Artisan Table,1,2 Dragon Tear,Crafting station for advanced items and structures.
+Windmill,Windmill,1,"20 Stone, 30 Wood, 30 Iron Nails",Station for processing barley into barley flour.
+Spinning Wheel,Spinning Wheel,1,"20 Fine Wood, 10 Iron Nails, 5 Leather Scraps",Station for processing flax into linen thread.
+Blast Furnace,Blast Furnace,1,"20 Stone, 10 Iron, 20 Fine Wood, 5 Surtling Core",Station for smelting black metal scrap.
+Stonecutter,Stonecutter,1,"10 Wood, 2 Iron, 4 Stone",Station for crafting stone structures.
+Stonecutter,Grinding Wheel,2,"25 Wood, 1 Sharpening Stone",Upgrade to stonecutter for advanced stone structures.
+Stonecutter,Stone Oven,3,"15 Iron, 20 Stone, 4 Surtling Core",Upgrade to stonecutter for baking recipes.
