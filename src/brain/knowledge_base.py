@@ -4,6 +4,7 @@ from typing import List, Dict
 import json
 from transformers import AutoTokenizer, AutoModel
 import torch
+import time
 
 BASE_DIR_PATH = 'valheim_knowledge_base'
 
@@ -55,7 +56,7 @@ class KnowledgeBaseSystem:
             
         return torch.nn.functional.cosine_similarity(embedding0, embedding1).item()
 
-    def load_knowledge_base(self) -> Dict[str, Dict[str, str]]:
+    def load_knowledge_base(self) -> Dict[str, Dict[str, dict]]:
             
         knowledge_base = {}
 
@@ -65,12 +66,14 @@ class KnowledgeBaseSystem:
             
             # Load the csv
             df = self.csv_loader(file_path)
+            df = df.dropna()
             primary_key = PRIMARY_KEYS[file_name]
             this_file_knowledge = df.set_index(primary_key).to_dict(orient='index')
 
             # Embed the knowledge
             for key, value in this_file_knowledge.items():
-                value['embedding'] = self.encode_sentence(json.dumps(value))
+                value_with_key = { **value, primary_key: key }
+                value['embedding'] = self.encode_sentence(json.dumps(value_with_key))
 
             # Add the knowledge to the knowledge base
             knowledge_base[file_name] = this_file_knowledge
@@ -90,7 +93,7 @@ class KnowledgeBaseSystem:
     The depth parameter specifies the number of layers of the recursive search in the knowledge base.
     The number_of_rows parameter specifies the number of rows to return from the dataframe per layer of the recursive search.
     '''
-    def lookup_knowledge_base(self, query: str, number_of_rows: int=2) -> List[Dict[str, str]]:
+    def lookup_knowledge_base(self, query: str, number_of_rows: int=5) -> List[Dict[str, str]]:
 
         # Encode the query
         query_embedding = self.encode_sentence(query)
@@ -112,9 +115,25 @@ class KnowledgeBaseSystem:
                 break
 
             file_name, key = file_name_primary_key_pair
-            top_rows.append(self.knowledge_base[file_name][key])
+            value_without_embedding = self.knowledge_base[file_name][key].copy()
+            del value_without_embedding['embedding']
+            top_rows.append({ **value_without_embedding, 'key': key })
 
         return top_rows
+    
+# if __name__ == '__main__':
+
+#     knowledge_base_system = KnowledgeBaseSystem()
+
+#     query = "Kill monsters! I need to upgrade my weapon!"
+
+#     print(time.time())
+#     result = knowledge_base_system.lookup_knowledge_base(query)
+#     print(time.time())
+
+#     for row in result:
+#         del row['embedding']
+#         print(row)
 
 
 
