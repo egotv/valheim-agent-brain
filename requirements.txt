@@ -9,3 +9,5 @@ anthropic
 pydub
 pandas
 numpy
+transformers
+torch

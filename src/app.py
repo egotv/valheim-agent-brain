@@ -57,7 +57,7 @@ def instruct_agent():
 
     # Save the audio file to the audio_files folder
     player_instruction_audio_file_id = uuid.uuid4()
-    player_instruction_audio_file_path = os.path.join("audio_files", f"instruction_{player_instruction_audio_file_id}.wav")
+    player_instruction_audio_file_path = os.path.join("audio_files", f"instruction_{player_instruction_audio_file_id}.ogg")
     with open(player_instruction_audio_file_path, "wb") as file:
         file.write(player_instruction_audio_file_decoded_bytes)
 
@@ -92,7 +92,7 @@ def get_audio_file():
 
     # Get the ID of the audio file
     audio_file_id = request.args.get('audio_file_id')
-    audio_file_path = f"audio_files/response_{audio_file_id}.wav"
+    audio_file_path = f"audio_files/response_{audio_file_id}.ogg"
 
     # Return the audio file (quick fix on fly machines)
     fly_path = '/workspace/' + audio_file_path
