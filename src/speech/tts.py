@@ -10,8 +10,8 @@ deepgram = deepgram_wrapper.deepgram
 
 deepgram_options: SpeakOptions = SpeakOptions(
     model="aura-asteria-en",
-    encoding="opus",
-    container="ogg"
+    encoding="linear16",
+    container="wav"
 )
 
 def synthesize_text(text: str) -> str:
@@ -21,7 +21,7 @@ def synthesize_text(text: str) -> str:
     }
 
     random_file_id = uuid.uuid4()
-    random_filename = f"audio_files/response_{random_file_id}.ogg"
+    random_filename = f"audio_files/response_{random_file_id}.wav"
 
     utils.log_timestamp(marker=f"Deepgram TTS Start ({text})")
 
