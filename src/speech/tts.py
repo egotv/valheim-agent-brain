@@ -8,17 +8,17 @@ import utils.utils as utils
 
 deepgram = deepgram_wrapper.deepgram
 
-deepgram_options: SpeakOptions = SpeakOptions(
-    model="aura-asteria-en",
-    encoding="linear16",
-    container="wav"
-)
-
-def synthesize_text(text: str) -> str:
+def synthesize_text(text: str, voice: str) -> str:
 
     payload = {
         "text": text
     }
+
+    deepgram_options: SpeakOptions = SpeakOptions(
+        model=f"aura-{voice}-en",
+        encoding="linear16",
+        container="wav"
+    )
 
     random_file_id = uuid.uuid4()
     random_filename = f"audio_files/response_{random_file_id}.wav"

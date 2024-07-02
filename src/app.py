@@ -50,6 +50,8 @@ def instruct_agent():
     player_id = request_json['player_id']
     timestamp = request_json.get('timestamp', time.time())
     game_state = GameState.from_json(request_json['game_state'])
+    personality = request_json.get('personality', "")
+    voice = request_json.get('voice', "asteria")
 
     # Get the audio file sent through the HTTP POST request
     player_instruction_audio_file_encoded_string = request_json['player_instruction_audio_file_base64']
@@ -65,10 +67,10 @@ def instruct_agent():
     player_instruction = stt.transcribe_audio(player_instruction_audio_file_path)
 
     # Get the output
-    output = agent_brain.generate_agent_output(player_instruction, game_state, agent_brain.get_memory_manager().get_player_memory(player_id))
+    output = agent_brain.generate_agent_output(player_instruction, game_state, personality, agent_brain.get_memory_manager().get_player_memory(player_id))
 
     # Speak the agent text response
-    agent_text_response_audio_file_id = tts.synthesize_text(output.agent_text_response)
+    agent_text_response_audio_file_id = tts.synthesize_text(output.agent_text_response, voice)
 
     # Log this exchange
     agent_brain.get_memory_manager().get_player_memory(player_id).log_conversation(lc.PLAYER_SAID, player_instruction, timestamp)
@@ -85,6 +87,8 @@ def instruct_agent():
         "agent_text_response": output.agent_text_response,
         "agent_text_response_audio_file_id": agent_text_response_audio_file_id,
         "thinker_ai_toolkit": os.getenv("THINKER_AI_TOOLKIT"),
+        "personality": personality,
+        "voice": voice
     }
 
 @app.route('/get_audio_file', methods=['GET'])

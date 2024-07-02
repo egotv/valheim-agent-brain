@@ -23,12 +23,12 @@ class Brain:
     def get_knowledge_base(self) -> KnowledgeBaseSystem:
         return self.knowledge_base
 
-    def generate_agent_output(self, player_instruction: str, game_state: GameState, player_memory: PlayerMemory) -> OutputObject:
+    def generate_agent_output(self, player_instruction: str, game_state: GameState, personality: str, player_memory: PlayerMemory) -> OutputObject:
         
         retrieved_knowledge = json.dumps(self.knowledge_base.lookup_knowledge_base(player_instruction))
-        print(retrieved_knowledge, flush=True)
+        # print(retrieved_knowledge, flush=True)
 
-        input = InputObject(player_instruction, game_state, player_memory, retrieved_knowledge=retrieved_knowledge)
+        input = InputObject(player_instruction, game_state, player_memory, personality, retrieved_knowledge=retrieved_knowledge)
         output = self.thinker.think(input)
 
         return output

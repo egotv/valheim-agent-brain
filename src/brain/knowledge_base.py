@@ -120,20 +120,6 @@ class KnowledgeBaseSystem:
             top_rows.append({ **value_without_embedding, 'key': key })
 
         return top_rows
-    
-# if __name__ == '__main__':
-
-#     knowledge_base_system = KnowledgeBaseSystem()
-
-#     query = "Kill monsters! I need to upgrade my weapon!"
-
-#     print(time.time())
-#     result = knowledge_base_system.lookup_knowledge_base(query)
-#     print(time.time())
-
-#     for row in result:
-#         del row['embedding']
-#         print(row)
 
 
 
