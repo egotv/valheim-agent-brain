@@ -94,7 +94,7 @@ If you don't want the agent to take any actions, return:
 
 If you want the agent to follow the player, return:
 [
-    "Follow_Start('player')"
+    "Follow_Start(\"player\")"
 ]
 
 If you want the agent to stop following the player, return:
@@ -104,7 +104,7 @@ If you want the agent to stop following the player, return:
 
 If you want the agent to attack a target with a weapon, return:
 [
-    "Combat_StartAttacking('greyling', 'axe')"
+    "Combat_StartAttacking(\"greyling\", \"axe\")"
 ]
 
 If you want the agent to stop attacking, return:
@@ -114,13 +114,13 @@ If you want the agent to stop attacking, return:
 
 If you want the agent to harvest some berries, return:
 [
-    "Harvesting_Start('berry', 5)"
+    "Harvesting_Start(\"berry\", 5)"
 ]
 
 If you want the agent to equip a weapon and then attack a target, return:
 [
-    "Inventory_EquipItem('sword')",
-    "Combat_StartAttacking('greydwarf', 'sword')"
+    "Inventory_EquipItem(\"sword\")",
+    "Combat_StartAttacking(\"greydwarf\", \"sword\")"
 ]
 
 == Text Response ==
@@ -135,8 +135,8 @@ OUTPUT EXAMPLE 1 (YOU MUST FOLLOW THE FORMAT STRICTLY):
 
 [ACTIONS]
 [
-    "Inventory_EquipItem('sword')",
-    "Combat_StartAttacking('greydwarf', 'sword')"
+    "Inventory_EquipItem(\"sword\")",
+    "Combat_StartAttacking(\"greydwarf\", \"sword\")"
 ]
 
 [TEXT RESPONSE]
@@ -151,3 +151,4 @@ OUTPUT EXAMPLE 2 (YOU MUST FOLLOW THE FORMAT STRICTLY):
 Yeah, I love ice cream too!
 
         """
+
