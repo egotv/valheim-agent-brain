@@ -9,3 +9,4 @@ anthropic
 pydub
 pandas
 numpy
+supabase
