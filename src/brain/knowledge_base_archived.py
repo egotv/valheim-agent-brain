@@ -2,6 +2,9 @@ import os
 import pandas as pd
 from typing import List, Dict
 import json
+from transformers import AutoTokenizer, AutoModel
+import torch
+import time
 
 BASE_DIR_PATH = 'valheim_knowledge_base'
 
@@ -36,7 +39,22 @@ class KnowledgeBaseSystem:
         return pd.read_csv(file_path)
 
     def __init__(self) -> None:
+
+        self.tokenizer = AutoTokenizer.from_pretrained("sentence-transformers/all-MiniLM-L6-v2")
+        self.model = AutoModel.from_pretrained("sentence-transformers/all-MiniLM-L6-v2")
+
         self.knowledge_base = self.load_knowledge_base()
+
+    def encode_sentence(self, sentence: str) -> torch.Tensor:
+
+        inputs = self.tokenizer(sentence, return_tensors='pt', truncation=True, padding=True)
+        with torch.no_grad():
+            outputs = self.model(**inputs)
+        return outputs.last_hidden_state.mean(dim=1)
+    
+    def compute_similarity(self, embedding0: torch.Tensor, embedding1: torch.Tensor) -> float:
+            
+        return torch.nn.functional.cosine_similarity(embedding0, embedding1).item()
 
     def load_knowledge_base(self) -> Dict[str, Dict[str, dict]]:
             
@@ -52,6 +70,11 @@ class KnowledgeBaseSystem:
             primary_key = PRIMARY_KEYS[file_name]
             this_file_knowledge = df.set_index(primary_key).to_dict(orient='index')
 
+            # Embed the knowledge
+            for key, value in this_file_knowledge.items():
+                value_with_key = { **value, primary_key: key }
+                value['embedding'] = self.encode_sentence(json.dumps(value_with_key))
+
             # Add the knowledge to the knowledge base
             knowledge_base[file_name] = this_file_knowledge
 
@@ -65,40 +88,39 @@ class KnowledgeBaseSystem:
     in the knowledge base to augment the prompt to call the LLM-based thinker.
 
     To find the relevant information, the agent should find words in the query that matches the keys in the dataframe.
-    The matching is done by string matching.
+    The matching is done by semantic similarity.
     The agent should return the top N most relevant rows from the dataframe.
+    The depth parameter specifies the number of layers of the recursive search in the knowledge base.
+    The number_of_rows parameter specifies the number of rows to return from the dataframe per layer of the recursive search.
     '''
     def lookup_knowledge_base(self, query: str, number_of_rows: int=5) -> List[Dict[str, str]]:
 
-        query_lower = query.lower()
-        relevant_knowledge = []
+        # Encode the query
+        query_embedding = self.encode_sentence(query)
 
-        for file_name, knowledge in self.knowledge_base.items():
-            for item_name, value in knowledge.items():
-                
-                item_name_lower = item_name.lower()
+        # Compute the similarity between the query and each row in the knowledge base
+        similarity_scores = {}
+        for file_name, file_knowledge in self.knowledge_base.items():
+            for key, value in file_knowledge.items():
+                similarity_scores[(file_name, key)] = self.compute_similarity(query_embedding, value['embedding'])
 
-                # Break query into words
-                query_words = query_lower.split()
+        # Sort the similarity scores
+        sorted_similarity_scores = {k: v for k, v in sorted(similarity_scores.items(), key=lambda item: item[1], reverse=True)}
 
-                # Break item name into words
-                item_name_words = item_name_lower.split()
+        # Get the top N rows from the knowledge base
+        top_rows = []
+        for i, (file_name_primary_key_pair, value) in enumerate(sorted_similarity_scores.items()):
 
-                # Check if any of the words in the query are in the item name
-                if any([word in item_name_words for word in query_words]):
-                    relevant_knowledge.append({ **value, 'Name': item_name })
+            if i >= number_of_rows:
+                break
 
-                # Check if any of the words in the item name are in the query
-                elif any([word in query_words for word in item_name_words]):
-                    relevant_knowledge.append({ **value, 'Name': item_name })
+            file_name, key = file_name_primary_key_pair
+            value_without_embedding = self.knowledge_base[file_name][key].copy()
+            del value_without_embedding['embedding']
+            top_rows.append({ **value_without_embedding, 'key': key })
 
-        return relevant_knowledge[:number_of_rows]
+        return top_rows
 
-# if __name__ == "__main__":
-
-#     kbs = KnowledgeBaseSystem()
-#     print(json.dumps(kbs.knowledge_base, sort_keys=True, indent=2))
-#     print(json.dumps(kbs.lookup_knowledge_base("I want to craft a sword"), sort_keys=True, indent=2))
 
 
 
