@@ -1,40 +1,53 @@
-Armor Set,Item,Crafting Station,Crafting Station Level,Recipe,Description
-Rag Armor Set,Rag Tunic,Workbench,1,5 Leather Scraps,Basic tunic providing minimal protection.
-Rag Armor Set,Rag Pants,Workbench,1,5 Leather Scraps,Basic pants providing minimal protection.
-Leather Armor Set,Leather Helmet,Workbench,2,6 Deer Hide,Simple leather helmet offering basic protection.
-Leather Armor Set,Leather Tunic,Workbench,2,6 Deer Hide,Simple leather tunic offering basic protection.
-Leather Armor Set,Leather Pants,Workbench,2,6 Deer Hide,Simple leather pants offering basic protection.
-Troll Hide Armor Set,Troll Hide Helmet,Workbench,3,"5 Troll Hide, 3 Bone Fragments","Helmet made from troll hide, providing better protection and stealth."
-Troll Hide Armor Set,Troll Hide Cape,Workbench,3,"10 Troll Hide, 10 Bone Fragments","Cape made from troll hide, providing better protection and stealth."
-Troll Hide Armor Set,Troll Hide Tunic,Workbench,3,5 Troll Hide,"Tunic made from troll hide, providing better protection and stealth."
-Troll Hide Armor Set,Troll Hide Pants,Workbench,3,5 Troll Hide,"Pants made from troll hide, providing better protection and stealth."
-Bronze Armor Set,Bronze Helmet,Forge,1,"5 Bronze, 2 Deer Hide","Sturdy helmet made from bronze, offering moderate protection."
-Bronze Armor Set,Bronze Plate Cuirass,Forge,1,"5 Bronze, 2 Deer Hide","Sturdy cuirass made from bronze, offering moderate protection."
-Bronze Armor Set,Bronze Plate Leggings,Forge,1,"5 Bronze, 2 Deer Hide","Sturdy leggings made from bronze, offering moderate protection."
-Iron Armor Set,Iron Helmet,Forge,2,"20 Iron, 2 Deer Hide","Heavy helmet made from iron, providing high protection."
-Iron Armor Set,Iron Scale Mail,Forge,2,"20 Iron, 2 Deer Hide","Heavy scale mail made from iron, providing high protection."
-Iron Armor Set,Iron Greaves,Forge,2,"20 Iron, 2 Deer Hide","Heavy greaves made from iron, providing high protection."
-Padded Armor Set,Padded Helmet,Forge,3,"10 Iron, 15 Linen Thread",Reinforced helmet offering superior protection.
-Padded Armor Set,Padded Cuirass,Forge,3,"10 Iron, 20 Linen Thread",Reinforced cuirass offering superior protection.
-Padded Armor Set,Padded Greaves,Forge,3,"10 Iron, 20 Linen Thread",Reinforced greaves offering superior protection.
-Root Armor Set,Root Mask,Forge,2,"10 Ancient Bark, 10 Root, 4 Leather Scraps","Mask made from ancient roots, providing high protection and resistance to poison."
-Root Armor Set,Root Harnesk,Forge,2,"10 Ancient Bark, 10 Root, 2 Deer Hide","Harness made from ancient roots, providing high protection and resistance to poison."
-Root Armor Set,Root Leggings,Forge,2,"10 Ancient Bark, 10 Root, 2 Deer Hide","Leggings made from ancient roots, providing high protection and resistance to poison."
-Wolf Armor Set,Wolf Armor Chest,Forge,2,"20 Silver, 5 Wolf Pelt, 1 Chain","Chest armor made from wolf pelts, offering high protection and resistance to frost."
-Wolf Armor Set,Wolf Armor Legs,Forge,2,"20 Silver, 5 Wolf Pelt, 1 Chain","Leg armor made from wolf pelts, offering high protection and resistance to frost."
-Wolf Armor Set,Wolf Fur Cape,Forge,2,"4 Silver, 6 Wolf Pelt, 1 Wolf Trophy","A warm cape made from wolf fur, providing resistance to frost."
-Fenris Armor Set,Fenris Hood,Forge,2,"20 Fenris Hair, 5 Wolf Pelt, 10 Leather Scraps","Hood made from Fenris hair, offering high protection and increased movement speed."
-Fenris Armor Set,Fenris Coat,Forge,2,"20 Fenris Hair, 5 Wolf Pelt, 10 Leather Scraps","Coat made from Fenris hair, offering high protection and increased movement speed."
-Fenris Armor Set,Fenris Leggings,Forge,2,"20 Fenris Hair, 5 Wolf Pelt, 10 Leather Scraps","Leggings made from Fenris hair, offering high protection and increased movement speed."
-Lox Cape,Lox Cape,Workbench,2,"6 Lox Pelt, 2 Silver","A warm cape made from Lox hide, providing resistance to frost."
-Linen Cape,Linen Cape,Workbench,2,20 Linen Thread,A light and stylish cape made from linen.
-Drake Helmet,Drake Helmet,Forge,3,"20 Silver, 2 Wolf Pelt, 2 Drake Trophy","A helmet made from Drake trophies, providing high protection."
-Carapace Armor Set,Carapace Helmet,Black Forge,1,"10 Carapace, 5 Refined Eitr","Sturdy helmet made from carapace of Mistlands creatures, providing high protection."
-Carapace Armor Set,Carapace Breastplate,Black Forge,1,"20 Carapace, 10 Refined Eitr","Tough breastplate made from carapace, offering excellent protection."
-Carapace Armor Set,Carapace Greaves,Black Forge,1,"20 Carapace, 10 Refined Eitr","Durable greaves made from carapace, offering excellent protection."
-Mage Armor Set,Eitr-weave Hood,Galdr Table,1,"20 Refined Eitr, 10 Linen Thread","Mystical hood woven with Eitr, providing magical protection."
-Mage Armor Set,Eitr-weave Robe,Galdr Table,1,"30 Refined Eitr, 20 Linen Thread","Robe infused with Eitr, providing magical protection."
-Mage Armor Set,Eitr-weave Trousers,Galdr Table,1,"20 Refined Eitr, 10 Linen Thread","Trousers woven with Eitr, providing magical protection."
-Ash Armor Set,Ash Helmet,"(Speculative, Black Forge)",(Speculative) 2,"(Speculative) 10 Ashen Bark, 5 Refined Eitr","Helmet forged in the fiery depths of the Ashlands, providing superior protection."
-Ash Armor Set,Ash Chestplate,"(Speculative, Black Forge)",(Speculative) 2,"(Speculative) 20 Ashen Bark, 10 Refined Eitr","Chestplate forged from Ashlands materials, offering excellent protection."
-Ash Armor Set,Ash Leggings,"(Speculative, Black Forge)",(Speculative) 2,"(Speculative) 20 Ashen Bark, 10 Refined Eitr","Leggings crafted from Ashlands materials, providing superior protection."
+﻿Armor,Crafting Station,Crafting Station Level,Description,,
+Deer hide cape,Workbench,2,,,
+Troll hide cape,Workbench,2,,,
+Wolf fur cape,Workbench,2,,,
+Lox cape,Workbench,2,,,
+Linen cape,Workbench,2,,,
+Feather cape,Galdr table,1,,,
+Asksvin cloak,Galdr table,2,,,
+Ashen cape,Black forge,3,,,
+Midsummer Crown,Workbench,1,,,
+Yule hat,Haldor,,,,
+Dverger circlet,Haldor,,,,
+Leather helmet,Workbench,2,,,
+Troll leather helmet,Workbench,2,,,
+Bronze helmet,Forge,1,,,
+Root mask,Workbench,2,,,
+Iron helmet,Forge,1,,,
+Fenris hood,Workbench,2,,,
+Drake helmet,Forge,1,,,
+Padded helmet,Forge,1,,,
+Eitr-weave hood,Galdr table,1,,,
+Carapace helmet,Black forge,1,,,
+Hood of Embla,Galdr table,2,,,
+Hood of Ask,Black forge,3,,,
+Flametal helmet,Black forge,3,,,
+Rag tunic,Workbench,1,,,
+Leather tunic,Workbench,2,,,
+Troll leather tunic,Workbench,2,,,
+Bronze plate cuirass,Forge,1,,,
+Root harnesk,Workbench,2,,,
+Iron scale mail,Forge,2,,,
+Fenris coat,Workbench,2,,,
+Wolf chest armor,Forge,2,,,
+Padded cuirass,Forge,2,,,
+Eitr-weave robe,Galdr table,1,,,
+Carapace breastplate,Black forge,1,,,
+Robes of Embla,Galdr table,2,,,
+Breastplate of Ask,Black forge,3,,,
+Flametal breastplate,Black forge,3,,,
+Rag pants,Workbench,1,,,
+Leather pants,Workbench,2,,,
+Troll leather pants,Workbench,2,,,
+Bronze plate leggings,Forge,1,,,
+Root leggings,Workbench,2,,,
+Iron greaves,Forge,2,,,
+Fenris leggings,Workbench,2,,,
+Wolf armor legs,Forge,2,,,
+Padded greaves,Forge,2,,,
+Eitr-weave trousers,Galdr table,1,,,
+Carapace greaves,Black forge,1,,,
+Trousers of Embla,Galdr table,2,,,
+Trousers of Ask,Black forge,3,,,
+Flametal Greaves,Black forge,3,,,

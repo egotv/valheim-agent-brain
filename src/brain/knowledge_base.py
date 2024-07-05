@@ -6,12 +6,13 @@ import json
 BASE_DIR_PATH = 'valheim_knowledge_base'
 
 PRIMARY_KEYS = {
-    "armor.csv": "Item",
+    "armor.csv": "Armor",
     "crafting_system.csv": "Upgrade",
     "material_food.csv": "Item",
     "structure.csv": "Structure",
     "tool.csv": "Tool",
-    "weapon.csv": "Weapon"
+    "weapon.csv": "Weapon",
+    "ammunition.csv": "Ammunition"
 }
 
 class KnowledgeBaseSystem:
@@ -48,7 +49,7 @@ class KnowledgeBaseSystem:
             
             # Load the csv
             df = self.csv_loader(file_path)
-            df = df.dropna()
+            df.dropna(how='all', inplace=True)
             primary_key = PRIMARY_KEYS[file_name]
             this_file_knowledge = df.set_index(primary_key).to_dict(orient='index')
 
@@ -97,8 +98,8 @@ class KnowledgeBaseSystem:
 # if __name__ == "__main__":
 
 #     kbs = KnowledgeBaseSystem()
-#     print(json.dumps(kbs.knowledge_base, sort_keys=True, indent=2))
-#     print(json.dumps(kbs.lookup_knowledge_base("I want to craft a sword"), sort_keys=True, indent=2))
+#     #print(json.dumps(kbs.knowledge_base, sort_keys=True, indent=2))
+#     print(json.dumps(kbs.lookup_knowledge_base("I want to eat mushroom"), sort_keys=True, indent=2))
 
 
 
