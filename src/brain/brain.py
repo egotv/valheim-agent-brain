@@ -9,6 +9,7 @@ from thinker.openai_thinker import OpenaiThinker
 from io_system.input_object import InputObject
 from io_system.output_object import OutputObject
 from brain.knowledge_base import KnowledgeBaseSystem
+from utils.analytics import log_async
 
 class Brain:
 
@@ -26,7 +27,7 @@ class Brain:
     def generate_agent_output(self, player_instruction: str, game_state: GameState, personality: str, player_memory: PlayerMemory) -> OutputObject:
         
         retrieved_knowledge = json.dumps(self.knowledge_base.lookup_knowledge_base(player_instruction))
-        # print(retrieved_knowledge, flush=True)
+        log_async("RETRIEVED_KNOWLEDGE", retrieved_knowledge)
 
         input = InputObject(player_instruction, game_state, player_memory, personality, retrieved_knowledge=retrieved_knowledge)
         output = self.thinker.think(input)

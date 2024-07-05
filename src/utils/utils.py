@@ -3,7 +3,7 @@ import time
 
 def get_timestamp() -> str:
     # Get the current timestamp in seconds since the epoch
-    return str(time.time())
+    return time.time()
 
 def log_timestamp(marker: str=None) -> None:
     # Log the current timestamp in seconds since the epoch

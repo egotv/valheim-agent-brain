@@ -5,6 +5,7 @@ from deepgram import SpeakOptions
 import speech.deepgram_wrapper as deepgram_wrapper
 
 import utils.utils as utils
+from utils.analytics import log_async
 
 deepgram = deepgram_wrapper.deepgram
 
@@ -23,11 +24,12 @@ def synthesize_text(text: str, voice: str) -> str:
     random_file_id = uuid.uuid4()
     random_filename = f"audio_files/response_{random_file_id}.wav"
 
-    utils.log_timestamp(marker=f"Deepgram TTS Start ({text})")
+    start_timestamp = utils.get_timestamp()
 
     response = deepgram.speak.v("1").save(random_filename, payload, deepgram_options, timeout=15)
     response = response.to_dict()
     
-    utils.log_timestamp(marker="Deepgram TTS End")
+    time_elapsed = utils.get_timestamp() - start_timestamp
+    log_async("DEEPGRAM_TTS_LATENCY", f"{time_elapsed}")
 
     return random_file_id

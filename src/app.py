@@ -17,6 +17,7 @@ import speech.tts as tts
 import memory.log_components as lc
 from thinker.claude_thinker import ClaudeThinker
 from thinker.openai_thinker import OpenaiThinker
+from utils.analytics import log_async
 
 load_dotenv()
 
@@ -66,6 +67,17 @@ def instruct_agent():
     # Convert the audio file to text
     player_instruction = stt.transcribe_audio(player_instruction_audio_file_path)
 
+    # Log the request into the analytics system
+    request_dict = {
+        "player_id": player_id,
+        "timestamp": timestamp,
+        "player_instruction": player_instruction,
+        "game_state": game_state,
+        "personality": personality,
+        "voice": voice
+    }
+    log_async("PLAYER_REQUEST", str(request_dict))
+
     # Get the output
     output = agent_brain.generate_agent_output(player_instruction, game_state, personality, agent_brain.get_memory_manager().get_player_memory(player_id))
 
@@ -79,7 +91,7 @@ def instruct_agent():
     agent_brain.get_memory_manager().get_player_memory(player_id).log_game_state(game_state, timestamp)
 
     # Return the output object (agent commands and agent text response audio file)
-    return {
+    output = {
         "player_id": player_id,
         "timestamp": timestamp,
         "player_instruction_transcription": player_instruction,
@@ -90,6 +102,11 @@ def instruct_agent():
         "personality": personality,
         "voice": voice
     }
+
+    # Log the output into the analytics system
+    log_async("AGENT_RESPONSE", str(output))
+
+    return output
 
 @app.route('/get_audio_file', methods=['GET'])
 def get_audio_file():

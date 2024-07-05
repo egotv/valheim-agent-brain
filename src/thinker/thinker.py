@@ -29,6 +29,9 @@ class Thinker(ABC):
     def get_actions_from_raw_response(raw_response: str) -> List[AgentCommand]:
 
         actions_str = raw_response.split("[ACTIONS]")[1].split("[TEXT RESPONSE]")[0]
+
+        print(actions_str)
+
         actions_array = json.loads(actions_str)
 
         actions = []
