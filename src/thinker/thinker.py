@@ -30,8 +30,6 @@ class Thinker(ABC):
 
         actions_str = raw_response.split("[ACTIONS]")[1].split("[TEXT RESPONSE]")[0]
 
-        print(actions_str)
-
         actions_array = json.loads(actions_str)
 
         actions = []
@@ -56,9 +54,9 @@ class Thinker(ABC):
                 actions.append(agent_command)
 
             except Exception as e:
-                print("ERROR PARSING ACTION")
-                print(action)
-                print(e)
+                print("ERROR PARSING ACTION", flush=True)
+                print(action, flush=True)
+                print(e, flush=True)
         
         return actions
     
