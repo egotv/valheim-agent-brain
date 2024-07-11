@@ -38,20 +38,27 @@ class Thinker(ABC):
 
         for action in actions_array:
 
-            # Split the action string into category, action, and parameters
-            # The action string looks like this: "Category_Action(parameter1, parameter2, ...)"
-            category, action_parameters = action.split("_")
-            action, parameters = action_parameters.split("(")
-            parameters = parameters[:-1].split(", ")
+            try:
 
-            # Remove "" or '' from the parameters
-            for i in range(len(parameters)):
-                if (parameters[i][0] == "\"" and parameters[i][-1] == "\"") or (parameters[i][0] == "'" and parameters[i][-1] == "'"):
-                    parameters[i] = parameters[i][1:-1]
+                # Split the action string into category, action, and parameters
+                # The action string looks like this: "Category_Action(parameter1, parameter2, ...)"
+                category, action_parameters = action.split("_")
+                action, parameters = action_parameters.split("(")
+                parameters = parameters[:-1].split(", ")
 
-            # Create an AgentCommand object
-            agent_command = AgentCommand(category, action, parameters)
-            actions.append(agent_command)
+                # Remove "" or '' from the parameters
+                for i in range(len(parameters)):
+                    if (parameters[i][0] == "\"" and parameters[i][-1] == "\"") or (parameters[i][0] == "'" and parameters[i][-1] == "'"):
+                        parameters[i] = parameters[i][1:-1]
+
+                # Create an AgentCommand object
+                agent_command = AgentCommand(category, action, parameters)
+                actions.append(agent_command)
+
+            except Exception as e:
+                print("ERROR PARSING ACTION")
+                print(action)
+                print(e)
         
         return actions
     

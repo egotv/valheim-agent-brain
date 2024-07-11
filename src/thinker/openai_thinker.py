@@ -85,6 +85,18 @@ The actions that you can take are as follows:
 
 Please generate a list of actions that the agent should take in response to the information provided.
 Return the result in JSON format.
+Note that all actions MUST follow the format Category_Action(parameter1, parameter2, ...) strictly.
+
+Examples of valid actions are:
+Follow_Start('player')
+Combat_StartAttacking('greyling', 'axe')
+Patrol_Stop()
+
+Examples of invalid actions are:
+Follow Start('player')
+CombatStartAttacking('greyling', 'axe')
+Patrol_Stop
+
 If you do not want to take any actions, please return [].
 
 Examples:
