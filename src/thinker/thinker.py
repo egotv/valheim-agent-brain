@@ -40,14 +40,19 @@ class Thinker(ABC):
 
                 # Split the action string into category, action, and parameters
                 # The action string looks like this: "Category_Action(parameter1, parameter2, ...)"
-                category, action_parameters = action.split("_")
-                action, parameters = action_parameters.split("(")
-                parameters = parameters[:-1].split(", ")
+                action_split = action.split("_")
+                category = action_split[0]
+                action_parameters = "_".join(action_split[1:])
 
-                # Remove "" or '' from the parameters
+                action_parameters_split = action_parameters.split("(")
+                action = action_parameters_split[0]
+                parameters = action_parameters_split[1][:-1].split(",")
+
+                # Remove "" and '' and leading/trailing spaces from the parameters
                 for i in range(len(parameters)):
                     if (parameters[i][0] == "\"" and parameters[i][-1] == "\"") or (parameters[i][0] == "'" and parameters[i][-1] == "'"):
                         parameters[i] = parameters[i][1:-1]
+                    parameters[i] = parameters[i].strip()
 
                 # Create an AgentCommand object
                 agent_command = AgentCommand(category, action, parameters)
