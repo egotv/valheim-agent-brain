@@ -56,7 +56,7 @@ From the {self.game_name} knowledge base, we have the following relevant pieces 
 == Actions ==
 
 You are required to generate actions that the agent should take in response to the player instruction and the game state.
-The actions that you can take are as follows:
+The actions that you can take are as follows. YOu can only take these actions listed below. You cannot take any other actions.
 
 [Category: Follow]
 - Follow_Start(target)
