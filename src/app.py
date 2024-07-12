@@ -119,7 +119,9 @@ def synthesize_audio():
     audio_file_id = tts.synthesize_text(text, voice)
 
     return {
-        "audio_file_id": audio_file_id
+        "audio_file_id": audio_file_id,
+        "voice": voice,
+        "text": text
     }
 
 @app.route('/get_audio_file', methods=['GET'])
