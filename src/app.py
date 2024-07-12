@@ -108,6 +108,20 @@ def instruct_agent():
 
     return output
 
+@app.route('/synthesize_audio', methods=['GET']) # text-to-speech
+def synthesize_audio():
+    
+    # Get the text to synthesize
+    text = request.args.get('text')
+    voice = request.args.get('voice', "asteria")
+
+    # Synthesize the audio
+    audio_file_id = tts.synthesize_text(text, voice)
+
+    return {
+        "audio_file_id": audio_file_id
+    }
+
 @app.route('/get_audio_file', methods=['GET'])
 def get_audio_file():
 
