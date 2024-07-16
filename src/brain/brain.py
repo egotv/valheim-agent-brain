@@ -29,7 +29,14 @@ class Brain:
         retrieved_knowledge = json.dumps(self.knowledge_base.lookup_knowledge_base(player_instruction))
         log_async("RETRIEVED_KNOWLEDGE", retrieved_knowledge)
 
-        input = InputObject(player_instruction, game_state, player_memory, personality, retrieved_knowledge=retrieved_knowledge)
+        retrieved_items_list = self.knowledge_base.get_all_items()
+        retrieved_monsters_list = self.knowledge_base.get_monsters()
+        retrieved_lists = {
+            "items": retrieved_items_list,
+            "monsters": retrieved_monsters_list
+        }
+
+        input = InputObject(player_instruction, game_state, player_memory, personality, retrieved_lists=retrieved_lists, retrieved_knowledge=retrieved_knowledge)
         output = self.thinker.think(input)
 
         return output

@@ -18,12 +18,13 @@ PRIMARY_KEYS = {
 class KnowledgeBaseSystem:
 
     @staticmethod
-    def get_all_files_in_knowledge_base() -> List[str]:
+    def get_all_csv_files_in_knowledge_base() -> List[str]:
 
         if not os.path.exists(BASE_DIR_PATH):
             raise FileNotFoundError(f"Directory not found: {BASE_DIR_PATH}")
 
-        return [file_name for file_name in os.listdir(BASE_DIR_PATH)]
+        all_files = [file_name for file_name in os.listdir(BASE_DIR_PATH) if file_name.endswith(".csv")]
+        return all_files
 
     @staticmethod
     def csv_loader(file_path: str) -> pd.DataFrame:
@@ -35,15 +36,29 @@ class KnowledgeBaseSystem:
             raise ValueError(f"File is not a CSV file: {file_path}")
 
         return pd.read_csv(file_path)
+    
+    @staticmethod
+    def json_loader(file_path: str) -> Dict:
+
+        if not os.path.exists(file_path):
+            raise FileNotFoundError(f"File not found: {file_path}")
+
+        if not file_path.endswith(".json"):
+            raise ValueError(f"File is not a JSON file: {file_path}")
+
+        with open(file_path, 'r') as f:
+            return json.load(f)
 
     def __init__(self) -> None:
         self.knowledge_base = self.load_knowledge_base()
+        self.all_items_list = self.load_all_items()
+        self.monsters_list = self.load_monsters()
 
     def load_knowledge_base(self) -> Dict[str, Dict[str, dict]]:
             
         knowledge_base = {}
 
-        for file_name in self.get_all_files_in_knowledge_base():
+        for file_name in self.get_all_csv_files_in_knowledge_base():
 
             file_path = os.path.join(BASE_DIR_PATH, file_name)
             
@@ -57,6 +72,20 @@ class KnowledgeBaseSystem:
             knowledge_base[file_name] = this_file_knowledge
 
         return knowledge_base
+    
+    def load_all_items(self) -> List[dict]:
+        loaded_json = self.json_loader(f"{BASE_DIR_PATH}/all_items_list.json")
+        return list(map(lambda x: x['name'], loaded_json))
+    
+    def load_monsters(self) -> List[dict]:
+        loaded_json = self.json_loader(f"{BASE_DIR_PATH}/monsters.json")
+        return list(map(lambda x: x['name'], loaded_json))
+    
+    def get_all_items(self) -> List[dict]:
+        return self.all_items_list
+    
+    def get_monsters(self) -> List[dict]:
+        return self.monsters_list
     
     '''
     The knowledge base is a collection of CSV files, which contain information on topics in Valheim gameplay.

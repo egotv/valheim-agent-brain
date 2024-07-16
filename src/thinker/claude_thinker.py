@@ -53,37 +53,47 @@ The history of the last five actions taken by the agent is as follows:
 From the {self.game_name} knowledge base, we have the following relevant pieces of information which you should bring up a bit in your response to the player:
 {input.retrieved_knowledge}
 
+The list of possible items in the game are as follows:
+ITEMS_LIST:
+{input.retrieved_lists['items']}
+
+The list of possible monsters in the game are as follows:
+MONSTERS_LIST:
+{input.retrieved_lists['monsters']}
+
 == Actions ==
 
-You are required to generate an action that the agent should take in response to the player instruction and the game state.
+You are required to generate actions that the agent should take in response to the player instruction and the game state.
 The actions that you can take are as follows. YOu can only take these actions listed below. You cannot take any other actions.
 
 [Category: Follow]
-- Follow_Start(target)
+- Follow_Start(target) // Target MUST be a player or from MONSTERS_LIST
 - Follow_Stop()
 
 [Category: Combat]
-- Combat_StartAttacking(target, weapon)
+- Combat_StartAttacking(target, weapon) // Target MUST be a player or from MONSTERS_LIST, weapon MUST be from ITEMS_LIST
 - Combat_StopAttacking()
 - Combat_Sneak()
-- Combat_Defend(target)
+- Combat_Defend(target) // Target MUST be a player
 
 [Category: Inventory]
 - Inventory_DropAll()
-- Inventory_DropItem(item)
-- Inventory_EquipItem(item)
-- Inventory_PickupItem(item)
+- Inventory_DropItem(item) // Item MUST be from ITEMS_LIST
+- Inventory_EquipItem(item) // Item MUST be from ITEMS_LIST
+- Inventory_PickupItem(item) // Item MUST be from ITEMS_LIST
 
 [Category: Harvesting]
-- Harvesting_Start(item, quantity)
+- Harvesting_Start(item, quantity) // Item MUST be from ITEMS_LIST
 - Harvesting_Stop()
-- Harvesting_Craft(item, quantity)
+- Harvesting_Craft(item, quantity) // Item MUST be from ITEMS_LIST
 
 [Category: Patrol]
-- Patrol_Start(target)
+- Patrol_Start(target) // Target MUST be a player or from MONSTERS_LIST
 - Patrol_Stop()
 
 Please generate a list of actions that the agent should take in response to the information provided.
+The actions should make sense in the context of the game and the player instruction.
+For example, an axe can be used to fight a boar, but a fishing rod cannot be used to fight a boar.
 Return the result in JSON format.
 Note that all actions MUST follow the format Category_Action(parameter1, parameter2, ...) strictly.
 
@@ -165,4 +175,3 @@ OUTPUT EXAMPLE 2 (YOU MUST FOLLOW THE FORMAT STRICTLY):
 Yeah, I love ice cream too!
 
         """
-
