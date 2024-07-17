@@ -94,6 +94,7 @@ The actions that you can take are as follows. YOu can only take these actions li
 Please generate a list of actions that the agent should take in response to the information provided.
 The actions should make sense in the context of the game and the player instruction.
 For example, an axe can be used to fight a boar, but a fishing rod cannot be used to fight a boar.
+The items that you put in the arguments of the actions should also exist in the nearby items list.
 Return the result in JSON format.
 Note that all actions MUST follow the format Category_Action(parameter1, parameter2, ...) strictly.
 
