@@ -41,7 +41,7 @@ Some examples of how someone with your personality might respond are:
 The player has just given you the following instruction:
 {input.player_instruction}
 
-The current state of the world is as follows:
+The current state of the world is as follows, which includes the list of the nearby items, the list of nearby enemies and the items in the agent's inventory:
 {input.game_state}
 
 The history of the last five exchanges between the player and the agent is as follows:
@@ -67,28 +67,28 @@ You are required to generate actions that the agent should take in response to t
 The actions that you can take are as follows. YOu can only take these actions listed below. You cannot take any other actions.
 
 [Category: Follow]
-- Follow_Start(target) // Target MUST be a player or from MONSTERS_LIST
+- Follow_Start(target) // Target MUST be a player or a nearby monster
 - Follow_Stop()
 
 [Category: Combat]
-- Combat_StartAttacking(target, weapon) // Target MUST be a player or from MONSTERS_LIST, weapon MUST be from ITEMS_LIST
+- Combat_StartAttacking(target, weapon) // Target MUST be a player or a nearby monster, weapon MUST be from the agent's inventory
 - Combat_StopAttacking()
 - Combat_Sneak()
 - Combat_Defend(target) // Target MUST be a player
 
 [Category: Inventory]
 - Inventory_DropAll()
-- Inventory_DropItem(item) // Item MUST be from ITEMS_LIST
-- Inventory_EquipItem(item) // Item MUST be from ITEMS_LIST
-- Inventory_PickupItem(item) // Item MUST be from ITEMS_LIST
+- Inventory_DropItem(item) // Item MUST be from the agent's inventory
+- Inventory_EquipItem(item) // Item MUST be from the agent's inventory
+- Inventory_PickupItem(item) // Item MUST be from nearby items
 
 [Category: Harvesting]
-- Harvesting_Start(item, quantity) // Item MUST be from ITEMS_LIST
+- Harvesting_Start(item, quantity) // Item MUST be from nearby items
 - Harvesting_Stop()
-- Harvesting_Craft(item, quantity) // Item MUST be from ITEMS_LIST
+- Harvesting_Craft(item, quantity) // Item MUST be from the full items list
 
 [Category: Patrol]
-- Patrol_Start(target) // Target MUST be a player or from MONSTERS_LIST
+- Patrol_Start(target) // Target MUST be a player
 - Patrol_Stop()
 
 Please generate a list of actions that the agent should take in response to the information provided.
