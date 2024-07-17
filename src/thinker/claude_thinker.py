@@ -53,10 +53,6 @@ The history of the last five actions taken by the agent is as follows:
 From the {self.game_name} knowledge base, we have the following relevant pieces of information which you should bring up a bit in your response to the player:
 {input.retrieved_knowledge}
 
-The list of possible items in the game are as follows:
-ITEMS_LIST:
-{input.retrieved_lists['items']}
-
 The list of possible monsters in the game are as follows:
 MONSTERS_LIST:
 {input.retrieved_lists['monsters']}
