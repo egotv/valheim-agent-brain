@@ -31,4 +31,14 @@ class GameStateEntry:
 
     def __repr__(self) -> str:
         return f"GameStateEntry(game_state={self.game_state}, timestamp={self.timestamp})"
+
+# Reflection is what the agent synthesizes from the past few conversations, actions and game states
+class ReflectionEntry:
+
+    def __init__(self, reflection: str, timestamp: float) -> None:
+        self.reflection = reflection
+        self.timestamp = timestamp
+
+    def __repr__(self) -> str:
+        return f"ReflectionEntry(reflection={self.reflection}, timestamp={self.timestamp})"
         

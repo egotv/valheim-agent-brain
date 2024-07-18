@@ -90,6 +90,10 @@ def instruct_agent():
     agent_brain.get_memory_manager().get_player_memory(player_id).log_agent_commands(output.agent_commands, timestamp)
     agent_brain.get_memory_manager().get_player_memory(player_id).log_game_state(game_state, timestamp)
 
+    should_synthesize_reflection = agent_brain.get_memory_manager().get_player_memory(player_id).should_synthesize_reflection()
+    if should_synthesize_reflection:
+        agent_brain.get_memory_manager().get_player_memory(player_id).async_synthesize_log_reflection()
+
     # Return the output object (agent commands and agent text response audio file)
     output = {
         "player_id": player_id,

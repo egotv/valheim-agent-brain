@@ -50,6 +50,9 @@ The history of the last five exchanges between the player and the agent is as fo
 The history of the last five actions taken by the agent is as follows:
 {input.player_memory.get_last_n_agent_commands(5)}
 
+The history of the agent's reflections (long-term memory of older conversations) is as follows:
+{input.player_memory.get_last_n_reflections(5)}
+
 From the {self.game_name} knowledge base, we have the following relevant pieces of information which you should bring up a bit in your response to the player:
 {input.retrieved_knowledge}
 
