@@ -8,6 +8,7 @@ from brain.personality_examples import PERSONALITY_EXAMPLES
 
 load_dotenv()
 
+
 class OpenaiThinker(Thinker):
 
     def __init__(self) -> None:
@@ -20,14 +21,15 @@ class OpenaiThinker(Thinker):
 
         if not Thinker.validate_raw_response(raw_response):
             return OutputObject([], "I'm sorry, I don't understand. Can you please rephrase that?")
-        
+
         actions = Thinker.get_actions_from_raw_response(raw_response)
-        text_response = Thinker.get_text_response_from_raw_response(raw_response)
+        text_response = Thinker.get_text_response_from_raw_response(
+            raw_response)
 
         return OutputObject(actions, text_response)
-    
+
     def generate_prompt(self, input: InputObject) -> str:
-        
+
         return f"""
 
 You are a companion to a player in a wilderness survival world.
@@ -63,7 +65,7 @@ MONSTERS_LIST:
 == Actions ==
 
 You are required to generate actions that the agent should take in response to the player instruction and the game state.
-The actions that you can take are as follows. YOu can only take these actions listed below. You cannot take any other actions.
+The actions that you can take are as follows. You can only take these actions listed below. You cannot take any other actions.
 
 [Category: Follow]
 - Follow_Start(target) // Target MUST be a player or a nearby monster
@@ -92,6 +94,8 @@ The actions that you can take are as follows. YOu can only take these actions li
 
 Please generate a list of actions that the agent should take in response to the information provided.
 The actions should make sense in the context of the game and the player instruction.
+You cannot craft or build right now. If a player asks you to craft an item or build something, 
+please respond with [] as action and "Sorry, I currently can't do that" as the text response. 
 For example, an axe can be used to fight a boar, but a fishing rod cannot be used to fight a boar.
 The items that you put in the arguments of the actions should also exist in the nearby items list.
 Return the result in JSON format.
