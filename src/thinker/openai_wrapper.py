@@ -8,6 +8,7 @@ load_dotenv()
 
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
+
 def run(prompt: str, model="gpt-4o", temperature=0.9) -> str:
 
     start_timestamp = utils.get_timestamp()
@@ -18,20 +19,23 @@ def run(prompt: str, model="gpt-4o", temperature=0.9) -> str:
         temperature=temperature
     )
     result = response.choices[0].message.content
-    
+
     time_elapsed = utils.get_timestamp() - start_timestamp
     log_async("OPENAI_CHAT_LATENCY", f"{time_elapsed}")
+    log_async("OPENAI_CHAT_RESPONSE", f"{response}")
+    log_async("OPENAI_CHAT_PROMPT", f"{prompt}")
 
     return result
 
-def transcribe_audio(file_path: str, prompt: str="") -> str:
+
+def transcribe_audio(file_path: str, prompt: str = "") -> str:
 
     start_timestamp = utils.get_timestamp()
-    
-    audio_file= open(file_path, "rb")
+
+    audio_file = open(file_path, "rb")
 
     transcription = client.audio.transcriptions.create(
-        model="whisper-1", 
+        model="whisper-1",
         language="en",
         file=audio_file,
         prompt=prompt

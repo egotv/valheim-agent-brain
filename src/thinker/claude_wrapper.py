@@ -8,6 +8,7 @@ load_dotenv()
 
 client = Anthropic()
 
+
 def run(prompt: str, model="claude-3-5-sonnet-20240620", temperature=0.9) -> str:
 
     start_timestamp = utils.get_timestamp()
@@ -30,11 +31,14 @@ def run(prompt: str, model="claude-3-5-sonnet-20240620", temperature=0.9) -> str
         ]
     )
     result = message.content[0].text
-    
+
     time_elapsed = utils.get_timestamp() - start_timestamp
     log_async("CLAUDE_CHAT_LATENCY", f"{time_elapsed}")
+    log_async("CLAUDE_CHAT_RESPONSE", f"{message}")
+    log_async("CLAUDE_CHAT_PROMPT", f"{prompt}")
 
     return result
+
 
 if __name__ == "__main__":
     run("Why is the ocean salty?")
