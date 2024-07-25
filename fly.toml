@@ -4,7 +4,7 @@
 #
 
 app = 'valheim-agent-brain'
-primary_region = 'ewr'
+primary_region = 'sjc'
 
 [build]
   builder = 'paketobuildpacks/builder:base'
@@ -16,6 +16,9 @@ primary_region = 'ewr'
 [[services]]
   internal_port = 8080
   protocol = "tcp"
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 1
   [[services.ports]]
     port = 80
     handlers = ["http"]
@@ -24,6 +27,7 @@ primary_region = 'ewr'
     handlers = ["tls", "http"]
 
 [[vm]]
-  memory = '1gb'
-  cpu_kind = 'shared'
+  cpu_kind = 'performance'
   cpus = 1
+  size = "performance-1x"
+  memory = "2gb"

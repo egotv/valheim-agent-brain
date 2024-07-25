@@ -14,9 +14,9 @@ class OpenaiThinker(Thinker):
     def __init__(self) -> None:
         self.game_name = "Valheim"
 
-    def think(self, input: InputObject) -> OutputObject:
+    def think(self, game_input: InputObject) -> OutputObject:
 
-        full_prompt = self.generate_prompt(input)
+        full_prompt = self.generate_prompt(game_input)
         raw_response = run(full_prompt)
 
         if not Thinker.validate_raw_response(raw_response):
@@ -28,39 +28,39 @@ class OpenaiThinker(Thinker):
 
         return OutputObject(actions, text_response)
 
-    def generate_prompt(self, input: InputObject) -> str:
+    def generate_prompt(self, game_input: InputObject) -> str:
 
         return f"""
 
 You are a companion to a player in a wilderness survival world.
 
 Your personality is
-{input.personality}
+{game_input.personality}
 
 Some examples of how someone with your personality might respond are:
 {PERSONALITY_EXAMPLES}
 
 The player has just given you the following instruction:
-{input.player_instruction}
+{game_input.player_instruction}
 
 The current state of the world is as follows, which includes the list of the nearby items, the list of nearby enemies and the items in the agent's inventory:
-{input.game_state}
+{game_input.game_state}
 
 The history of the last five exchanges between the player and the agent is as follows:
-{input.player_memory.get_last_n_conversation_lines(10)}
+{game_input.player_memory.get_last_n_conversation_lines(10)}
 
 The history of the last five actions taken by the agent is as follows:
-{input.player_memory.get_last_n_agent_commands(5)}
+{game_input.player_memory.get_last_n_agent_commands(5)}
 
 The history of the agent's reflections (long-term memory of older conversations) is as follows:
-{input.player_memory.get_last_n_reflections(5)}
+{game_input.player_memory.get_last_n_reflections(5)}
 
 From the {self.game_name} knowledge base, we have the following relevant pieces of information which you should bring up a bit in your response to the player:
-{input.retrieved_knowledge}
+{game_input.retrieved_knowledge}
 
 The list of possible monsters in the game are as follows:
 MONSTERS_LIST:
-{input.retrieved_lists['monsters']}
+{game_input.retrieved_lists['monsters']}
 
 == Actions ==
 

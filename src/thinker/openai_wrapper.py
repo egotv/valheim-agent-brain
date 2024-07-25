@@ -7,6 +7,10 @@ from utils.analytics import log_async
 load_dotenv()
 
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+lemonfox_client = OpenAI(
+    api_key=os.environ.get("LEMONFOX_API_KEY"),
+    base_url="https://api.lemonfox.ai/v1",
+)
 
 
 def run(prompt: str, model="gpt-4o", temperature=0.9) -> str:
@@ -44,5 +48,24 @@ def transcribe_audio(file_path: str, prompt: str = "") -> str:
 
     time_elapsed = utils.get_timestamp() - start_timestamp
     log_async("OPENAI_AUDIO_LATENCY", f"{time_elapsed}")
+
+    return result
+
+
+def transcribe_audio_lemonfox(file_path: str, prompt: str = "") -> str:
+
+    start_timestamp = utils.get_timestamp()
+
+    audio_file = open(file_path, "rb")
+
+    transcription = lemonfox_client.audio.transcriptions.create(
+        model="whisper-1",
+        language="en",
+        file=audio_file,
+    )
+    result = transcription.text
+
+    time_elapsed = utils.get_timestamp() - start_timestamp
+    log_async("LEMONFOX_AUDIO_LATENCY", f"{time_elapsed}")
 
     return result
