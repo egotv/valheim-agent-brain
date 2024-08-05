@@ -52,7 +52,7 @@ def transcribe_audio(file_path: str, prompt: str = "") -> str:
     return result
 
 
-def transcribe_audio_lemonfox(file_path: str, prompt: str = "") -> str:
+def transcribe_audio_lemonfox(file_path: str) -> str:
 
     start_timestamp = utils.get_timestamp()
 

@@ -71,7 +71,6 @@ def instruct_agent():
     with open(player_instruction_audio_file_path, "wb") as file:
         file.write(player_instruction_audio_file_decoded_bytes)
 
-    # TODO: save audio file to Supabase
     log_async_audio(player_instruction_audio_file_path,
                     f"instruction_{player_instruction_audio_file_id}.wav", str(player_id))
 
@@ -114,7 +113,6 @@ def instruct_agent():
         agent_brain.get_memory_manager().get_player_memory(
             player_id).async_synthesize_log_reflection()
 
-    # TODO: save audio file to Supabase
     log_async_audio(f"audio_files/response_{agent_text_response_audio_file_id}.wav",
                     f"response_{agent_text_response_audio_file_id}.wav", str(player_id))
 
