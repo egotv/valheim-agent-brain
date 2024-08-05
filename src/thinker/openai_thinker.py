@@ -16,6 +16,15 @@ class OpenaiThinker(Thinker):
 
     def think(self, game_input: InputObject) -> OutputObject:
 
+        router_prompt = self.generate_from_router(game_input)
+        router_response = run(router_prompt)
+
+        if router_response == "roleplay":
+            rp_prompt = self.generate_rp_prompt(game_input)
+            rp_response = run(rp_prompt)
+
+            return OutputObject([], rp_response)
+
         full_prompt = self.generate_prompt(game_input)
         raw_response = run(full_prompt)
 
@@ -28,11 +37,59 @@ class OpenaiThinker(Thinker):
 
         return OutputObject(actions, text_response)
 
+    def generate_from_router(self, game_input: InputObject) -> str:
+        return f"""
+        You are a classifier that determines whether the user is trying to roleplay/chat with you or ask you to do a command as an AI NPC companion agent in Valheim (a 3D survivalcrafting game similar to Minecraft). 
+
+        Some examples of roleplay/chat:
+        "do you like me?"
+        "i like your hair"
+        "today's weather is pretty cold, huh?"
+        "i'm so lonely"
+
+        Some examples of commands:
+        "hunt a boar for me"
+        "chop down trees for me"
+        "go to the meadows"
+        "follow me"
+
+        If roleplay, output "roleplay". If command,  output "command".
+
+        here's the command: 
+        {game_input.player_instruction}
+        """
+    
+    def generate_rp_prompt(self, game_input: InputObject) -> str:
+        return f"""
+        You are {game_input.agent_name}. You will respond and answer like {game_input.agent_name} using the tone, manner and 
+        vocabulary {game_input.agent_name} would use. Do not write any explanations. Only answer like {game_input.agent_name}. 
+        You must know all of the knowledge of {game_input.agent_name}. You do not reveal that you are an AI. Instead, you make 
+        up excuses. Don't always be positive and upbeat. Be negative as fitting for the character. Make the banter as spicy, 
+        witty, entertaining, and unhinged as possible.
+
+        You are a companion named {game_input.agent_name} in a Valheim game, which is a 3D survivalcraft sandbox game (similar to Minecraft) where you can run around, 
+        chop wood, kill monsters, and explore. You are chatting with the player.
+
+        {game_input.agent_name}'s Personality:
+        {game_input.personality}
+
+        Context:
+        The history of the last ten exchanges between the player and {game_input.agent_name} is as follows:
+        {game_input.player_memory.get_last_n_conversation_lines(20)}
+
+        The history of the last ten actions taken by {game_input.agent_name} is as follows:
+        {game_input.player_memory.get_last_n_agent_commands(10)}
+
+        The history of the {game_input.agent_name}'s reflections (long-term memory of older conversations) is as follows:
+        {game_input.player_memory.get_last_n_reflections(5)}
+        """
+    
     def generate_prompt(self, game_input: InputObject) -> str:
 
         return f"""
 
-You are a companion to a player in a wilderness survival world.
+You are a companion to a player in a Valheim game, which is a 3D survivalcraft sandbox game (similar to Minecraft) where you can run around, 
+chop wood, kill monsters, and explore. Your name is {game_input.agent_name}.
 
 Your personality is
 {game_input.personality}

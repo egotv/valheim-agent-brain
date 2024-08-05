@@ -6,7 +6,7 @@ from game.agent_command import AgentCommand
 
 class InputObject:
     
-    def __init__(self, player_instruction: str, game_state: GameState, player_memory: PlayerMemory, personality: str, retrieved_lists: dict={}, retrieved_knowledge: str="", agent_commands: List[AgentCommand]=None):
+    def __init__(self, player_instruction: str, game_state: GameState, player_memory: PlayerMemory, personality: str, agent_name: str, retrieved_lists: dict={}, retrieved_knowledge: str="", agent_commands: List[AgentCommand]=None):
 
         self.player_instruction = player_instruction
         self.game_state = game_state
@@ -15,5 +15,6 @@ class InputObject:
         self.retrieved_lists = retrieved_lists
         self.retrieved_knowledge = retrieved_knowledge
         self.agent_commands = agent_commands
+        self.agent_name = agent_name
 
     

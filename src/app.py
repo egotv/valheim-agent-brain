@@ -57,6 +57,7 @@ def instruct_agent():
     game_state = GameState.from_json(request_json['game_state'])
     personality = request_json.get('personality', "")
     voice = request_json.get('voice', "asteria")
+    agent_name = request_json.get('agent_name', "agent")
 
     # Get the audio file sent through the HTTP POST request
     player_instruction_audio_file_encoded_string = request_json[
@@ -85,7 +86,8 @@ def instruct_agent():
         "player_instruction": player_instruction,
         "game_state": game_state,
         "personality": personality,
-        "voice": voice
+        "voice": voice,
+        "agent_name": agent_name
     }
     log_async("PLAYER_REQUEST", str(request_dict))
 
