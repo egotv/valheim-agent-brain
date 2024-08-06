@@ -93,7 +93,7 @@ def instruct_agent():
 
     # Get the output
     output = agent_brain.generate_agent_output(
-        player_instruction, game_state, personality, agent_brain.get_memory_manager().get_player_memory(player_id))
+        player_instruction, game_state, personality, agent_brain.get_memory_manager().get_player_memory(player_id), agent_name)
 
     # Speak the agent text response
     agent_text_response_audio_file_id = tts.synthesize_text(
