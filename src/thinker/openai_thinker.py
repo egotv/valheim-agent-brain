@@ -17,7 +17,7 @@ class OpenaiThinker(Thinker):
     def think(self, game_input: InputObject) -> OutputObject:
 
         router_prompt = self.generate_from_router(game_input)
-        router_response = run(router_prompt)
+        router_response = run(router_prompt, model="gpt-4o-mini")
 
         if router_response == "roleplay":
             rp_prompt = self.generate_rp_prompt(game_input)
