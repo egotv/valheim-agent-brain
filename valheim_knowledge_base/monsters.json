@@ -89,5 +89,6 @@
     {"name": "Volture", "itemName": "$enemy_volture"},
     {"name": "Wolf", "itemName": "$enemy_wolf"},
     {"name": "Wolf_cub", "itemName": "$enemy_wolfcub"},
-    {"name": "Wraith", "itemName": "$enemy_wraith"}
+    {"name": "Wraith", "itemName": "$enemy_wraith"},
+    {"name": "HumanoidNPC", "itemName": ""}
 ]

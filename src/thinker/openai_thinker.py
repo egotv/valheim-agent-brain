@@ -155,13 +155,15 @@ The actions that you can take are as follows. You can only take these actions li
 
 Please generate a list of actions that the agent should take in response to the information provided.
 The actions should make sense in the context of the game and the player instruction.
+Always equip the appropriate tool for the job if it's in your inventory.
 For example, an axe can be used to fight a boar, but a fishing rod cannot be used to fight a boar.
 The items that you put in the arguments of the actions should also exist in the nearby items list.
 You cannot craft or build right now. If a player asks you to craft an item or build something,  
 please respond with [] as action and "Sorry, I currently can't do that" as the text response. 
 If the player asks about the inventory, nearby items, or other aspects of the game state, please respond as accurately as possible given the context and information above.
-If a player asks about the inventory, just tell the player what's in the inventory based on the game state and do NOT perform an action.
-Always aim to be as accurate as possible given the personality and game state. Do not hallucinate.
+If the player asks about the inventory, just tell the player what's in the inventory based on the game state and do NOT perform an action.
+If the player asks you to chop down trees, remember to chop down the logs too after chopping down the trees, and add that to the action list. If a player asks you to mine rocks, check if you have a pickaxe and then start mining rocks if you can.
+Always aim to be as accurate as possible given the personality, game state, and your inventory. Do not hallucinate.
 Think step by step.
 
 Return the result in JSON format.
