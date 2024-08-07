@@ -16,5 +16,4 @@ class InputObject:
         self.retrieved_knowledge = retrieved_knowledge
         self.agent_commands = agent_commands
         self.agent_name = agent_name
-
     

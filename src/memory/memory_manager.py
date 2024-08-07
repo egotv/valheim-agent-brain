@@ -18,7 +18,7 @@ class PlayerMemory:
         self.reflections_log: List[ReflectionEntry] = []
         self.total_number_of_conversation_entries = 0
 
-    def log_conversation(self, who_said: int, content: str, timestamp: float=time.time()) -> None:
+    def log_conversation(self, who_said: str, content: str, timestamp: float=time.time()) -> None:
         self.conversation_log.append(ConversationLineEntry(who_said, content, timestamp))
         self.total_number_of_conversation_entries += 1
         self.limit_to_n_items(100)

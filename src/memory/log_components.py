@@ -1,18 +1,36 @@
 from game.agent_command import AgentCommand
 from game.game_state import GameState
+from typing import List
 
 PLAYER_SAID = 0
 AGENT_SAID = 1
 
 class ConversationLineEntry:
 
-    def __init__(self, who_said: int, content: str, timestamp: float) -> None:
+    def __init__(self, who_said: str, content: str, timestamp: float) -> None:
         self.who_said = who_said
         self.content = content
         self.timestamp = timestamp
 
+    def __str__(self) -> str:
+        return f"{self.who_said} said: {self.content}"
+
     def __repr__(self) -> str:
-        return f"ConversationLineEntry(who_said={self.who_said}, content={self.content}, timestamp={self.timestamp})"
+        return self.__str__()
+
+# TODO: edge case if multiple agents    
+# Filter by index of first who_said to last who_said
+def filter_by_who_said(entries: List[ConversationLineEntry], who_said: str) -> List[ConversationLineEntry]:
+    start_index = -1
+    end_index = -1
+    for index, entry in enumerate(entries):
+        if entry.who_said == who_said:
+            if start_index == -1:
+                start_index = index
+            end_index = index
+    if start_index != -1 and end_index != -1:
+        return entries[start_index-1:end_index + 1]
+    return []
 
 class AgentCommandEntry:
 
@@ -21,7 +39,7 @@ class AgentCommandEntry:
         self.timestamp = timestamp
 
     def __repr__(self) -> str:
-        return f"AgentCommandEntry(command={self.command}, timestamp={self.timestamp})"
+        return f"{self.command}"
 
 class GameStateEntry:
 
