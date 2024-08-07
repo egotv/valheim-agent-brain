@@ -17,8 +17,7 @@ class ConversationLineEntry:
 
     def __repr__(self) -> str:
         return self.__str__()
-
-# TODO: edge case if multiple agents    
+   
 # Filter by index of first who_said to last who_said
 def filter_by_who_said(entries: List[ConversationLineEntry], who_said: str) -> List[ConversationLineEntry]:
     start_index = -1
