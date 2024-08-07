@@ -28,7 +28,7 @@ class GameState:
         stamina = description["Stamina"]
         
         inventory_items = description["Inventory"]
-        inventory_description = ", ".join([f'{self.item_name_conversion(item["name"])} (x{item["amount"]})' for item in inventory_items])
+        inventory_description = ", ".join([f'{item["name"]} (x{item["amount"]})' for item in inventory_items])
         
         npc_mode = description["NPC_Mode"]
         alerted = "Yes" if description["Alerted"] else "No"
