@@ -13,7 +13,7 @@ lemonfox_client = OpenAI(
 )
 
 
-def run(prompt: str, model="gpt-4o", temperature=0.9) -> str:
+def run(prompt: str, model="gpt-4o-2024-08-06", temperature=0.9) -> str:
 
     start_timestamp = utils.get_timestamp()
 
