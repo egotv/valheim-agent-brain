@@ -18,7 +18,7 @@ class PlayerMemory:
         self.reflections_log: List[ReflectionEntry] = []
         self.total_number_of_conversation_entries = 0
 
-    def log_conversation(self, who_said: int, content: str, timestamp: float=time.time()) -> None:
+    def log_conversation(self, who_said: str, content: str, timestamp: float=time.time()) -> None:
         self.conversation_log.append(ConversationLineEntry(who_said, content, timestamp))
         self.total_number_of_conversation_entries += 1
         self.limit_to_n_items(100)
@@ -32,8 +32,10 @@ class PlayerMemory:
         self.game_states_log.append(GameStateEntry(game_state, timestamp))
         self.limit_to_n_items(100)
 
+    # TODO: disable reflection for now
     def should_synthesize_reflection(self) -> bool:
-        return self.total_number_of_conversation_entries > 0 and self.total_number_of_conversation_entries % 10 == 0
+        return False
+        # return self.total_number_of_conversation_entries > 0 and self.total_number_of_conversation_entries % 10 == 0
 
     def synthesize_reflection(self) -> str:
 

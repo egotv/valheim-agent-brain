@@ -101,9 +101,9 @@ def instruct_agent():
 
     # Log this exchange
     agent_brain.get_memory_manager().get_player_memory(
-        player_id).log_conversation(lc.PLAYER_SAID, player_instruction, timestamp)
+        player_id).log_conversation("player", player_instruction, timestamp)
     agent_brain.get_memory_manager().get_player_memory(player_id).log_conversation(
-        lc.AGENT_SAID, output.agent_text_response, timestamp)
+        agent_name, output.agent_text_response, timestamp)
     agent_brain.get_memory_manager().get_player_memory(
         player_id).log_agent_commands(output.agent_commands, timestamp)
     agent_brain.get_memory_manager().get_player_memory(
