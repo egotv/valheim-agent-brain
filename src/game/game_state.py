@@ -41,7 +41,7 @@ class GameState:
         current_biome = description["currentBiome"]
         
         nearby_items = json.loads(description["nearbyItems"])
-        nearby_items_description = ", ".join([f'{self.item_name_conversion(item["name"])} (x{item["quantity"]}, nearest: {item["nearestDistance"]})' for item in nearby_items])
+        nearby_items_description = ", ".join([f'{item["name"]} (x{item["quantity"]}, nearest: {item["nearestDistance"]})' for item in nearby_items])
         
         nearby_enemies = json.loads(description["nearbyEnemies"])
         nearby_enemies_description = ", ".join([f'{enemy["name"]} (x{enemy["quantity"]}, nearest: {enemy["nearestDistance"]})' for enemy in nearby_enemies])
