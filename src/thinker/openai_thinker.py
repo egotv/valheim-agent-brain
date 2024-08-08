@@ -60,7 +60,7 @@ class OpenaiThinker(Thinker):
         here's the command: 
         {game_input.player_instruction}
         """
-    
+
     def generate_rp_prompt(self, game_input: InputObject) -> str:
         return f"""
         You are {game_input.agent_name}. You will respond and answer like {game_input.agent_name} using the tone, manner and 
@@ -89,7 +89,7 @@ class OpenaiThinker(Thinker):
         The history of the last 20 actions taken by {game_input.agent_name} is as follows:
         {game_input.player_memory.get_last_n_agent_commands(20)}
         """
-    
+
     def generate_prompt(self, game_input: InputObject) -> str:
 
         return f"""
@@ -145,7 +145,7 @@ The actions that you can take are as follows. You can only take these actions li
 - Inventory_EquipItem(item) // Item MUST be from the agent's inventory
 
 [Category: Harvesting]
-- Harvesting_Start(item, quantity) // Item MUST be from nearby items
+- Harvesting_Start(item, quantity, resource) // Item MUST be from nearby items. Quantity must be returned ALWAYS. Resource (wood, stone, flint, etc.) is an optional argument. can return null for resource
 - Harvesting_Stop()
 - Harvesting_Craft(item, quantity) // Item MUST be from the full items list
 
@@ -164,6 +164,8 @@ If the player asks about the inventory, nearby items, or other aspects of the ga
 If the player asks about the inventory, just tell the player what's in the inventory based on the game state and do NOT perform an action.
 If the player asks you to chop down trees, remember to chop down the logs too after chopping down the trees, and add that to the action list. If a player asks you to mine rocks, check if you have a pickaxe and then start mining rocks if you can.
 If the player asks you to stop doing something, have the action be stopping the last or current action you are doing.
+Always respond with taking action on the nearest resource or enemy if you can.
+If the player requests a general common resource such as wood, stone, or flint, also make sure you pass in the resource wood, stone, or flint, etc. to the function argument. If not a general common resource, return null for the resource argument.
 Always aim to be as accurate as possible given the personality, game state, and your inventory. Do not hallucinate.
 Think step by step.
 
