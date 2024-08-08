@@ -143,7 +143,6 @@ The actions that you can take are as follows. You can only take these actions li
 - Inventory_DropAll()
 - Inventory_DropItem(item) // Item MUST be from the agent's inventory
 - Inventory_EquipItem(item) // Item MUST be from the agent's inventory
-- Inventory_PickupItem(item) // Item MUST be from nearby items
 
 [Category: Harvesting]
 - Harvesting_Start(item, quantity) // Item MUST be from nearby items

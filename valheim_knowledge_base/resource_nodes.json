@@ -1,0 +1,7455 @@
+{
+   "TrophyAbomination":{
+      "CharacterDrop":[
+         "Abomination"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Root":{
+      "CharacterDrop":[
+         "Abomination"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Guck":{
+      "CharacterDrop":[
+         "Abomination"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "GuckSack",
+         "GuckSack_small"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "rock4_forest_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "ancient_skull",
+         "flying_core",
+         "giant_arm",
+         "rock_mistlands2",
+         "rock4_forest"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Feathers":{
+      "CharacterDrop":[
+         "Chicken",
+         "Hen",
+         "Volture"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "AshCrow",
+         "Crow",
+         "Seagal"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         "Beech1",
+         "Birch1",
+         "Birch1_aut",
+         "Birch2",
+         "Birch2_aut",
+         "FirTree",
+         "Oak1",
+         "Pinetree_01",
+         "YggaShoot1",
+         "YggaShoot2",
+         "YggaShoot3"
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Pot_Shard_Green":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "ashland_pot1_green",
+         "ashland_pot1_green",
+         "ashland_pot1_red",
+         "ashland_pot1_red",
+         "ashland_pot2_green",
+         "ashland_pot2_green",
+         "ashland_pot2_red",
+         "ashland_pot2_red",
+         "ashland_pot3_green",
+         "ashland_pot3_green",
+         "ashland_pot3_red",
+         "ashland_pot3_red"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Pot_Shard"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Bronze":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "ashland_pot1_green",
+         "ashland_pot1_red",
+         "ashland_pot2_green",
+         "ashland_pot2_red",
+         "ashland_pot3_green",
+         "ashland_pot3_red",
+         "CastleKit_brazier",
+         "MountainKit_brazier",
+         "MountainKit_brazier_blue",
+         "MountainKit_brazier_purple"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Iron":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "ashland_pot1_green",
+         "ashland_pot1_red",
+         "ashland_pot2_green",
+         "ashland_pot2_red",
+         "ashland_pot3_green",
+         "ashland_pot3_red",
+         "MountainKit_wood_gate"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         "Rock_destructible_test"
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Silver":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "ashland_pot1_green",
+         "ashland_pot1_red",
+         "ashland_pot2_green",
+         "ashland_pot2_red",
+         "ashland_pot3_green",
+         "ashland_pot3_red"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "MeadHealthMinor":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "ashland_pot1_green",
+         "ashland_pot1_red",
+         "ashland_pot2_green",
+         "ashland_pot2_red",
+         "ashland_pot3_green",
+         "ashland_pot3_red"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "MeadStaminaMinor":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "ashland_pot1_green",
+         "ashland_pot1_red",
+         "ashland_pot2_green",
+         "ashland_pot2_red",
+         "ashland_pot3_green",
+         "ashland_pot3_red"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "MeadTasty":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "ashland_pot1_green",
+         "ashland_pot1_red",
+         "ashland_pot2_green",
+         "ashland_pot2_red",
+         "ashland_pot3_green",
+         "ashland_pot3_red",
+         "dvergrprops_barrel"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Stone":{
+      "CharacterDrop":[
+         "Greydwarf",
+         "Greydwarf_Elite",
+         "StoneGolem"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "Ashland_Stair",
+         "Ashlands_Fortress_Floor",
+         "marker01",
+         "marker02",
+         "MountainGraveStone01",
+         "Rock_4",
+         "Rock_4_plains",
+         "Rock_7",
+         "RockDolmen_1",
+         "RockDolmen_2",
+         "RockDolmen_3"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Stone"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         "MineRock_Copper",
+         "MineRock_Iron",
+         "MineRock_Meteorite",
+         "MineRock_Stone",
+         "Rock_destructible_test"
+      ],
+      "MineRock5":[
+         "Ashlands_Fortress_Wall_Pillar_base_frac",
+         "Ashlands_Fortress_Wall_Pillar_frac",
+         "Ashlands_Fortress_Wall_PillarTop_frac",
+         "Ashlands_Fortress_Wall_PillarTopStone_frac",
+         "cliff_ashlands_Arch_frac",
+         "cliff_ashlands1_frac",
+         "cliff_ashlands2_frac",
+         "cliff_ashlands4_frac",
+         "cliff_ashlands6_frac",
+         "cliff_ashlands7_HalfArch_frac",
+         "cliff_ashlandsflowrock_frac",
+         "cliff_mistlands1_creep_frac",
+         "cliff_mistlands1_frac",
+         "cliff_mistlands2_frac",
+         "HeathRockPillar_frac",
+         "highstone_frac",
+         "Rock_3_frac",
+         "rock_mistlands1_frac",
+         "rock1_mountain_frac",
+         "rock2_heath_frac",
+         "rock2_mountain_frac",
+         "rock3_mountain_frac",
+         "rock3_silver_frac",
+         "rock4_ashlands_frac",
+         "rock4_coast_frac",
+         "rock4_copper_frac",
+         "rock4_forest_frac",
+         "rock4_heath_frac",
+         "RockFinger_frac",
+         "RockFingerBroken_frac",
+         "RockThumb_frac",
+         "silvervein_frac",
+         "tarlump1_frac",
+         "widestone_frac"
+      ]
+   },
+   "Grausten":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "Ashland_Steepstair",
+         "Ashlands_Altar",
+         "Ashlands_Arch2_Broken1",
+         "Ashlands_Arch2_Broken2",
+         "Ashlands_ArchRoofDamaged",
+         "Ashlands_ArchRoofDamaged_half1",
+         "Ashlands_ArchRoofDamaged_half2",
+         "Ashlands_ArchRoofLong_Damaged",
+         "Ashlands_Boss_Pillar",
+         "Ashlands_Boss_Pillar_Twist_broken1",
+         "Ashlands_Boss_Pillar_Twist_broken2",
+         "Ashlands_Boss_Pillar_Twist_broken3",
+         "Ashlands_Floor",
+         "Ashlands_Pillar4",
+         "Ashlands_Pillar4_tip_broken1",
+         "Ashlands_Pillar4_tip_broken2",
+         "Ashlands_Pillar4_tip2_broken1",
+         "Ashlands_Pillar4_tip2_broken2",
+         "Ashlands_Pillar4_tip3_broken1",
+         "Ashlands_Pillar4_tip3_broken2",
+         "Ashlands_Pillar4_tip3_broken3",
+         "Ashlands_PillarBase3_double",
+         "Ashlands_Ruins_Floor_1point5x1point5",
+         "Ashlands_Ruins_Floor_1point5x1point5_broken",
+         "Ashlands_Ruins_Floor_3x3",
+         "Ashlands_Ruins_Floor_3x3_broken1",
+         "Ashlands_Ruins_Floor_3x3_broken2",
+         "Ashlands_Ruins_Floor_3x3_broken3",
+         "Ashlands_Ruins_Floor_6x6",
+         "Ashlands_Ruins_Floor_6x6_broken1",
+         "Ashlands_Ruins_Floor_6x6_broken2",
+         "Ashlands_Ruins_Ramp",
+         "Ashlands_Ruins_Ramp_Upsidedown",
+         "Ashlands_Ruins_TopStone",
+         "Ashlands_Ruins_twist_ArchBig",
+         "Ashlands_Ruins_twist_PillarBase",
+         "Ashlands_Ruins_twist_PillarBaseSmall",
+         "GraveStone_Broken_CharredTwitcherNest",
+         "GraveStone_Broken_World",
+         "GraveStone_CharredTwitcherNest",
+         "GraveStone_Elite_Broken_CharredTwitcherNest",
+         "GraveStone_Elite_CharredTwitcherNest",
+         "Spawner_CharredStone",
+         "Spawner_CharredStone_Elite",
+         "Spawner_CharredStone_event"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Ashstone"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         "Ashlands_floor_large_fractured",
+         "cliff_ashlands_Arch_frac",
+         "cliff_ashlands1_frac",
+         "cliff_ashlands2_frac",
+         "cliff_ashlands4_frac",
+         "cliff_ashlands6_frac",
+         "cliff_ashlands7_HalfArch_frac",
+         "cliff_ashlandsflowrock_frac",
+         "rock4_ashlands_frac"
+      ]
+   },
+   "Ashlands_floor_large_fractured":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "Ashlands_floor_large"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Ashlands_Fortress_Wall_Pillar_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "Ashlands_Fortress_Wall_Pillar",
+         "Ashlands_Fortress_Wall_Pillar_base"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Ashlands_Fortress_Wall_PillarTop_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "Ashlands_Fortress_Wall_PillarTop"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Ashlands_Fortress_Wall_PillarTopStone_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "Ashlands_Fortress_Wall_PillarTopStone"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "BronzeScrap":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "Ashlands_Fortress_Wall_Spikes"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Rock_3_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "Ashlands_rock1",
+         "Rock_3"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "rock4_ashlands_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "Ashlands_rock2"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Blackwood":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "AshlandsBranch1",
+         "AshlandsBranch2",
+         "AshlandsBranch3",
+         "AshlandsBush1",
+         "AshlandsTreeStump1",
+         "AshlandsTreeStump2",
+         "AshlandsTreeStump3",
+         "CharredBanner1",
+         "CharredBanner2",
+         "CharredBanner3",
+         "dvergrprops_crate_ashlands"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         "AshlandsTree1",
+         "AshlandsTree3",
+         "AshlandsTree4",
+         "AshlandsTree5",
+         "AshlandsTree6",
+         "AshlandsTree6_big"
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "CharredBone":{
+      "CharacterDrop":[
+         "Charred_Archer",
+         "Charred_Mage",
+         "Charred_Melee",
+         "Charred_Twitcher",
+         "Charred_Twitcher_Summoned"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "AshlandsBush2",
+         "veg_skull_Ashlands"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "CharcoalResin":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         "AshlandsTree1",
+         "AshlandsTree3",
+         "AshlandsTree4",
+         "AshlandsTree5",
+         "AshlandsTree6",
+         "AshlandsTree6_big"
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyAsksvin":{
+      "CharacterDrop":[
+         "Asksvin"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "AskBladder":{
+      "CharacterDrop":[
+         "Asksvin",
+         "Asksvin_hatchling"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "AskHide":{
+      "CharacterDrop":[
+         "Asksvin",
+         "Asksvin_hatchling"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "AsksvinMeat":{
+      "CharacterDrop":[
+         "Asksvin",
+         "Asksvin_hatchling"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "BoneFragments":{
+      "CharacterDrop":[
+         "Skeleton",
+         "Skeleton_NoArcher",
+         "Skeleton_Poison"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "asksvin_carrion",
+         "asksvin_carrion2",
+         "goblin_woodwall_2m_ribs",
+         "lox_ribs",
+         "morgenhole_pile",
+         "piece_Charred_Balista"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_ForestCryptRemains01",
+         "Pickable_ForestCryptRemains02",
+         "Pickable_ForestCryptRemains03",
+         "Pickable_ForestCryptRemains04",
+         "Pickable_MountainRemains01_buried"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "AsksvinCarrionSkull":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "asksvin_carrion",
+         "asksvin_carrion2"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "AsksvinCarrionRibcage":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "asksvin_carrion",
+         "asksvin_carrion2"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "AsksvinCarrionPelvic":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "asksvin_carrion",
+         "asksvin_carrion2"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "AsksvinCarrionNeck":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "asksvin_carrion",
+         "asksvin_carrion2"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Blueberries":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "barrell"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "BlueberryBush"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "DeerHide":{
+      "CharacterDrop":[
+         "Deer"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "barrell",
+         "goblin_banner",
+         "goblin_roof_45d",
+         "goblin_roof_45d_corner",
+         "goblin_roof_cap"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Flint":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "barrell"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Flint"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Coal":{
+      "CharacterDrop":[
+         "Surtling"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "barrell",
+         "CastleKit_brazier",
+         "CastleKit_brazier",
+         "MountainKit_brazier",
+         "MountainKit_brazier",
+         "MountainKit_brazier_blue",
+         "MountainKit_brazier_blue",
+         "MountainKit_brazier_purple",
+         "MountainKit_brazier_purple"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         "FlametalRockstand_frac"
+      ]
+   },
+   "GreydwarfEye":{
+      "CharacterDrop":[
+         "Greydwarf",
+         "Greydwarf_Elite",
+         "Greydwarf_Shaman"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "barrell"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Resin":{
+      "CharacterDrop":[
+         "Greydwarf",
+         "Greydwarf_Shaman",
+         "Greyling"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "barrell",
+         "Beech_small1",
+         "Beech_small2",
+         "FirTree_small",
+         "Greydwarf_Root"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         "Beech1",
+         "Birch1",
+         "Birch1_aut",
+         "Birch2",
+         "Birch2_aut",
+         "FirTree",
+         "Oak1",
+         "Pinetree_01",
+         "YggaShoot1",
+         "YggaShoot2",
+         "YggaShoot3"
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "LeatherScraps":{
+      "CharacterDrop":[
+         "Bat",
+         "Boar"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "barrell"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         "mudpile2_frac"
+      ]
+   },
+   "TinOre":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "barrell",
+         "MineRock_Tin"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Tin"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Wood":{
+      "CharacterDrop":[
+         "Greydwarf",
+         "Greydwarf_Elite",
+         "Greydwarf_Shaman"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "Beech_small1",
+         "Beech_small2",
+         "Beech_Stub",
+         "BirchStub",
+         "BlueberryBush",
+         "Bush01",
+         "Bush01_heath",
+         "Bush02_en",
+         "dvergrprops_bed",
+         "dvergrprops_chair",
+         "dvergrprops_shelf",
+         "dvergrprops_stool",
+         "dvergrprops_table",
+         "dvergrprops_wood_beam",
+         "dvergrprops_wood_pole",
+         "dvergrprops_wood_stake",
+         "dvergrprops_wood_stakewall",
+         "dvergrprops_wood_wall",
+         "dvergrtown_stair_corner_wood_left",
+         "dvergrtown_wood_beam",
+         "dvergrtown_wood_crane",
+         "dvergrtown_wood_pole",
+         "dvergrtown_wood_support",
+         "dvergrtown_wood_wall01",
+         "dvergrtown_wood_wall02",
+         "dvergrtown_wood_wall03",
+         "FernFiddleHeadAshlands",
+         "FirTree_oldLog",
+         "FirTree_small",
+         "FirTree_small_dead",
+         "FirTree_Stub",
+         "goblin_banner",
+         "goblin_fence",
+         "goblin_pole",
+         "goblin_pole_small",
+         "goblin_totempole",
+         "goblin_trashpile",
+         "goblin_woodwall_1m",
+         "goblin_woodwall_2m",
+         "Greydwarf_Root",
+         "HugeRoot1",
+         "MountainKit_wood_gate",
+         "MountainKit_wood_gate",
+         "OakStub",
+         "Pinetree_01_Stub",
+         "RaspberryBush",
+         "root07",
+         "root08",
+         "root11",
+         "root12",
+         "ShootStump",
+         "shrub_2",
+         "shrub_2_heath",
+         "stubbe",
+         "stubbe_spawner",
+         "SwampTree1_Stub",
+         "YggaShoot_small1"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Branch"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "BeechSeeds":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         "Beech1"
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Honey":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "Beehive"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "QueenBee":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "Beehive"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "BirchSeeds":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         "Birch1",
+         "Birch1_aut",
+         "Birch2",
+         "Birch2_aut"
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "DvergrKeyFragment":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "blackmarble_altar_crystal"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "BlackMarble":{
+      "CharacterDrop":[
+         "Dverger",
+         "DvergerAshlands",
+         "DvergerMage",
+         "DvergerMageFire",
+         "DvergerMageIce",
+         "DvergerMageSupport"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "blackmarble_post01"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         "giant_ribs_frac",
+         "giant_skull_frac"
+      ]
+   },
+   "vfx_dvergpost_destroyed":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "blackmarble_post01"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyBlob":{
+      "CharacterDrop":[
+         "Blob",
+         "BlobElite"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Ooze":{
+      "CharacterDrop":[
+         "Blob",
+         "BlobElite"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "IronScrap":{
+      "CharacterDrop":[
+         "BlobElite"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "dungeon_sunkencrypt_irongate_rusty",
+         "dvergrprops_pickaxe"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         "mudpile_old"
+      ],
+      "MineRock5":[
+         "giant_helmet1_destruction",
+         "giant_helmet2_destruction",
+         "giant_sword1_destruction",
+         "giant_sword2_destruction",
+         "mudpile_frac",
+         "mudpile2_frac"
+      ]
+   },
+   "Blob":{
+      "CharacterDrop":[
+         "BlobElite"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "ProustitePowder":{
+      "CharacterDrop":[
+         "BlobLava"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "UnstableLavaRock"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "SulfurStone":{
+      "CharacterDrop":[
+         "BlobLava"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "Pickable_SulfurRock"
+      ],
+      "Destructible":[
+         "Pickable_SulfurRock"
+      ],
+      "Pickable":[
+         "Pickable_SulfurRock"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyGrowth":{
+      "CharacterDrop":[
+         "BlobTar"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Tar":{
+      "CharacterDrop":[
+         "BlobTar"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Tar",
+         "Pickable_TarBig"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "RawMeat":{
+      "CharacterDrop":[
+         "Boar"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyBoar":{
+      "CharacterDrop":[
+         "Boar"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyBonemass":{
+      "CharacterDrop":[
+         "Bonemass"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Wishbone":{
+      "CharacterDrop":[
+         "Bonemass"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyBonemawSerpent":{
+      "CharacterDrop":[
+         "BonemawSerpent"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "BoneMawSerpentMeat":{
+      "CharacterDrop":[
+         "BonemawSerpent"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "BonemawSerpentTooth":{
+      "CharacterDrop":[
+         "BonemawSerpent"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "caverock_ice_wall_destruction":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "caverock_ice_pillar_wall"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "caverock_ice_stalagmite_destruction":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "caverock_ice_stalagmite"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "caverock_ice_stalagtite_falling":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "caverock_ice_stalagtite"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "BellFragment":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "Charred_altar_bellfragment"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyCharredArcher":{
+      "CharacterDrop":[
+         "Charred_Archer"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyCharredMage":{
+      "CharacterDrop":[
+         "Charred_Mage"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyCharredMelee":{
+      "CharacterDrop":[
+         "Charred_Melee"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "DyrnwynHiltFragment":{
+      "CharacterDrop":[
+         "Charred_Melee_Dyrnwyn"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Swordpiece1"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "ChickenMeat":{
+      "CharacterDrop":[
+         "Chicken",
+         "Hen"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "cliff_ashlands1_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "cliff_ashlands1"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "cliff_ashlands2_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "cliff_ashlands2",
+         "cliff_ashlands8",
+         "lavarock_ashlands1"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "cliff_ashlands_Arch_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "cliff_ashlands3_Arch_1"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "cliff_ashlands4_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "cliff_ashlands4"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "cliff_ashlandsflowrock_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "cliff_ashlands5"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "cliff_ashlands6_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "cliff_ashlands6"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "cliff_ashlands7_HalfArch_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "cliff_ashlands7_HalfArch"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "cliff_mistlands1_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "cliff_mistlands1"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "cliff_mistlands1_creep_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "cliff_mistlands1_creep"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "cliff_mistlands2_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "cliff_mistlands2"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "JuteRed":{
+      "CharacterDrop":[
+         "Fenring_Cultist"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "cloth_hanging_door",
+         "cloth_hanging_door_double",
+         "cloth_hanging_long"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "vfx_cloth_hanging_destroyed":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "cloth_hanging_door",
+         "cloth_hanging_door_double",
+         "cloth_hanging_long"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Cloudberry":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "CloudberryBush"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "SeekerBrood":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "CreepProp_egg_hanging01",
+         "SeekerEgg",
+         "SeekerEgg_alwayshatch"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "CreepProp_egg_hanging02":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "CreepProp_egg_hanging01"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Skeleton":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "crypt_skeleton_chest"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Spawner_Skeleton_rise":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "crypt_skeleton_chest"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Needle":{
+      "CharacterDrop":[
+         "Deathsquito"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyDeathsquito":{
+      "CharacterDrop":[
+         "Deathsquito"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "DeerMeat":{
+      "CharacterDrop":[
+         "Deer"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyDeer":{
+      "CharacterDrop":[
+         "Deer"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyDragonQueen":{
+      "CharacterDrop":[
+         "Dragon"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "DragonTear":{
+      "CharacterDrop":[
+         "Dragon"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Entrails":{
+      "CharacterDrop":[
+         "Draugr",
+         "Draugr_Elite",
+         "Draugr_Ranged",
+         "TrainingDummy"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_MeatPile"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyDraugr":{
+      "CharacterDrop":[
+         "Draugr",
+         "Draugr_Ranged",
+         "TrainingDummy"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyDraugrElite":{
+      "CharacterDrop":[
+         "Draugr_Elite"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Softtissue":{
+      "CharacterDrop":[
+         "Dverger",
+         "DvergerAshlands",
+         "DvergerMage",
+         "DvergerMageFire",
+         "DvergerMageIce",
+         "DvergerMageSupport"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "dvergrprops_crate",
+         "morgenhole_pile"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         "giant_brain_frac"
+      ]
+   },
+   "Coins":{
+      "CharacterDrop":[
+         "Dverger",
+         "DvergerAshlands",
+         "DvergerMage",
+         "DvergerMageFire",
+         "DvergerMageIce",
+         "DvergerMageSupport",
+         "DvergerTest",
+         "Goblin",
+         "GoblinArcher",
+         "GoblinBrute",
+         "GoblinShaman",
+         "Troll"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_DvergrMineTreasure"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyDvergr":{
+      "CharacterDrop":[
+         "Dverger",
+         "DvergerAshlands",
+         "DvergerMage",
+         "DvergerMageFire",
+         "DvergerMageIce",
+         "DvergerMageSupport"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "BlackMetalScrap":{
+      "CharacterDrop":[
+         "DvergerTest",
+         "Goblin",
+         "GoblinArcher",
+         "GoblinBrute",
+         "GoblinShaman"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Pukeberries":{
+      "CharacterDrop":[
+         "DvergerTest",
+         "GoblinShaman",
+         "Greydwarf_Shaman"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyGoblinShaman":{
+      "CharacterDrop":[
+         "DvergerTest",
+         "GoblinShaman"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "JuteBlue":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "dvergrprops_banner",
+         "dvergrprops_curtain"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "FineWood":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "dvergrprops_barrel",
+         "dvergrprops_crate",
+         "mountainkit_chair",
+         "mountainkit_table",
+         "shipwreck_karve_bottomboards",
+         "shipwreck_karve_bow",
+         "shipwreck_karve_dragonhead",
+         "shipwreck_karve_stern",
+         "shipwreck_karve_sternpost",
+         "trader_wagon_destructable"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "CopperScrap":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "dvergrprops_barrel",
+         "dvergrprops_bed",
+         "dvergrprops_chair",
+         "dvergrprops_hooknchain",
+         "dvergrprops_lantern",
+         "dvergrprops_lantern_standing",
+         "dvergrprops_shelf",
+         "dvergrprops_stool",
+         "dvergrprops_table",
+         "dvergrprops_wood_pole",
+         "dvergrprops_wood_wall",
+         "dvergrtown_stair_corner_wood_left",
+         "dvergrtown_wood_crane",
+         "dvergrtown_wood_pole",
+         "dvergrtown_wood_wall01"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         "giant_helmet1_destruction",
+         "giant_helmet2_destruction",
+         "giant_sword1_destruction",
+         "giant_sword2_destruction"
+      ]
+   },
+   "FlametalOreNew":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "dvergrprops_crate_ashlands"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         "LeviathanLava",
+         "MineRock_Meteorite"
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "DvergrNeedle":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "dvergrprops_crate_long"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Chain":{
+      "CharacterDrop":[
+         "Wraith"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "dvergrprops_hooknchain",
+         "dvergrtown_wood_crane"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "SurtlingCore":{
+      "CharacterDrop":[
+         "Surtling"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "dvergrprops_lantern",
+         "dvergrprops_lantern_standing"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_SurtlingCoreStand"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "vfx_dvergrcreep_beam_destroyed":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "dvergrtown_wood_beam"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "vfx_dvergrcreep_pole_destroyed":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "dvergrtown_wood_pole"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "vfx_dvergrcreep_support_destroyed":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "dvergrtown_wood_support"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "vfx_dvergrcreep_wood_wall03_destroyed":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "dvergrtown_wood_wall01"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "vfx_dvergrcreep_wood_wall02_destroyed":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "dvergrtown_wood_wall02"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "vfx_dvergr_wood_wall04_destroyed":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "dvergrtown_wood_wall03"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyEikthyr":{
+      "CharacterDrop":[
+         "Eikthyr"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "HardAntler":{
+      "CharacterDrop":[
+         "Eikthyr"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "AncientSeed":{
+      "CharacterDrop":[
+         "Greydwarf_Elite"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "EvilHeart_Forest",
+         "EvilHeart_Swamp",
+         "Spawner_GreydwarfNest"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyFader":{
+      "CharacterDrop":[
+         "Fader"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "FaderDrop":{
+      "CharacterDrop":[
+         "Fader"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "CelestialFeather":{
+      "CharacterDrop":[
+         "FallenValkyrie"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyFallenValkyrie":{
+      "CharacterDrop":[
+         "FallenValkyrie"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "WolfFang":{
+      "CharacterDrop":[
+         "Fenring",
+         "Ulv",
+         "Wolf"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyFenring":{
+      "CharacterDrop":[
+         "Fenring"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyCultist":{
+      "CharacterDrop":[
+         "Fenring_Cultist"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "chest_hildir2":{
+      "CharacterDrop":[
+         "Fenring_Cultist_Hildir"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyCultist_Hildir":{
+      "CharacterDrop":[
+         "Fenring_Cultist_Hildir",
+         "Fenring_Cultist_Hildir_nochest"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "WolfHairBundle":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "fenrirhide_hanging",
+         "hanging_hairstrands"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "hanging_hairstrands",
+         "Pickable_Hairstrands01",
+         "Pickable_Hairstrands02"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "fenrirhide_Destruction":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "fenrirhide_hanging_door"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "FirCone":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "FirTree_small"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         "FirTree"
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "FlametalRockstand_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "FlametalRockstand"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyTheElder":{
+      "CharacterDrop":[
+         "gd_king"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "CryptKey":{
+      "CharacterDrop":[
+         "gd_king"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "giant_brain_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "giant_brain"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "giant_helmet1_destruction":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "giant_helmet1"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "giant_helmet2_destruction":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "giant_helmet2"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "giant_ribs_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "giant_ribs"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "giant_skull_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "giant_skull"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "giant_sword1_destruction":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "giant_sword1"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "giant_sword2_destruction":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "giant_sword2"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Bilebag":{
+      "CharacterDrop":[
+         "Gjall"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyGjall":{
+      "CharacterDrop":[
+         "Gjall"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyGoblin":{
+      "CharacterDrop":[
+         "Goblin",
+         "GoblinArcher"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "GemstoneBlue":{
+      "CharacterDrop":[
+         "Goblin_Gem"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "GemstoneGreen":{
+      "CharacterDrop":[
+         "Goblin_Gem"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "GemstoneRed":{
+      "CharacterDrop":[
+         "Goblin_Gem"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "GoblinTotem":{
+      "CharacterDrop":[
+         "GoblinBrute"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "goblin_totempole"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyGoblinBrute":{
+      "CharacterDrop":[
+         "GoblinBrute"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "chest_hildir3":{
+      "CharacterDrop":[
+         "GoblinBrute_Hildir",
+         "GoblinShaman_Hildir"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "GoblinShaman_Hildir":{
+      "CharacterDrop":[
+         "GoblinBruteBros"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyGoblinBruteBrosBrute":{
+      "CharacterDrop":[
+         "GoblinBruteBros",
+         "GoblinBruteBros_nochest"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "GoblinShaman_Hildir_nochest":{
+      "CharacterDrop":[
+         "GoblinBruteBros_nochest"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyGoblinKing":{
+      "CharacterDrop":[
+         "GoblinKing"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "YagluthDrop":{
+      "CharacterDrop":[
+         "GoblinKing"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyGoblinBruteBrosShaman":{
+      "CharacterDrop":[
+         "GoblinShaman_Hildir",
+         "GoblinShaman_Hildir_nochest"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyGreydwarf":{
+      "CharacterDrop":[
+         "Greydwarf"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Dandelion":{
+      "CharacterDrop":[
+         "Greydwarf_Elite"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Dandelion"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyGreydwarfBrute":{
+      "CharacterDrop":[
+         "Greydwarf_Elite"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyGreydwarfShaman":{
+      "CharacterDrop":[
+         "Greydwarf_Shaman"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "HareMeat":{
+      "CharacterDrop":[
+         "Hare"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "ScaleHide":{
+      "CharacterDrop":[
+         "Hare"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyHare":{
+      "CharacterDrop":[
+         "Hare"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyHatchling":{
+      "CharacterDrop":[
+         "Hatchling",
+         "TheHive"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "FreezeGland":{
+      "CharacterDrop":[
+         "Hatchling",
+         "TheHive"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "HeathRockPillar_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "HeathRockPillar"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "highstone_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "highstone"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophySeekerQueen":{
+      "CharacterDrop":[
+         "Hive",
+         "SeekerQueen"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "QueenDrop":{
+      "CharacterDrop":[
+         "Hive",
+         "SeekerQueen"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "ice_rock1_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "ice_rock1"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyLeech":{
+      "CharacterDrop":[
+         "Leech",
+         "Leech_cave"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Bloodbag":{
+      "CharacterDrop":[
+         "Leech",
+         "Leech_cave"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Chitin":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         "Leviathan"
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "LoxMeat":{
+      "CharacterDrop":[
+         "Lox",
+         "Lox_Calf"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyLox":{
+      "CharacterDrop":[
+         "Lox"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "LoxPelt":{
+      "CharacterDrop":[
+         "Lox"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Wisp":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "LuredWisp"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "CopperOre":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         "MineRock_Copper"
+      ],
+      "MineRock5":[
+         "rock4_copper_frac"
+      ]
+   },
+   "IronOre":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_BogIronOre",
+         "Pickable_Meteorite"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         "MineRock_Iron"
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Obsidian":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "MineRock_Obsidian",
+         "Pickable_MountainCaveObsidian"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_MountainCaveObsidian",
+         "Pickable_Obsidian"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "MorgenSinew":{
+      "CharacterDrop":[
+         "Morgen",
+         "Morgen_NonSleeping"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "MorgenHeart":{
+      "CharacterDrop":[
+         "Morgen",
+         "Morgen_NonSleeping"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyMorgen":{
+      "CharacterDrop":[
+         "Morgen",
+         "Morgen_NonSleeping"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "RottenMeat":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "morgenhole_pile"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "vfx_mountainkit_chair_destroyed":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "mountainkit_chair"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "vfx_mountainkit_table_destroyed":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "mountainkit_table"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "mudpile_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "mudpile",
+         "mudpile_beacon"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "WitheredBone":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         "mudpile_old"
+      ],
+      "MineRock5":[
+         "mudpile_frac",
+         "mudpile2_frac"
+      ]
+   },
+   "mudpile2_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "mudpile2"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "NeckTail":{
+      "CharacterDrop":[
+         "Neck"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyNeck":{
+      "CharacterDrop":[
+         "Neck"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Acorn":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         "Oak1"
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Barley":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "Pickable_Barley",
+         "Pickable_Barley_Wild"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Barley",
+         "Pickable_Barley_Wild"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "BlackCore":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_BlackCoreStand"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Carrot":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Carrot"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Charredskull":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "Spawner_CharredStone",
+         "Spawner_CharredStone_Elite",
+         "Spawner_CharredStone_event"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Charredskull"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "DragonEgg":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_DragonEgg"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Turnip":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_DvergerThing",
+         "Pickable_Turnip"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Lantern":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_DvergrLantern"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Tankard_dvergr":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_DvergrStein"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Fiddleheadfern":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Fiddlehead"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "FishingRod":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Fishingrod"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Flax":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "Pickable_Flax",
+         "Pickable_Flax_Wild"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Flax",
+         "Pickable_Flax_Wild"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "MoltenCore":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_MoltenCoreStand"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Crystal":{
+      "CharacterDrop":[
+         "StoneGolem"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "Pickable_MountainCaveCrystal"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_MountainCaveCrystal"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Mushroom":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Mushroom"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "MushroomBlue":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Mushroom_blue"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "MushroomJotunPuffs":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Mushroom_JotunPuffs"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "MushroomMagecap":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Mushroom_Magecap"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "MushroomYellow":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Mushroom_yellow"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Onion":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Onion"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "RoyalJelly":{
+      "CharacterDrop":[
+         "SeekerBrood"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_RoyalJelly"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "CarrotSeeds":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_SeedCarrot"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "OnionSeeds":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_SeedOnion"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TurnipSeeds":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_SeedTurnip"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "MushroomSmokePuff":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_SmokePuff"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "DyrnwynBladeFragment":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Swordpiece2"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "DyrnwynTipFragment":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Swordpiece3"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Thistle":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_Thistle"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "VoltureEgg":{
+      "CharacterDrop":[
+         "Volture"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "Pickable_VoltureEgg"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "CharredCogwheel":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "piece_Charred_Balista"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "PineCone":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         "Pinetree_01"
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Raspberry":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "RaspberryBush"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "rock_mistlands1_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "rock_mistlands1"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "rock1_mountain_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "rock1_mistlands",
+         "rock1_mountain"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "rock2_heath_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "rock2_heath"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "rock2_mountain_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "rock2_mountain"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "rock3_ice_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "rock3_ice"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "rock3_mountain_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "rock3_mountain"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "rock3_silver_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "rock3_silver"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "SilverOre":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         "rock3_silver_frac",
+         "silvervein_frac"
+      ]
+   },
+   "rock4_coast_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "rock4_coast"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "rock4_copper_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "rock4_copper"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "rock4_heath_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "rock4_heath"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "RockFinger_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "RockFinger"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "RockFingerBroken_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "RockFingerBroken"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "RockThumb_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "RockThumb"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "BugMeat":{
+      "CharacterDrop":[
+         "Seeker",
+         "SeekerBrute"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Carapace":{
+      "CharacterDrop":[
+         "Seeker",
+         "SeekerBrute"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophySeeker":{
+      "CharacterDrop":[
+         "Seeker"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophySeekerBrute":{
+      "CharacterDrop":[
+         "SeekerBrute"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Mandible":{
+      "CharacterDrop":[
+         "SeekerBrute"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophySerpent":{
+      "CharacterDrop":[
+         "Serpent"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "SerpentMeat":{
+      "CharacterDrop":[
+         "Serpent"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "SerpentScale":{
+      "CharacterDrop":[
+         "Serpent"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "silvervein_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "silvervein"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophySkeleton":{
+      "CharacterDrop":[
+         "Skeleton",
+         "Skeleton_NoArcher"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "chest_hildir1":{
+      "CharacterDrop":[
+         "Skeleton_Hildir"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophySkeletonHildir":{
+      "CharacterDrop":[
+         "Skeleton_Hildir",
+         "Skeleton_Hildir_nochest"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophySkeletonPoison":{
+      "CharacterDrop":[
+         "Skeleton_Poison"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophySGolem":{
+      "CharacterDrop":[
+         "StoneGolem"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophySurtling":{
+      "CharacterDrop":[
+         "Surtling"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "tarlump1_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "tarlump1"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "GiantBloodSack":{
+      "CharacterDrop":[
+         "Tick"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyTick":{
+      "CharacterDrop":[
+         "Tick"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "vfx_wagon_destroyed":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "trader_wagon_destructable"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyFrostTroll":{
+      "CharacterDrop":[
+         "Troll"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrollHide":{
+      "CharacterDrop":[
+         "Troll"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyUlv":{
+      "CharacterDrop":[
+         "Ulv"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "Vineberry":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         "VineAsh"
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyVolture":{
+      "CharacterDrop":[
+         "Volture"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "VoltureMeat":{
+      "CharacterDrop":[
+         "Volture"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "widestone_frac":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         "widestone"
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyWolf":{
+      "CharacterDrop":[
+         "Wolf"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "WolfMeat":{
+      "CharacterDrop":[
+         "Wolf"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "WolfPelt":{
+      "CharacterDrop":[
+         "Wolf"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "TrophyWraith":{
+      "CharacterDrop":[
+         "Wraith"
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   },
+   "YggdrasilWood":{
+      "CharacterDrop":[
+         
+      ],
+      "ItemDrop":[
+         
+      ],
+      "DropOnDestroyed":[
+         "YggaShoot_small1"
+      ],
+      "Destructible":[
+         
+      ],
+      "Pickable":[
+         
+      ],
+      "TreeBase":[
+         
+      ],
+      "MineRock":[
+         
+      ],
+      "MineRock5":[
+         
+      ]
+   }
+}

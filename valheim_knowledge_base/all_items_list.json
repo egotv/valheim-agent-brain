@@ -1,1 +1,3746 @@
-[{"name":"Abomination_attack1","itemName":"Swing attack"},{"name":"Abomination_attack2","itemName":"Slam attack"},{"name":"Abomination_attack3","itemName":"Stub to the ground"},{"name":"Acorn","itemName":"$item_oakseeds"},{"name":"Amber","itemName":"$item_amber"},{"name":"AmberPearl","itemName":"$item_amberpearl"},{"name":"AncientSeed","itemName":"$item_ancientseed"},{"name":"ArmorAshlandsMediumChest","itemName":"$item_chest_medium_ashlands"},{"name":"ArmorAshlandsMediumlegs","itemName":"$item_legs_medium_ashlands"},{"name":"ArmorBronzeChest","itemName":"$item_chest_bronze"},{"name":"ArmorBronzeLegs","itemName":"$item_legs_bronze"},{"name":"ArmorCarapaceChest","itemName":"$item_chest_carapace"},{"name":"ArmorCarapaceLegs","itemName":"$item_legs_carapace"},{"name":"ArmorDress1","itemName":"$item_chest_dress1"},{"name":"ArmorDress10","itemName":"$item_chest_dress10"},{"name":"ArmorDress2","itemName":"$item_chest_dress2"},{"name":"ArmorDress3","itemName":"$item_chest_dress3"},{"name":"ArmorDress4","itemName":"$item_chest_dress4"},{"name":"ArmorDress5","itemName":"$item_chest_dress5"},{"name":"ArmorDress6","itemName":"$item_chest_dress6"},{"name":"ArmorDress7","itemName":"$item_chest_dress7"},{"name":"ArmorDress8","itemName":"$item_chest_dress8"},{"name":"ArmorDress9","itemName":"$item_chest_dress9"},{"name":"ArmorFenringChest","itemName":"$item_chest_fenris"},{"name":"ArmorFenringLegs","itemName":"$item_legs_fenris"},{"name":"ArmorFlametalChest","itemName":"$item_chest_flametal"},{"name":"ArmorFlametalLegs","itemName":"$item_legs_flametal"},{"name":"ArmorIronChest","itemName":"$item_chest_iron"},{"name":"ArmorIronLegs","itemName":"$item_legs_iron"},{"name":"ArmorLeatherChest","itemName":"$item_chest_leather"},{"name":"ArmorLeatherLegs","itemName":"$item_legs_leather"},{"name":"ArmorMageChest","itemName":"$item_chest_mage"},{"name":"ArmorMageChest_Ashlands","itemName":"$item_chest_mage_ashlands"},{"name":"ArmorMageLegs","itemName":"$item_legs_mage"},{"name":"ArmorMageLegs_Ashlands","itemName":"$item_legs_mage_ashlands"},{"name":"ArmorPaddedCuirass","itemName":"$item_chest_pcuirass"},{"name":"ArmorPaddedGreaves","itemName":"$item_legs_pgreaves"},{"name":"ArmorRagsChest","itemName":"$item_chest_rags"},{"name":"ArmorRagsLegs","itemName":"$item_legs_rags"},{"name":"ArmorRootChest","itemName":"$item_chest_root"},{"name":"ArmorRootLegs","itemName":"$item_legs_root"},{"name":"ArmorTrollLeatherChest","itemName":"$item_chest_trollleather"},{"name":"ArmorTrollLeatherLegs","itemName":"$item_legs_trollleather"},{"name":"ArmorTunic1","itemName":"$item_chest_tunic1"},{"name":"ArmorTunic10","itemName":"$item_chest_tunic10"},{"name":"ArmorTunic2","itemName":"$item_chest_tunic2"},{"name":"ArmorTunic3","itemName":"$item_chest_tunic3"},{"name":"ArmorTunic4","itemName":"$item_chest_tunic4"},{"name":"ArmorTunic5","itemName":"$item_chest_tunic5"},{"name":"ArmorTunic6","itemName":"$item_chest_tunic6"},{"name":"ArmorTunic7","itemName":"$item_chest_tunic7"},{"name":"ArmorTunic8","itemName":"$item_chest_tunic8"},{"name":"ArmorTunic9","itemName":"$item_chest_tunic9"},{"name":"ArmorWolfChest","itemName":"$item_chest_wolf"},{"name":"ArmorWolfLegs","itemName":"$item_legs_wolf"},{"name":"ArrowBronze","itemName":"$item_arrow_bronze"},{"name":"ArrowCarapace","itemName":"$item_arrow_carapace"},{"name":"ArrowCharred","itemName":"$item_arrow_charred"},{"name":"ArrowFire","itemName":"$item_arrow_fire"},{"name":"ArrowFlint","itemName":"$item_arrow_flint"},{"name":"ArrowFrost","itemName":"$item_arrow_frost"},{"name":"ArrowIron","itemName":"$item_arrow_iron"},{"name":"ArrowNeedle","itemName":"$item_arrow_needle"},{"name":"ArrowObsidian","itemName":"$item_arrow_obsidian"},{"name":"ArrowPoison","itemName":"$item_arrow_poison"},{"name":"ArrowSilver","itemName":"$item_arrow_silver"},{"name":"ArrowWood","itemName":"$item_arrow_wood"},{"name":"AskBladder","itemName":"$item_askbladder"},{"name":"AskHide","itemName":"$item_askhide"},{"name":"Asksvin_Bite","itemName":"lox bite"},{"name":"Asksvin_Headbutt","itemName":"Dragon claw left"},{"name":"Asksvin_Pounce","itemName":"lox bite"},{"name":"Asksvin_Turnaround","itemName":"lox bite"},{"name":"AsksvinCarrionNeck","itemName":"$item_asksvincarrionneck"},{"name":"AsksvinCarrionPelvic","itemName":"$item_asksvincarrionpelvic"},{"name":"AsksvinCarrionRibcage","itemName":"$item_asksvincarrionribcage"},{"name":"AsksvinCarrionSkull","itemName":"$item_asksvincarrionskull"},{"name":"AsksvinEgg","itemName":"$item_asksvin_egg"},{"name":"AsksvinMeat","itemName":"$item_asksvin_meat"},{"name":"AtgeirBlackmetal","itemName":"$item_atgeir_blackmetal"},{"name":"AtgeirBronze","itemName":"$item_atgeir_bronze"},{"name":"AtgeirHimminAfl","itemName":"$item_atgeir_himminafl"},{"name":"AtgeirIron","itemName":"$item_atgeir_iron"},{"name":"AxeBerzerkr","itemName":"$item_axe_berzerkr"},{"name":"AxeBerzerkrBlood","itemName":"$item_axe_berzerkr_blood"},{"name":"AxeBerzerkrLightning","itemName":"$item_axe_berzerkr_lightning"},{"name":"AxeBerzerkrNature","itemName":"$item_axe_berzerkr_nature"},{"name":"AxeBlackMetal","itemName":"$item_axe_blackmetal"},{"name":"AxeBronze","itemName":"$item_axe_bronze"},{"name":"AxeFlint","itemName":"$item_axe_flint"},{"name":"AxeIron","itemName":"$item_axe_iron"},{"name":"AxeJotunBane","itemName":"$item_axe_jotunbane"},{"name":"AxeStone","itemName":"$item_axe_stone"},{"name":"babyseeker_attack","itemName":"Dragon claw left"},{"name":"BarberKit","itemName":"$item_barberkit"},{"name":"Barley","itemName":"$item_barley"},{"name":"BarleyFlour","itemName":"$item_barleyflour"},{"name":"BarleyWine","itemName":"$item_barleywine"},{"name":"BarleyWineBase","itemName":"$item_barleywinebase"},{"name":"bat_melee","itemName":"Bat melee"},{"name":"Battleaxe","itemName":"$item_battleaxe"},{"name":"BattleaxeCrystal","itemName":"$item_battleaxe_crystal"},{"name":"Beard1","itemName":"$customization_beard01"},{"name":"Beard10","itemName":"$customization_beard10"},{"name":"Beard11","itemName":"$customization_beard11"},{"name":"Beard12","itemName":"$customization_beard12"},{"name":"Beard13","itemName":"$customization_beard13"},{"name":"Beard14","itemName":"$customization_beard14"},{"name":"Beard15","itemName":"$customization_beard15"},{"name":"Beard16","itemName":"$customization_beard16"},{"name":"Beard17","itemName":"$customization_beard17"},{"name":"Beard18","itemName":"$customization_beard18"},{"name":"Beard19","itemName":"$customization_beard19"},{"name":"Beard2","itemName":"$customization_beard02"},{"name":"Beard20","itemName":"$customization_beard20"},{"name":"Beard21","itemName":"$customization_beard21"},{"name":"Beard3","itemName":"$customization_beard03"},{"name":"Beard4","itemName":"$customization_beard04"},{"name":"Beard5","itemName":"$customization_beard05"},{"name":"Beard6","itemName":"$customization_beard06"},{"name":"Beard7","itemName":"$customization_beard07"},{"name":"Beard8","itemName":"$customization_beard08"},{"name":"Beard9","itemName":"$customization_beard09"},{"name":"BeardNone","itemName":"$customization_nobeard"},{"name":"BeechSeeds","itemName":"$item_beechseeds"},{"name":"Bell","itemName":"$item_bell"},{"name":"BellFragment","itemName":"$item_bellfragment"},{"name":"BeltStrength","itemName":"$item_beltstrength"},{"name":"Bilebag","itemName":"$item_bilebag"},{"name":"BirchSeeds","itemName":"$item_birchseeds"},{"name":"BlackCore","itemName":"$item_blackcore"},{"name":"BlackMarble","itemName":"$item_blackmarble"},{"name":"BlackMetal","itemName":"$item_blackmetal"},{"name":"BlackMetalScrap","itemName":"$item_blackmetalscrap"},{"name":"BlackSoup","itemName":"$item_blacksoup"},{"name":"Blackwood","itemName":"$item_blackwood"},{"name":"blob_attack_aoe","itemName":"fart"},{"name":"blobelite_attack_aoe","itemName":"fart"},{"name":"blobLava_attack_aoe","itemName":""},{"name":"blobtar_attack","itemName":"fireballattack"},{"name":"Bloodbag","itemName":"$item_bloodbag"},{"name":"BloodPudding","itemName":"$item_bloodpudding"},{"name":"Blueberries","itemName":"$item_blueberries"},{"name":"boar_base_attack","itemName":"boar attack1"},{"name":"BoarJerky","itemName":"$item_boarjerky"},{"name":"BoltBlackmetal","itemName":"$item_bolt_blackmetal"},{"name":"BoltBone","itemName":"$item_bolt_bone"},{"name":"BoltCarapace","itemName":"$item_bolt_carapace"},{"name":"BoltCharred","itemName":"$item_bolt_charred"},{"name":"BoltIron","itemName":"$item_bolt_iron"},{"name":"BombBile","itemName":"$item_bilebomb"},{"name":"BombLava","itemName":"$item_lavabomb"},{"name":"BombOoze","itemName":"$item_oozebomb"},{"name":"BombSiege","itemName":"$item_catapult_ammo"},{"name":"BombSmoke","itemName":"$item_smokebomb"},{"name":"BoneFragments","itemName":"$item_bonefragments"},{"name":"bonemass_attack_aoe","itemName":"heal"},{"name":"bonemass_attack_punch","itemName":"slap"},{"name":"bonemass_attack_spawn","itemName":"heal"},{"name":"bonemass_attack_throw","itemName":"slime throw"},{"name":"BonemawSerpent_bite","itemName":"Serpent bite"},{"name":"BonemawSerpent_breath","itemName":"Fallen Valkyrie Poison Breath"},{"name":"BonemawSerpent_ram","itemName":"Serpent bite"},{"name":"BonemawSerpent_spit","itemName":"bonemaw spit"},{"name":"BonemawSerpent_taunt","itemName":"Serpent Taunt"},{"name":"BoneMawSerpentMeat","itemName":"$item_bonemawmeat"},{"name":"BonemawSerpentScale","itemName":"$item_bonemawscale"},{"name":"BonemawSerpentTooth","itemName":"$item_bonemawtooth"},{"name":"Bow","itemName":"$item_bow"},{"name":"BowAshlands","itemName":"$item_bow_ashlands"},{"name":"BowAshlandsBlood","itemName":"$item_bow_ashlandsblood"},{"name":"BowAshlandsRoot","itemName":"$item_bow_ashlandsroot"},{"name":"BowAshlandsStorm","itemName":"$item_bow_ashlandsstorm"},{"name":"BowDraugrFang","itemName":"$item_bow_draugrfang"},{"name":"BowFineWood","itemName":"$item_bow_finewood"},{"name":"BowHuntsman","itemName":"$item_bow_huntsman"},{"name":"BowSpineSnap","itemName":"$item_bow_snipesnap"},{"name":"Bread","itemName":"$item_bread"},{"name":"BreadDough","itemName":"$item_breaddough"},{"name":"Bronze","itemName":"$item_bronze"},{"name":"BronzeNails","itemName":"$item_bronzenails"},{"name":"BronzeScrap","itemName":"$item_bronzescrap"},{"name":"BugMeat","itemName":"$item_bug_meat"},{"name":"CapeAsh","itemName":"$item_cape_ash"},{"name":"CapeAsksvin","itemName":"$item_cape_asksvin"},{"name":"CapeDeerHide","itemName":"$item_cape_deerhide"},{"name":"CapeFeather","itemName":"$item_cape_feather"},{"name":"CapeLinen","itemName":"$item_cape_linen"},{"name":"CapeLox","itemName":"$item_cape_lox"},{"name":"CapeOdin","itemName":"$item_cape_odin"},{"name":"CapeTest","itemName":"CAPE TEST"},{"name":"CapeTrollHide","itemName":"$item_cape_trollhide"},{"name":"CapeWolf","itemName":"$item_cape_wolf"},{"name":"Carapace","itemName":"$item_carapace"},{"name":"Carrot","itemName":"$item_carrot"},{"name":"CarrotSeeds","itemName":"$item_carrotseeds"},{"name":"CarrotSoup","itemName":"$item_carrotsoup"},{"name":"Catapult_ammo","itemName":"$item_catapult_training_ammo"},{"name":"CelestialFeather","itemName":"$item_celestialfeather"},{"name":"CeramicPlate","itemName":"$item_ceramicplate"},{"name":"Chain","itemName":"$item_chain"},{"name":"CharcoalResin","itemName":"$item_charcoalresin"},{"name":"charred_bow","itemName":"Bow"},{"name":"charred_bow_Fader","itemName":"Bow"},{"name":"charred_bow_volley","itemName":"Bow"},{"name":"charred_bow_volley_Fader","itemName":"Bow"},{"name":"Charred_Breastplate","itemName":"Iron plate armor"},{"name":"charred_dyrnwyn_greatsword_feint","itemName":"Charred Sword"},{"name":"charred_dyrnwyn_greatsword_swing","itemName":"Charred Sword"},{"name":"charred_dyrnwyn_greatsword_thrust","itemName":"Charred Sword"},{"name":"charred_dyrnwyn_greatsword_thrustfeint","itemName":"Charred Sword"},{"name":"charred_fader_greatsword_feint","itemName":"Charred Sword"},{"name":"charred_fader_greatsword_swing","itemName":"Charred Sword"},{"name":"charred_fader_greatsword_thrust","itemName":"Charred Sword"},{"name":"charred_fader_greatsword_thrustfeint","itemName":"Charred Sword"},{"name":"charred_greatsword_feint","itemName":"Charred Sword"},{"name":"charred_greatsword_swing","itemName":"Charred Sword"},{"name":"charred_greatsword_thrust","itemName":"Charred Sword"},{"name":"charred_greatsword_thrustfeint","itemName":"Charred Sword"},{"name":"Charred_Helmet","itemName":"Iron plate armor"},{"name":"Charred_HipCloth","itemName":"Iron plate armor"},{"name":"Charred_MageCloths","itemName":"Iron plate armor"},{"name":"charred_magestaff_fire","itemName":"Bow"},{"name":"charred_magestaff_summon","itemName":"Bow"},{"name":"charred_twitcher_scratch_l","itemName":"Charred Sword"},{"name":"charred_twitcher_scratch_r","itemName":"Charred Sword"},{"name":"charred_twitcher_throw","itemName":"Bow"},{"name":"CharredBone","itemName":"$item_charredbone"},{"name":"CharredCogwheel","itemName":"$item_charredcogwheel"},{"name":"Charredskull","itemName":"$item_charredskull"},{"name":"chest_hildir1","itemName":"$item_chest_hildir1"},{"name":"chest_hildir2","itemName":"$item_chest_hildir2"},{"name":"chest_hildir3","itemName":"$item_chest_hildir3"},{"name":"ChickenEgg","itemName":"$item_chicken_egg"},{"name":"ChickenMeat","itemName":"$item_chicken_meat"},{"name":"Chitin","itemName":"$item_chitin"},{"name":"Cloudberry","itemName":"$item_cloudberries"},{"name":"Club","itemName":"$item_club"},{"name":"Coal","itemName":"$item_coal"},{"name":"Coins","itemName":"$item_coins"},{"name":"CookedAsksvinMeat","itemName":"$item_asksvin_meat_cooked"},{"name":"CookedBoneMawSerpentMeat","itemName":"$item_bonemawmeat_cooked"},{"name":"CookedBugMeat","itemName":"$item_bug_meat_cooked"},{"name":"CookedChickenMeat","itemName":"$item_chicken_meat_cooked"},{"name":"CookedDeerMeat","itemName":"$item_deer_meat_cooked"},{"name":"CookedEgg","itemName":"$item_egg_cooked"},{"name":"CookedHareMeat","itemName":"$item_hare_meat_cooked"},{"name":"CookedLoxMeat","itemName":"$item_loxmeat_cooked"},{"name":"CookedMeat","itemName":"$item_boar_meat_cooked"},{"name":"CookedVoltureMeat","itemName":"$item_volture_meat_cooked"},{"name":"CookedWolfMeat","itemName":"$item_wolf_meat_cooked"},{"name":"Copper","itemName":"$item_copper"},{"name":"CopperOre","itemName":"$item_copperore"},{"name":"CopperScrap","itemName":"$item_copperscrap"},{"name":"CrossbowArbalest","itemName":"$item_crossbow_arbalest"},{"name":"CrossbowRipper","itemName":"$item_crossbow_ripper"},{"name":"CrossbowRipperBlood","itemName":"$item_crossbow_ripper_blood"},{"name":"CrossbowRipperLightning","itemName":"$item_crossbow_ripper_lightning"},{"name":"CrossbowRipperNature","itemName":"$item_crossbow_ripper_nature"},{"name":"CryptKey","itemName":"$item_cryptkey"},{"name":"Crystal","itemName":"$item_crystal"},{"name":"Cultivator","itemName":"$item_cultivator"},{"name":"Dandelion","itemName":"$item_dandelion"},{"name":"Deathsquito_sting","itemName":"Wraith melee"},{"name":"DeerHide","itemName":"$item_deerhide"},{"name":"DeerMeat","itemName":"$item_deer_meat"},{"name":"DeerStew","itemName":"$item_deerstew"},{"name":"Demister","itemName":"$item_demister"},{"name":"dragon_bite","itemName":"Dragon claw left"},{"name":"dragon_claw_left","itemName":"Dragon claw left"},{"name":"dragon_claw_right","itemName":"Dragon claw left"},{"name":"dragon_coldbreath","itemName":"dragon breath"},{"name":"dragon_coldbreath_OLD","itemName":"dragon breath"},{"name":"dragon_spit_shotgun","itemName":"cold ball"},{"name":"dragon_taunt","itemName":"scream"},{"name":"DragonEgg","itemName":"$item_dragonegg"},{"name":"DragonTear","itemName":"$item_dragontear"},{"name":"draugr_arrow","itemName":"Ironhead arrow"},{"name":"draugr_axe","itemName":"Dragur axe"},{"name":"draugr_bow","itemName":"Bow"},{"name":"draugr_sword","itemName":"Dragur axe"},{"name":"Dverger_melee","itemName":"Club"},{"name":"Dverger_meleeAshlands","itemName":"Club"},{"name":"DvergerArbalest","itemName":"$item_crossbow_arbalest"},{"name":"DvergerArbalest_shoot","itemName":"$item_crossbow_arbalest"},{"name":"DvergerArbalest_shootAshlands","itemName":"$item_crossbow_arbalest"},{"name":"DvergerHairFemale","itemName":"Iron plate armor"},{"name":"DvergerHairFemale_Redhair","itemName":"Iron plate armor"},{"name":"DvergerHairMale","itemName":"Iron plate armor"},{"name":"DvergerHairMale_Redbeard","itemName":"Iron plate armor"},{"name":"DvergerMistile","itemName":"Club"},{"name":"DvergerStaffBlocker","itemName":"Club"},{"name":"DvergerStaffFire","itemName":"Club"},{"name":"DvergerStaffFire_clusterbomb","itemName":"Club"},{"name":"DvergerStaffFire_fireball","itemName":"Club"},{"name":"DvergerStaffHeal","itemName":"Club"},{"name":"DvergerStaffHeal_heal","itemName":"Club"},{"name":"DvergerStaffIce","itemName":"Club"},{"name":"DvergerStaffIce_icebolt","itemName":"Club"},{"name":"DvergerStaffNova","itemName":"Club"},{"name":"DvergerStaffSupport","itemName":"Club"},{"name":"DvergerStaffSupport_buff","itemName":"Club"},{"name":"DvergerSuitArbalest","itemName":"Iron plate armor"},{"name":"DvergerSuitArbalest_Ashlands","itemName":"Iron plate armor"},{"name":"DvergerSuitFire","itemName":"Iron plate armor"},{"name":"DvergerSuitIce","itemName":"Iron plate armor"},{"name":"DvergerSuitSupport","itemName":"Iron plate armor"},{"name":"DvergrKey","itemName":"$item_dvergrkey"},{"name":"DvergrKeyFragment","itemName":"$item_dvergrkeyfragment"},{"name":"DvergrNeedle","itemName":"$item_dvergrneedle"},{"name":"DyrnwynBladeFragment","itemName":"$item_Dyrnwyn_blade"},{"name":"DyrnwynHiltFragment","itemName":"$item_Dyrnwyn_hilt"},{"name":"DyrnwynTipFragment","itemName":"$item_Dyrnwyn_tip"},{"name":"Eikthyr_antler","itemName":"StagAttack1"},{"name":"Eikthyr_charge","itemName":"StagAttack2"},{"name":"Eikthyr_flegs_OLD","itemName":"StagAttack1"},{"name":"Eikthyr_stomp","itemName":"slap"},{"name":"Eitr","itemName":"$item_eitr"},{"name":"ElderBark","itemName":"$item_elderbark"},{"name":"Entrails","itemName":"$item_entrails"},{"name":"Eyescream","itemName":"$item_eyescream"},{"name":"Fader_Bite","itemName":"Fader Bite"},{"name":"Fader_Claw_Left","itemName":"Fader Claw Left"},{"name":"Fader_Claw_Right","itemName":"Fader Claw Right"},{"name":"Fader_Fissure","itemName":"Fader Fissure"},{"name":"Fader_Fissure_Intense","itemName":"Fader Fissure"},{"name":"Fader_Flamebreath","itemName":"Fader Firebreath"},{"name":"Fader_Jump","itemName":"Fader Jump"},{"name":"Fader_Jump_Left","itemName":"Fader Jump"},{"name":"Fader_Jump_Right","itemName":"Fader Jump"},{"name":"Fader_Meteors","itemName":"spawn"},{"name":"Fader_Meteors_Intense","itemName":"spawn"},{"name":"Fader_Roar","itemName":"Fader Roar"},{"name":"Fader_Roar_Intense","itemName":"Fader Roar"},{"name":"Fader_Spin","itemName":"Fader Spin"},{"name":"Fader_Taunt","itemName":"Fader Taunt"},{"name":"Fader_WallOfFire","itemName":"Fader Wall of Fire"},{"name":"FaderDrop","itemName":"$item_fader_drop"},{"name":"fallenvalkyrie_claws","itemName":"Fallen Valkyrie Claws"},{"name":"fallenvalkyrie_poisonbreath","itemName":"Fallen Valkyrie Poison Breath"},{"name":"fallenvalkyrie_screech","itemName":"Fallen Valkyrie Claws"},{"name":"fallenvalkyrie_spin","itemName":"Fallen Valkyrie Aoe Spin"},{"name":"fallenvalkyrie_spit","itemName":"cold ball"},{"name":"fallenvalkyrie_swoopattack","itemName":"Fallen Valkyrie swooping"},{"name":"fallenvalkyrie_taunt","itemName":"Fallen Valkyrie Claws"},{"name":"fallenvalkyrie_wingspin","itemName":"Fallen Valkyrie Wingspin"},{"name":"Feathers","itemName":"$item_feathers"},{"name":"Fenring_attack_claw","itemName":"claw"},{"name":"Fenring_attack_fireclaw","itemName":"claw"},{"name":"Fenring_attack_fireclaw_double","itemName":"claw"},{"name":"Fenring_attack_flames","itemName":"Fenring cultist flames"},{"name":"Fenring_attack_frost","itemName":"Fenring cultist frost"},{"name":"Fenring_attack_iceclaw","itemName":"claw"},{"name":"Fenring_attack_iceclaw_double","itemName":"claw"},{"name":"Fenring_attack_IceNova","itemName":"Club"},{"name":"Fenring_attack_jump","itemName":"claw"},{"name":"Fenring_taunt","itemName":"scream"},{"name":"Fiddleheadfern","itemName":"$item_fiddleheadfern"},{"name":"FierySvinstew","itemName":"$item_fierysvinstew"},{"name":"FineWood","itemName":"$item_finewood"},{"name":"FirCone","itemName":"$item_fircone"},{"name":"FireworksRocket_Blue","itemName":"$item_fireworkrocket_blue"},{"name":"FireworksRocket_Cyan","itemName":"$item_fireworkrocket_cyan"},{"name":"FireworksRocket_Green","itemName":"$item_fireworkrocket_green"},{"name":"FireworksRocket_Purple","itemName":"$item_fireworkrocket_purple"},{"name":"FireworksRocket_Red","itemName":"$item_fireworkrocket_red"},{"name":"FireworksRocket_White","itemName":"$item_fireworkrocket_white"},{"name":"FireworksRocket_Yellow","itemName":"$item_fireworkrocket_yellow"},{"name":"Fish1","itemName":"$animal_fish1"},{"name":"Fish10","itemName":"$animal_fish10"},{"name":"Fish11","itemName":"$animal_fish11"},{"name":"Fish12","itemName":"$animal_fish12"},{"name":"Fish2","itemName":"$animal_fish2"},{"name":"Fish3","itemName":"$animal_fish3"},{"name":"Fish4_cave","itemName":"$animal_fish4"},{"name":"Fish5","itemName":"$animal_fish5"},{"name":"Fish6","itemName":"$animal_fish6"},{"name":"Fish7","itemName":"$animal_fish7"},{"name":"Fish8","itemName":"$animal_fish8"},{"name":"Fish9","itemName":"$animal_fish9"},{"name":"FishAndBread","itemName":"$item_fishandbread"},{"name":"FishAndBreadUncooked","itemName":"$item_fishandbreaduncooked"},{"name":"FishAnglerRaw","itemName":"$item_fish_raw"},{"name":"FishCooked","itemName":"$item_fish_cooked"},{"name":"FishingBait","itemName":"$item_fishingbait"},{"name":"FishingBaitAshlands","itemName":"$item_fishingbait_ashlands"},{"name":"FishingBaitCave","itemName":"$item_fishingbait_cave"},{"name":"FishingBaitDeepNorth","itemName":"$item_fishingbait_deepnorth"},{"name":"FishingBaitForest","itemName":"$item_fishingbait_forest"},{"name":"FishingBaitMistlands","itemName":"$item_fishingbait_mistlands"},{"name":"FishingBaitOcean","itemName":"$item_fishingbait_ocean"},{"name":"FishingBaitPlains","itemName":"$item_fishingbait_plains"},{"name":"FishingBaitSwamp","itemName":"$item_fishingbait_swamp"},{"name":"FishingRod","itemName":"$item_fishingrod"},{"name":"FishRaw","itemName":"$item_fish_raw"},{"name":"FishWraps","itemName":"$item_fishwraps"},{"name":"FistFenrirClaw","itemName":"$item_fistweapon_fenris"},{"name":"Flametal","itemName":"$item_flametal_old"},{"name":"FlametalNew","itemName":"$item_flametal"},{"name":"FlametalOre","itemName":"$item_flametalore_old"},{"name":"FlametalOreNew","itemName":"$item_flametalore"},{"name":"Flax","itemName":"$item_flax"},{"name":"Flint","itemName":"$item_flint"},{"name":"FreezeGland","itemName":"$item_freezegland"},{"name":"gd_king_punch","itemName":"jaws"},{"name":"gd_king_rootspawn","itemName":"spawn"},{"name":"gd_king_scream","itemName":"scream"},{"name":"gd_king_shoot","itemName":"shaman attack"},{"name":"gd_king_stomp","itemName":"jaws"},{"name":"GemstoneBlue","itemName":"$item_gemstone_blue"},{"name":"GemstoneGreen","itemName":"$item_gemstone_green"},{"name":"GemstoneRed","itemName":"$item_gemstone_red"},{"name":"Ghost_attack","itemName":"jaws"},{"name":"GiantBloodSack","itemName":"$item_bloodclot"},{"name":"gjall_attack_egg","itemName":"egg drop"},{"name":"gjall_attack_shake","itemName":"gjall shake"},{"name":"gjall_attack_spit","itemName":"gjall spit"},{"name":"gjall_attack_taunt","itemName":"gjall taunt"},{"name":"GoblinArmband","itemName":"Iron plate armor"},{"name":"GoblinBrute_ArmGuard","itemName":"Iron plate armor"},{"name":"GoblinBrute_Attack","itemName":"Brute sword"},{"name":"GoblinBrute_Backbones","itemName":"Iron plate armor"},{"name":"GoblinBrute_ExecutionerCap","itemName":"Iron plate armor"},{"name":"GoblinBrute_HipCloth","itemName":"Iron plate armor"},{"name":"GoblinBrute_LegBones","itemName":"Iron plate armor"},{"name":"GoblinBrute_RageAttack","itemName":"Brute sword"},{"name":"GoblinBrute_ShoulderGuard","itemName":"Iron plate armor"},{"name":"GoblinBrute_Taunt","itemName":"Brute taunt"},{"name":"GoblinBruteBros_Attack","itemName":"Brute sword"},{"name":"GoblinBruteBros_RageAttack","itemName":"Brute sword"},{"name":"GoblinClub","itemName":"Club"},{"name":"GoblinHelmet","itemName":"Iron plate armor"},{"name":"GoblinKing_Beam","itemName":"dragon breath"},{"name":"GoblinKing_Meteors","itemName":"spawn"},{"name":"GoblinKing_Nova","itemName":"slap"},{"name":"GoblinKing_Taunt","itemName":"scream"},{"name":"GoblinLegband","itemName":"Iron plate armor"},{"name":"GoblinLoin","itemName":"Iron plate armor"},{"name":"GoblinShaman_attack_fireball","itemName":"fireballattack"},{"name":"GoblinShaman_attack_fireball_hildir","itemName":"fireballattack"},{"name":"GoblinShaman_attack_poke","itemName":"Club"},{"name":"GoblinShaman_attack_protect","itemName":"heal"},{"name":"GoblinShaman_attack_protect_hildir","itemName":"heal"},{"name":"GoblinShaman_Headdress_antlers","itemName":"Club"},{"name":"GoblinShaman_Headdress_feathers","itemName":"Club"},{"name":"GoblinShaman_Staff_Bones","itemName":"Club"},{"name":"GoblinShaman_Staff_Feathers","itemName":"Club"},{"name":"GoblinShaman_Staff_Hildir","itemName":"Club"},{"name":"GoblinShoulders","itemName":"Iron plate armor"},{"name":"GoblinSpear","itemName":"Flint spear"},{"name":"GoblinSword","itemName":"Bronze sword"},{"name":"GoblinTorch","itemName":"Torch"},{"name":"GoblinTotem","itemName":"$item_goblintotem"},{"name":"Grausten","itemName":"$item_grausten"},{"name":"Greydwarf_attack","itemName":"jaws"},{"name":"Greydwarf_elite_attack","itemName":"jaws"},{"name":"Greydwarf_shaman_attack","itemName":"shaman attack"},{"name":"Greydwarf_shaman_heal","itemName":"heal"},{"name":"Greydwarf_throw","itemName":"throw stone"},{"name":"GreydwarfEye","itemName":"$item_greydwarfeye"},{"name":"Greyling_attack","itemName":"jaws"},{"name":"Guck","itemName":"$item_guck"},{"name":"Hair1","itemName":"$customization_hair01"},{"name":"Hair10","itemName":"$customization_hair10"},{"name":"Hair10_2","itemName":"$customization_hair06"},{"name":"Hair11","itemName":"$customization_hair11"},{"name":"Hair11_2","itemName":"$customization_hair06"},{"name":"Hair11_3","itemName":"$customization_hair06"},{"name":"Hair12","itemName":"$customization_hair12"},{"name":"Hair12_2","itemName":"$customization_hair06"},{"name":"Hair13","itemName":"$customization_hair13"},{"name":"Hair13_2","itemName":"$customization_hair06"},{"name":"Hair13_3","itemName":"$customization_hair06"},{"name":"Hair14","itemName":"$customization_hair14"},{"name":"Hair14_2","itemName":"$customization_hair06"},{"name":"Hair15","itemName":"$customization_hair15"},{"name":"Hair15_2","itemName":"$customization_hair06"},{"name":"Hair15_3","itemName":"$customization_hair06"},{"name":"Hair16","itemName":"$customization_hair16"},{"name":"Hair16_2","itemName":"$customization_hair06"},{"name":"Hair17","itemName":"$customization_hair17"},{"name":"Hair17_2","itemName":"$customization_hair06"},{"name":"Hair18","itemName":"$customization_hair18"},{"name":"Hair18_2","itemName":"$customization_hair06"},{"name":"Hair19","itemName":"$customization_hair19"},{"name":"Hair2","itemName":"$customization_hair02"},{"name":"Hair20","itemName":"$customization_hair20"},{"name":"Hair21","itemName":"$customization_hair21"},{"name":"Hair21_2","itemName":"$customization_hair06"},{"name":"Hair22","itemName":"$customization_hair22"},{"name":"Hair22_2","itemName":"$customization_hair06"},{"name":"Hair23","itemName":"$customization_hair23"},{"name":"Hair24","itemName":"$customization_hair24"},{"name":"Hair24_2","itemName":"$customization_hair06"},{"name":"Hair24_3","itemName":"$customization_hair06"},{"name":"Hair25","itemName":"$customization_hair25"},{"name":"Hair26","itemName":"$customization_hair26"},{"name":"Hair27","itemName":"$customization_hair27"},{"name":"Hair27_2","itemName":"$customization_hair06"},{"name":"Hair27_3","itemName":"$customization_hair06"},{"name":"Hair28","itemName":"$customization_hair28"},{"name":"Hair28_2","itemName":"$customization_hair06"},{"name":"Hair28_3","itemName":"$customization_hair06"},{"name":"Hair29","itemName":"$customization_hair29"},{"name":"Hair29_2","itemName":"$customization_hair06"},{"name":"Hair3","itemName":"$customization_hair03"},{"name":"Hair3_2","itemName":"$customization_hair03"},{"name":"Hair3_3","itemName":"$customization_hair03"},{"name":"Hair30","itemName":"$customization_hair30"},{"name":"Hair30_2","itemName":"$customization_hair06"},{"name":"Hair30_3","itemName":"$customization_hair06"},{"name":"Hair31","itemName":"$customization_hair31"},{"name":"Hair31_2","itemName":"$customization_hair06"},{"name":"Hair31_3","itemName":"$customization_hair06"},{"name":"Hair4","itemName":"$customization_hair04"},{"name":"Hair4_2","itemName":"$customization_hair03"},{"name":"Hair4_3","itemName":"$customization_hair03"},{"name":"Hair5","itemName":"$customization_hair05"},{"name":"Hair5_2","itemName":"$customization_hair03"},{"name":"Hair6","itemName":"$customization_hair06"},{"name":"Hair6_2","itemName":"$customization_hair06"},{"name":"Hair6_3","itemName":"$customization_hair06"},{"name":"Hair7","itemName":"$customization_hair07"},{"name":"Hair7_2","itemName":"$customization_hair06"},{"name":"Hair8","itemName":"$customization_hair08"},{"name":"Hair8_2","itemName":"$customization_hair06"},{"name":"Hair9","itemName":"$customization_hair09"},{"name":"Hair9_2","itemName":"$customization_hair06"},{"name":"HairNone","itemName":"$customization_nohair"},{"name":"Hammer","itemName":"$item_hammer"},{"name":"HardAntler","itemName":"$item_hardantler"},{"name":"HareMeat","itemName":"$item_hare_meat"},{"name":"hatchling_spit_cold","itemName":"cold ball"},{"name":"HealthUpgrade_Bonemass","itemName":"Bonemass heart"},{"name":"HealthUpgrade_GDKing","itemName":"Elder heart"},{"name":"HelmetAshlandsMediumHood","itemName":"$item_helmet_medium_ashlands"},{"name":"HelmetBronze","itemName":"$item_helmet_bronze"},{"name":"HelmetCarapace","itemName":"$item_helmet_carapace"},{"name":"HelmetDrake","itemName":"$item_helmet_drake"},{"name":"HelmetDverger","itemName":"$item_helmet_dverger"},{"name":"HelmetFenring","itemName":"$item_helmet_fenris"},{"name":"HelmetFishingHat","itemName":"$item_helmet_fishinghat"},{"name":"HelmetFlametal","itemName":"$item_helmet_flametal"},{"name":"HelmetHat1","itemName":"$item_helmet_hat1"},{"name":"HelmetHat10","itemName":"$item_helmet_hat10"},{"name":"HelmetHat2","itemName":"$item_helmet_hat2"},{"name":"HelmetHat3","itemName":"$item_helmet_hat3"},{"name":"HelmetHat4","itemName":"$item_helmet_hat4"},{"name":"HelmetHat5","itemName":"$item_helmet_hat5"},{"name":"HelmetHat6","itemName":"$item_helmet_hat6"},{"name":"HelmetHat7","itemName":"$item_helmet_hat7"},{"name":"HelmetHat8","itemName":"$item_helmet_hat8"},{"name":"HelmetHat9","itemName":"$item_helmet_hat9"},{"name":"HelmetIron","itemName":"$item_helmet_iron"},{"name":"HelmetLeather","itemName":"$item_helmet_leather"},{"name":"HelmetMage","itemName":"$item_helmet_mage"},{"name":"HelmetMage_Ashlands","itemName":"$item_helmet_mage_ashlands"},{"name":"HelmetMidsummerCrown","itemName":"$item_helmet_midsummercrown"},{"name":"HelmetOdin","itemName":"$item_helmet_odin"},{"name":"HelmetPadded","itemName":"$item_helmet_padded"},{"name":"HelmetPointyHat","itemName":"$item_helmet_witchhat"},{"name":"HelmetRoot","itemName":"$item_helmet_root"},{"name":"HelmetTrollLeather","itemName":"$item_helmet_trollleather"},{"name":"HelmetYule","itemName":"$item_helmet_yule"},{"name":"HildirKey_forestcrypt","itemName":"$item_hildirkey1"},{"name":"HildirKey_mountaincave","itemName":"$item_hildirkey2"},{"name":"HildirKey_plainsfortress","itemName":"$item_hildirkey3"},{"name":"hive_attack_aoe","itemName":"heal"},{"name":"hive_attack_punch","itemName":"slap"},{"name":"hive_attack_ranged","itemName":"dragon breath"},{"name":"hive_attack_throw","itemName":"slime throw"},{"name":"Hoe","itemName":"$item_hoe"},{"name":"Honey","itemName":"$item_honey"},{"name":"HoneyGlazedChicken","itemName":"$item_honeyglazedchicken"},{"name":"HoneyGlazedChickenUncooked","itemName":"$item_honeyglazedchickenuncooked"},{"name":"imp_fireball_attack","itemName":"fireballattack"},{"name":"Iron","itemName":"$item_iron"},{"name":"IronNails","itemName":"$item_ironnails"},{"name":"IronOre","itemName":"$item_ironore"},{"name":"Ironpit","itemName":"$item_ironpit"},{"name":"IronScrap","itemName":"$item_ironscrap"},{"name":"JuteBlue","itemName":"$item_juteblue"},{"name":"JuteRed","itemName":"$item_jutered"},{"name":"KnifeBlackMetal","itemName":"$item_knife_blackmetal"},{"name":"KnifeButcher","itemName":"$item_knife_butcher"},{"name":"KnifeChitin","itemName":"$item_knife_chitin"},{"name":"KnifeCopper","itemName":"$item_knife_copper"},{"name":"KnifeFlint","itemName":"$item_knife_flint"},{"name":"KnifeSilver","itemName":"$item_knife_silver"},{"name":"KnifeSkollAndHati","itemName":"$item_knife_skollandhati"},{"name":"Lantern","itemName":"$item_lantern"},{"name":"Larva","itemName":"$item_larva"},{"name":"LeatherScraps","itemName":"$item_leatherscraps"},{"name":"Leech_BiteAttack","itemName":"jaws"},{"name":"LinenThread","itemName":"$item_linenthread"},{"name":"lox_bite","itemName":"lox bite"},{"name":"lox_stomp","itemName":"slap"},{"name":"LoxMeat","itemName":"$item_loxmeat"},{"name":"LoxPelt","itemName":"$item_loxpelt"},{"name":"LoxPie","itemName":"$item_loxpie"},{"name":"LoxPieUncooked","itemName":"$item_loxpie_uncooked"},{"name":"MaceBronze","itemName":"$item_mace_bronze"},{"name":"MaceEldner","itemName":"$item_mace_eldner"},{"name":"MaceEldnerBlood","itemName":"$item_mace_eldner_blood"},{"name":"MaceEldnerLightning","itemName":"$item_mace_eldner_lightning"},{"name":"MaceEldnerNature","itemName":"$item_mace_eldner_nature"},{"name":"MaceIron","itemName":"$item_mace_iron"},{"name":"MaceNeedle","itemName":"$item_mace_needle"},{"name":"MaceSilver","itemName":"$item_mace_silver"},{"name":"MagicallyStuffedShroom","itemName":"$item_magicallystuffedmushroom"},{"name":"MagicallyStuffedShroomUncooked","itemName":"$item_magicallystuffedmushroomuncooked"},{"name":"Mandible","itemName":"$item_mandible"},{"name":"MarinatedGreens","itemName":"$item_marinatedgreens"},{"name":"MashedMeat","itemName":"$item_mashedmeat"},{"name":"MeadBaseEitrLingering","itemName":"$item_meadbaseeitr_lingering"},{"name":"MeadBaseEitrMinor","itemName":"$item_meadbaseeitr"},{"name":"MeadBaseFrostResist","itemName":"$item_meadbasefrostresist"},{"name":"MeadBaseHealthLingering","itemName":"$item_meadbasehealth_lingering"},{"name":"MeadBaseHealthMajor","itemName":"$item_meadbasehealth_major"},{"name":"MeadBaseHealthMedium","itemName":"$item_meadbasehealth_medium"},{"name":"MeadBaseHealthMinor","itemName":"$item_meadbasehealth"},{"name":"MeadBasePoisonResist","itemName":"$item_meadbasepoisonresist"},{"name":"MeadBaseStaminaLingering","itemName":"$item_meadbasestamina_lingering"},{"name":"MeadBaseStaminaMedium","itemName":"$item_meadbasestamina_medium"},{"name":"MeadBaseStaminaMinor","itemName":"$item_meadbasestamina"},{"name":"MeadBaseTasty","itemName":"$item_meadbasetasty"},{"name":"MeadEitrLingering","itemName":"$item_mead_eitr_lingering"},{"name":"MeadEitrMinor","itemName":"$item_mead_eitr_minor"},{"name":"MeadFrostResist","itemName":"$item_mead_frostres"},{"name":"MeadHealthLingering","itemName":"$item_mead_hp_lingering"},{"name":"MeadHealthMajor","itemName":"$item_mead_hp_major"},{"name":"MeadHealthMedium","itemName":"$item_mead_hp_medium"},{"name":"MeadHealthMinor","itemName":"$item_mead_hp_minor"},{"name":"MeadPoisonResist","itemName":"$item_mead_poisonres"},{"name":"MeadStaminaLingering","itemName":"$item_mead_stamina_lingering"},{"name":"MeadStaminaMedium","itemName":"$item_mead_stamina_medium"},{"name":"MeadStaminaMinor","itemName":"$item_mead_stamina_minor"},{"name":"MeadTasty","itemName":"$item_mead_tasty"},{"name":"MeatPlatter","itemName":"$item_meatplatter"},{"name":"MeatPlatterUncooked","itemName":"$item_meatplatteruncooked"},{"name":"MechanicalSpring","itemName":"$item_mechanicalspring"},{"name":"MinceMeatSauce","itemName":"$item_mincemeatsauce"},{"name":"MisthareSupreme","itemName":"$item_mistharesupreme"},{"name":"MisthareSupremeUncooked","itemName":"$item_mistharesupremeuncooked"},{"name":"Mistile_kamikaze","itemName":"Mistile Kamikaze"},{"name":"MoltenCore","itemName":"$item_moltencore"},{"name":"Morgen_bite","itemName":"Dragon claw left"},{"name":"Morgen_bodyslam","itemName":"Dragon claw left"},{"name":"Morgen_roll_left","itemName":"Morgen Roll Left"},{"name":"Morgen_roll_right","itemName":"Morgen Roll Right"},{"name":"Morgen_swipe_1","itemName":"Dragon claw left"},{"name":"Morgen_swipe_2","itemName":"Dragon claw left"},{"name":"Morgen_swipe_3","itemName":"Dragon claw left"},{"name":"Morgen_swipe_4","itemName":"Dragon claw left"},{"name":"Morgen_swipe_5","itemName":"Dragon claw left"},{"name":"Morgen_swipe_6","itemName":"Dragon claw left"},{"name":"MorgenHeart","itemName":"$item_morgenheart"},{"name":"MorgenSinew","itemName":"$item_morgensinew"},{"name":"Mushroom","itemName":"$item_mushroomcommon"},{"name":"MushroomBlue","itemName":"$item_mushroomblue"},{"name":"MushroomJotunPuffs","itemName":"$item_jotunpuffs"},{"name":"MushroomMagecap","itemName":"$item_magecap"},{"name":"MushroomOmelette","itemName":"$item_mushroomomelette"},{"name":"MushroomSmokePuff","itemName":"$item_smokepuff"},{"name":"MushroomYellow","itemName":"$item_mushroomyellow"},{"name":"Neck_BiteAttack","itemName":"jaws"},{"name":"NeckTail","itemName":"$item_necktail"},{"name":"NeckTailGrilled","itemName":"$item_necktailgrilled"},{"name":"Needle","itemName":"$item_needle"},{"name":"Obsidian","itemName":"$item_obsidian"},{"name":"Onion","itemName":"$item_onion"},{"name":"OnionSeeds","itemName":"$item_onionseeds"},{"name":"OnionSoup","itemName":"$item_onionsoup"},{"name":"Ooze","itemName":"$item_ooze"},{"name":"PickaxeAntler","itemName":"$item_pickaxe_antler"},{"name":"PickaxeBlackMetal","itemName":"$item_pickaxe_blackmetal"},{"name":"PickaxeBronze","itemName":"$item_pickaxe_bronze"},{"name":"PickaxeIron","itemName":"$item_pickaxe_iron"},{"name":"PickaxeStone","itemName":"$item_pickaxe_stone"},{"name":"PineCone","itemName":"$item_pinecone"},{"name":"PiquantPie","itemName":"$item_piquantpie"},{"name":"PiquantPieUncooked","itemName":"$item_piquantpie_uncooked"},{"name":"PlayerUnarmed","itemName":"Unarmed"},{"name":"Pot_Shard_Green","itemName":"$item_pot_shard_green"},{"name":"Pot_Shard_Red","itemName":"$item_pot_shard_red"},{"name":"ProustitePowder","itemName":"$item_proustitepowder"},{"name":"Pukeberries","itemName":"$item_pukeberries"},{"name":"QueenBee","itemName":"$item_queenbee"},{"name":"QueenDrop","itemName":"$item_seekerqueen_drop"},{"name":"QueensJam","itemName":"$item_queensjam"},{"name":"Raspberry","itemName":"$item_raspberries"},{"name":"RawMeat","itemName":"$item_boar_meat"},{"name":"Resin","itemName":"$item_resin"},{"name":"RoastedCrustPie","itemName":"$item_roastedcrustpie"},{"name":"RoastedCrustPieUncooked","itemName":"$item_roastedcrustpie_uncooked"},{"name":"Root","itemName":"$item_root"},{"name":"RottenMeat","itemName":"$item_meat_rotten"},{"name":"RoundLog","itemName":"$item_roundlog"},{"name":"RoyalJelly","itemName":"$item_royaljelly"},{"name":"Ruby","itemName":"$item_ruby"},{"name":"SaddleAsksvin","itemName":"$item_saddleasksvin"},{"name":"SaddleLox","itemName":"$item_saddlelox"},{"name":"Salad","itemName":"$item_salad"},{"name":"Sap","itemName":"$item_sap"},{"name":"Sausages","itemName":"$item_sausages"},{"name":"ScaleHide","itemName":"$item_scalehide"},{"name":"ScorchingMedley","itemName":"$item_scorchingmedley"},{"name":"seeker_claw_left","itemName":"Dragon claw left"},{"name":"seeker_claw_right","itemName":"Dragon claw left"},{"name":"seeker_groundslam","itemName":"Dragon claw left"},{"name":"seeker_groundslam_flying","itemName":"Dragon claw left"},{"name":"seeker_land","itemName":"land"},{"name":"seeker_pincers","itemName":"Dragon claw left"},{"name":"seeker_takeoff","itemName":"takeoff"},{"name":"SeekerAspic","itemName":"$item_seekeraspic"},{"name":"SeekerBrute_bite","itemName":"Dragon claw left"},{"name":"SeekerBrute_groundslam","itemName":"slap"},{"name":"SeekerBrute_ram","itemName":"Dragon claw left"},{"name":"SeekerBrute_Taunt","itemName":"Brute taunt"},{"name":"SeekerQueen_Bite","itemName":"slap"},{"name":"SeekerQueen_Call","itemName":"Brute taunt"},{"name":"SeekerQueen_PierceAOE","itemName":"slap"},{"name":"SeekerQueen_Rush","itemName":"slap"},{"name":"SeekerQueen_Slap","itemName":"slap"},{"name":"SeekerQueen_Spit","itemName":"dragon breath"},{"name":"SeekerQueen_Teleport","itemName":"Brute taunt"},{"name":"Serpent_attack","itemName":"Serpent bite"},{"name":"Serpent_taunt","itemName":"Serpent Taunt"},{"name":"SerpentMeat","itemName":"$item_serpentmeat"},{"name":"SerpentMeatCooked","itemName":"$item_serpentmeatcooked"},{"name":"SerpentScale","itemName":"$item_serpentscale"},{"name":"SerpentStew","itemName":"$item_serpentstew"},{"name":"SharpeningStone","itemName":"$item_sharpeningstone"},{"name":"ShieldBanded","itemName":"$item_shield_banded"},{"name":"ShieldBlackmetal","itemName":"$item_shield_blackmetal"},{"name":"ShieldBlackmetalTower","itemName":"$item_shield_blackmetal_tower"},{"name":"ShieldBoneTower","itemName":"$item_shield_bonetower"},{"name":"ShieldBronzeBuckler","itemName":"$item_shield_bronzebuckler"},{"name":"ShieldCarapace","itemName":"$item_shield_carapace"},{"name":"ShieldCarapaceBuckler","itemName":"$item_shield_carapacebuckler"},{"name":"ShieldCore","itemName":"$item_shieldcore"},{"name":"ShieldFlametal","itemName":"$item_shield_flametal"},{"name":"ShieldFlametalTower","itemName":"$item_shield_flametal_tower"},{"name":"ShieldIronBuckler","itemName":"$item_shield_ironbuckler"},{"name":"ShieldIronSquare","itemName":"$item_shield_iron_square"},{"name":"ShieldIronTower","itemName":"$item_shield_iron_tower"},{"name":"ShieldKnight","itemName":"$item_shield_knight"},{"name":"ShieldSerpentscale","itemName":"$item_shield_serpentscale"},{"name":"ShieldSilver","itemName":"$item_shield_silver"},{"name":"ShieldWood","itemName":"$item_shield_wood"},{"name":"ShieldWoodTower","itemName":"$item_shield_woodtower"},{"name":"ShocklateSmoothie","itemName":"$item_shocklatesmoothie"},{"name":"Silver","itemName":"$item_silver"},{"name":"SilverNecklace","itemName":"$item_silvernecklace"},{"name":"SilverOre","itemName":"$item_silverore"},{"name":"SizzlingBerryBroth","itemName":"$item_sizzlingberrybroth"},{"name":"skeleton_bow","itemName":"Bow"},{"name":"skeleton_bow2","itemName":"Bow"},{"name":"skeleton_hildir_firenova","itemName":"Fire Skeleton Sword"},{"name":"skeleton_mace","itemName":"Dragur axe"},{"name":"skeleton_sword","itemName":"Dragur axe"},{"name":"skeleton_sword_hildir","itemName":"Fire Skeleton Sword"},{"name":"skeleton_sword2","itemName":"Dragur axe"},{"name":"SledgeCheat","itemName":"Cheat sledge"},{"name":"SledgeDemolisher","itemName":"$item_sledge_demolisher"},{"name":"SledgeIron","itemName":"$item_sledge_iron"},{"name":"SledgeStagbreaker","itemName":"$item_stagbreaker"},{"name":"Softtissue","itemName":"$item_softtissue"},{"name":"Sparkler","itemName":"$item_sparkler"},{"name":"SparklingShroomshake","itemName":"$item_sparklingshroomshake"},{"name":"SpearBronze","itemName":"$item_spear_bronze"},{"name":"SpearCarapace","itemName":"$item_spear_carapace"},{"name":"SpearChitin","itemName":"$item_spear_chitin"},{"name":"SpearElderbark","itemName":"$item_spear_ancientbark"},{"name":"SpearFlint","itemName":"$item_spear_flint"},{"name":"SpearSplitner","itemName":"$item_spear_splitner"},{"name":"SpearSplitner_Blood","itemName":"$item_spear_splitner_blood"},{"name":"SpearSplitner_Lightning","itemName":"$item_spear_splitner_lightning"},{"name":"SpearSplitner_Nature","itemName":"$item_spear_splitner_nature"},{"name":"SpearWolfFang","itemName":"$item_spear_wolffang"},{"name":"SpicyMarmalade","itemName":"$item_spicymarmalade"},{"name":"staff_greenroots_tentaroot_attack","itemName":"Dragur axe"},{"name":"StaffClusterbomb","itemName":"$item_staffclusterbomb"},{"name":"StaffFireball","itemName":"$item_stafffireball"},{"name":"StaffGreenRoots","itemName":"$item_staffgreenroots"},{"name":"StaffIceShards","itemName":"$item_stafficeshards"},{"name":"StaffLightning","itemName":"$item_staff_lightning"},{"name":"StaffRedTroll","itemName":"$item_staffredtroll"},{"name":"StaffShield","itemName":"$item_staffshield"},{"name":"StaffSkeleton","itemName":"$item_staffskeleton"},{"name":"StaminaUpgrade_Greydwarf","itemName":"Stamina Greydwarf"},{"name":"StaminaUpgrade_Troll","itemName":"Stamina Troll"},{"name":"StaminaUpgrade_Wraith","itemName":"Stamina Wraith"},{"name":"Stone","itemName":"$item_stone"},{"name":"stonegolem_attack_doublesmash","itemName":"slap"},{"name":"stonegolem_attack_sonicboom_NOTUSED","itemName":"slap"},{"name":"stonegolem_attack1_spike","itemName":"Spike attack"},{"name":"stonegolem_attack2_left_groundslam","itemName":"One hand ground slam"},{"name":"stonegolem_attack3_spikesweep","itemName":"Spike sweep"},{"name":"StoneGolem_clubs","itemName":""},{"name":"StoneGolem_hat","itemName":""},{"name":"StoneGolem_spikes","itemName":""},{"name":"SulfurStone","itemName":"$item_sulfurstone"},{"name":"SurtlingCore","itemName":"$item_surtlingcore"},{"name":"SwordBlackmetal","itemName":"$item_sword_blackmetal"},{"name":"SwordBronze","itemName":"$item_sword_bronze"},{"name":"SwordCheat","itemName":"Cheat sword"},{"name":"SwordDyrnwyn","itemName":"$item_sword_dyrnwyn"},{"name":"SwordIron","itemName":"$item_sword_iron"},{"name":"SwordIronFire","itemName":"$item_sword_fire"},{"name":"SwordMistwalker","itemName":"$item_sword_mistwalker"},{"name":"SwordNiedhogg","itemName":"$item_sword_niedhogg"},{"name":"SwordNiedhoggBlood","itemName":"$item_sword_niedhogg_blood"},{"name":"SwordNiedhoggLightning","itemName":"$item_sword_niedhogg_lightning"},{"name":"SwordNiedhoggNature","itemName":"$item_sword_niedhogg_nature"},{"name":"SwordSilver","itemName":"$item_sword_silver"},{"name":"Tankard","itemName":"$item_tankard"},{"name":"Tankard_dvergr","itemName":"$item_dvergrtankard"},{"name":"TankardAnniversary","itemName":"$item_tankard_anniversary"},{"name":"TankardOdin","itemName":"$item_tankard_odin"},{"name":"Tar","itemName":"$item_tar"},{"name":"tentaroot_attack","itemName":"Dragur axe"},{"name":"Thistle","itemName":"$item_thistle"},{"name":"THSwordKrom","itemName":"$item_sword_krom"},{"name":"THSwordSlayer","itemName":"$item_sword_slayer"},{"name":"THSwordSlayerBlood","itemName":"$item_sword_slayer_blood"},{"name":"THSwordSlayerLightning","itemName":"$item_sword_slayer_lightning"},{"name":"THSwordSlayerNature","itemName":"$item_sword_slayer_nature"},{"name":"Thunderstone","itemName":"$item_thunderstone"},{"name":"tick_attack","itemName":"boar attack1"},{"name":"tick_attack_attach","itemName":"boar attack1"},{"name":"Tin","itemName":"$item_tin"},{"name":"TinOre","itemName":"$item_tinore"},{"name":"Torch","itemName":"$item_torch"},{"name":"TorchMist","itemName":"$item_torchmist"},{"name":"troll_groundslam","itemName":"slap"},{"name":"troll_log_swing_h","itemName":"LOG"},{"name":"troll_log_swing_v","itemName":"LOG"},{"name":"troll_punch","itemName":"slap"},{"name":"troll_summoned_groundslam","itemName":"slap"},{"name":"troll_summoned_log_swing_h","itemName":"LOG"},{"name":"troll_summoned_log_swing_v","itemName":"LOG"},{"name":"troll_summoned_punch","itemName":"slap"},{"name":"troll_summoned_throw","itemName":"fireballattack"},{"name":"troll_throw","itemName":"fireballattack"},{"name":"TrollHide","itemName":"$item_trollhide"},{"name":"TrophyAbomination","itemName":"$item_trophy_abomination"},{"name":"TrophyAsksvin","itemName":"$item_trophy_asksvin"},{"name":"TrophyBlob","itemName":"$item_trophy_blob"},{"name":"TrophyBoar","itemName":"$item_trophy_boar"},{"name":"TrophyBonemass","itemName":"$item_trophy_bonemass"},{"name":"TrophyBonemawSerpent","itemName":"$item_trophy_bonemaw"},{"name":"TrophyCharredArcher","itemName":"$item_trophy_charredarcher"},{"name":"TrophyCharredMage","itemName":"$item_trophy_charredmage"},{"name":"TrophyCharredMelee","itemName":"$item_trophy_charredmelee"},{"name":"TrophyCultist","itemName":"$item_trophy_cultist"},{"name":"TrophyCultist_Hildir","itemName":"$item_trophy_cultist_hildir"},{"name":"TrophyDeathsquito","itemName":"$item_trophy_deathsquito"},{"name":"TrophyDeer","itemName":"$item_trophy_deer"},{"name":"TrophyDragonQueen","itemName":"$item_trophy_dragonqueen"},{"name":"TrophyDraugr","itemName":"$item_trophy_draugr"},{"name":"TrophyDraugrElite","itemName":"$item_trophy_draugrelite"},{"name":"TrophyDraugrFem","itemName":"$item_trophy_draugr"},{"name":"TrophyDvergr","itemName":"$item_trophy_dvergr"},{"name":"TrophyEikthyr","itemName":"$item_trophy_eikthyr"},{"name":"TrophyFader","itemName":"$item_trophy_fader"},{"name":"TrophyFallenValkyrie","itemName":"$item_trophy_fallenvalkyrie"},{"name":"TrophyFenring","itemName":"$item_trophy_fenring"},{"name":"TrophyForestTroll","itemName":"$item_trophy_troll"},{"name":"TrophyFrostTroll","itemName":"$item_trophy_troll"},{"name":"TrophyGjall","itemName":"$item_trophy_gjall"},{"name":"TrophyGoblin","itemName":"$item_trophy_goblin"},{"name":"TrophyGoblinBrute","itemName":"$item_trophy_goblinbrute"},{"name":"TrophyGoblinBruteBrosBrute","itemName":"$item_trophy_brutebro"},{"name":"TrophyGoblinBruteBrosShaman","itemName":"$item_trophy_shamanbro"},{"name":"TrophyGoblinKing","itemName":"$item_trophy_goblinking"},{"name":"TrophyGoblinShaman","itemName":"$item_trophy_goblinshaman"},{"name":"TrophyGreydwarf","itemName":"$item_trophy_greydwarf"},{"name":"TrophyGreydwarfBrute","itemName":"$item_trophy_greydwarfbrute"},{"name":"TrophyGreydwarfShaman","itemName":"$item_trophy_greydwarfshaman"},{"name":"TrophyGrowth","itemName":"$item_trophy_growth"},{"name":"TrophyHare","itemName":"$item_trophy_hare"},{"name":"TrophyHatchling","itemName":"$item_trophy_hatchling"},{"name":"TrophyLeech","itemName":"$item_trophy_leech"},{"name":"TrophyLox","itemName":"$item_trophy_lox"},{"name":"TrophyMorgen","itemName":"$item_trophy_morgen"},{"name":"TrophyNeck","itemName":"$item_trophy_neck"},{"name":"TrophySeeker","itemName":"$item_trophy_seeker"},{"name":"TrophySeekerBrute","itemName":"$item_trophy_seeker_brute"},{"name":"TrophySeekerQueen","itemName":"$item_trophy_seekerqueen"},{"name":"TrophySerpent","itemName":"$item_trophy_serpent"},{"name":"TrophySGolem","itemName":"$item_trophy_sgolem"},{"name":"TrophySkeleton","itemName":"$item_trophy_skeleton"},{"name":"TrophySkeletonHildir","itemName":"$item_trophy_skeleton_hildir"},{"name":"TrophySkeletonPoison","itemName":"$item_trophy_skeletonpoison"},{"name":"TrophySurtling","itemName":"$item_trophy_surtling"},{"name":"TrophyTheElder","itemName":"$item_trophy_elder"},{"name":"TrophyTick","itemName":"$item_trophy_tick"},{"name":"TrophyUlv","itemName":"$item_trophy_ulv"},{"name":"TrophyVolture","itemName":"$item_trophy_volture"},{"name":"TrophyWolf","itemName":"$item_trophy_wolf"},{"name":"TrophyWraith","itemName":"$item_trophy_wraith"},{"name":"Turnip","itemName":"$item_turnip"},{"name":"TurnipSeeds","itemName":"$item_turnipseeds"},{"name":"TurnipStew","itemName":"$item_turnipstew"},{"name":"TurretBolt","itemName":"$item_turretbolt"},{"name":"TurretBoltBone","itemName":"$item_turretboltbone"},{"name":"TurretBoltFlametal","itemName":"$item_turretbolt_flametal"},{"name":"TurretBoltWood","itemName":"$item_turretboltwood"},{"name":"Ulv_attack1_bite","itemName":"Bite Attack"},{"name":"Ulv_attack2_slash","itemName":"Slash Attack"},{"name":"VegvisirShard_Bonemass","itemName":"Yagluth thing"},{"name":"Vineberry","itemName":"$item_vineberry"},{"name":"VineberrySeeds","itemName":"$item_vineberryseeds"},{"name":"volture_talons","itemName":"Volture Talons"},{"name":"VoltureEgg","itemName":"$item_voltureegg"},{"name":"VoltureMeat","itemName":"$item_volture_meat"},{"name":"Wishbone","itemName":"$item_wishbone"},{"name":"Wisp","itemName":"$item_wisp"},{"name":"WitheredBone","itemName":"$item_witheredbone"},{"name":"Wolf_Attack1","itemName":"WolfAttack1"},{"name":"Wolf_Attack2","itemName":"WolfAttack2"},{"name":"Wolf_Attack3","itemName":"WolfAttack3"},{"name":"WolfClaw","itemName":"$item_wolfclaw"},{"name":"WolfFang","itemName":"$item_wolffang"},{"name":"WolfHairBundle","itemName":"$item_wolfhairbundle"},{"name":"WolfJerky","itemName":"$item_wolfjerky"},{"name":"WolfMeat","itemName":"$item_wolf_meat"},{"name":"WolfMeatSkewer","itemName":"$item_wolf_skewer"},{"name":"WolfPelt","itemName":"$item_wolfpelt"},{"name":"Wood","itemName":"$item_wood"},{"name":"wraith_melee","itemName":"Wraith melee"},{"name":"YagluthDrop","itemName":"$item_yagluththing"},{"name":"YggdrasilPorridge","itemName":"$item_yggdrasilporridge"},{"name":"YggdrasilWood","itemName":"$item_yggdrasilwood"},{"name":"YmirRemains","itemName":"$item_ymirremains"}]
+[
+    {
+        "name": "Abomination_attack1",
+        "itemName": "Swing attack"
+    },
+    {
+        "name": "Abomination_attack2",
+        "itemName": "Slam attack"
+    },
+    {
+        "name": "Abomination_attack3",
+        "itemName": "Stub to the ground"
+    },
+    {
+        "name": "Acorn",
+        "itemName": "$item_oakseeds"
+    },
+    {
+        "name": "Amber",
+        "itemName": "$item_amber"
+    },
+    {
+        "name": "AmberPearl",
+        "itemName": "$item_amberpearl"
+    },
+    {
+        "name": "AncientSeed",
+        "itemName": "$item_ancientseed"
+    },
+    {
+        "name": "ArmorAshlandsMediumChest",
+        "itemName": "$item_chest_medium_ashlands"
+    },
+    {
+        "name": "ArmorAshlandsMediumlegs",
+        "itemName": "$item_legs_medium_ashlands"
+    },
+    {
+        "name": "ArmorBronzeChest",
+        "itemName": "$item_chest_bronze"
+    },
+    {
+        "name": "ArmorBronzeLegs",
+        "itemName": "$item_legs_bronze"
+    },
+    {
+        "name": "ArmorCarapaceChest",
+        "itemName": "$item_chest_carapace"
+    },
+    {
+        "name": "ArmorCarapaceLegs",
+        "itemName": "$item_legs_carapace"
+    },
+    {
+        "name": "ArmorDress1",
+        "itemName": "$item_chest_dress1"
+    },
+    {
+        "name": "ArmorDress10",
+        "itemName": "$item_chest_dress10"
+    },
+    {
+        "name": "ArmorDress2",
+        "itemName": "$item_chest_dress2"
+    },
+    {
+        "name": "ArmorDress3",
+        "itemName": "$item_chest_dress3"
+    },
+    {
+        "name": "ArmorDress4",
+        "itemName": "$item_chest_dress4"
+    },
+    {
+        "name": "ArmorDress5",
+        "itemName": "$item_chest_dress5"
+    },
+    {
+        "name": "ArmorDress6",
+        "itemName": "$item_chest_dress6"
+    },
+    {
+        "name": "ArmorDress7",
+        "itemName": "$item_chest_dress7"
+    },
+    {
+        "name": "ArmorDress8",
+        "itemName": "$item_chest_dress8"
+    },
+    {
+        "name": "ArmorDress9",
+        "itemName": "$item_chest_dress9"
+    },
+    {
+        "name": "ArmorFenringChest",
+        "itemName": "$item_chest_fenris"
+    },
+    {
+        "name": "ArmorFenringLegs",
+        "itemName": "$item_legs_fenris"
+    },
+    {
+        "name": "ArmorFlametalChest",
+        "itemName": "$item_chest_flametal"
+    },
+    {
+        "name": "ArmorFlametalLegs",
+        "itemName": "$item_legs_flametal"
+    },
+    {
+        "name": "ArmorIronChest",
+        "itemName": "$item_chest_iron"
+    },
+    {
+        "name": "ArmorIronLegs",
+        "itemName": "$item_legs_iron"
+    },
+    {
+        "name": "ArmorLeatherChest",
+        "itemName": "$item_chest_leather"
+    },
+    {
+        "name": "ArmorLeatherLegs",
+        "itemName": "$item_legs_leather"
+    },
+    {
+        "name": "ArmorMageChest",
+        "itemName": "$item_chest_mage"
+    },
+    {
+        "name": "ArmorMageChest_Ashlands",
+        "itemName": "$item_chest_mage_ashlands"
+    },
+    {
+        "name": "ArmorMageLegs",
+        "itemName": "$item_legs_mage"
+    },
+    {
+        "name": "ArmorMageLegs_Ashlands",
+        "itemName": "$item_legs_mage_ashlands"
+    },
+    {
+        "name": "ArmorPaddedCuirass",
+        "itemName": "$item_chest_pcuirass"
+    },
+    {
+        "name": "ArmorPaddedGreaves",
+        "itemName": "$item_legs_pgreaves"
+    },
+    {
+        "name": "ArmorRagsChest",
+        "itemName": "$item_chest_rags"
+    },
+    {
+        "name": "ArmorRagsLegs",
+        "itemName": "$item_legs_rags"
+    },
+    {
+        "name": "ArmorRootChest",
+        "itemName": "$item_chest_root"
+    },
+    {
+        "name": "ArmorRootLegs",
+        "itemName": "$item_legs_root"
+    },
+    {
+        "name": "ArmorTrollLeatherChest",
+        "itemName": "$item_chest_trollleather"
+    },
+    {
+        "name": "ArmorTrollLeatherLegs",
+        "itemName": "$item_legs_trollleather"
+    },
+    {
+        "name": "ArmorTunic1",
+        "itemName": "$item_chest_tunic1"
+    },
+    {
+        "name": "ArmorTunic10",
+        "itemName": "$item_chest_tunic10"
+    },
+    {
+        "name": "ArmorTunic2",
+        "itemName": "$item_chest_tunic2"
+    },
+    {
+        "name": "ArmorTunic3",
+        "itemName": "$item_chest_tunic3"
+    },
+    {
+        "name": "ArmorTunic4",
+        "itemName": "$item_chest_tunic4"
+    },
+    {
+        "name": "ArmorTunic5",
+        "itemName": "$item_chest_tunic5"
+    },
+    {
+        "name": "ArmorTunic6",
+        "itemName": "$item_chest_tunic6"
+    },
+    {
+        "name": "ArmorTunic7",
+        "itemName": "$item_chest_tunic7"
+    },
+    {
+        "name": "ArmorTunic8",
+        "itemName": "$item_chest_tunic8"
+    },
+    {
+        "name": "ArmorTunic9",
+        "itemName": "$item_chest_tunic9"
+    },
+    {
+        "name": "ArmorWolfChest",
+        "itemName": "$item_chest_wolf"
+    },
+    {
+        "name": "ArmorWolfLegs",
+        "itemName": "$item_legs_wolf"
+    },
+    {
+        "name": "ArrowBronze",
+        "itemName": "$item_arrow_bronze"
+    },
+    {
+        "name": "ArrowCarapace",
+        "itemName": "$item_arrow_carapace"
+    },
+    {
+        "name": "ArrowCharred",
+        "itemName": "$item_arrow_charred"
+    },
+    {
+        "name": "ArrowFire",
+        "itemName": "$item_arrow_fire"
+    },
+    {
+        "name": "ArrowFlint",
+        "itemName": "$item_arrow_flint"
+    },
+    {
+        "name": "ArrowFrost",
+        "itemName": "$item_arrow_frost"
+    },
+    {
+        "name": "ArrowIron",
+        "itemName": "$item_arrow_iron"
+    },
+    {
+        "name": "ArrowNeedle",
+        "itemName": "$item_arrow_needle"
+    },
+    {
+        "name": "ArrowObsidian",
+        "itemName": "$item_arrow_obsidian"
+    },
+    {
+        "name": "ArrowPoison",
+        "itemName": "$item_arrow_poison"
+    },
+    {
+        "name": "ArrowSilver",
+        "itemName": "$item_arrow_silver"
+    },
+    {
+        "name": "ArrowWood",
+        "itemName": "$item_arrow_wood"
+    },
+    {
+        "name": "AskBladder",
+        "itemName": "$item_askbladder"
+    },
+    {
+        "name": "AskHide",
+        "itemName": "$item_askhide"
+    },
+    {
+        "name": "Asksvin_Bite",
+        "itemName": "lox bite"
+    },
+    {
+        "name": "Asksvin_Headbutt",
+        "itemName": "Dragon claw left"
+    },
+    {
+        "name": "Asksvin_Pounce",
+        "itemName": "lox bite"
+    },
+    {
+        "name": "Asksvin_Turnaround",
+        "itemName": "lox bite"
+    },
+    {
+        "name": "AsksvinCarrionNeck",
+        "itemName": "$item_asksvincarrionneck"
+    },
+    {
+        "name": "AsksvinCarrionPelvic",
+        "itemName": "$item_asksvincarrionpelvic"
+    },
+    {
+        "name": "AsksvinCarrionRibcage",
+        "itemName": "$item_asksvincarrionribcage"
+    },
+    {
+        "name": "AsksvinCarrionSkull",
+        "itemName": "$item_asksvincarrionskull"
+    },
+    {
+        "name": "AsksvinEgg",
+        "itemName": "$item_asksvin_egg"
+    },
+    {
+        "name": "AsksvinMeat",
+        "itemName": "$item_asksvin_meat"
+    },
+    {
+        "name": "AtgeirBlackmetal",
+        "itemName": "$item_atgeir_blackmetal"
+    },
+    {
+        "name": "AtgeirBronze",
+        "itemName": "$item_atgeir_bronze"
+    },
+    {
+        "name": "AtgeirHimminAfl",
+        "itemName": "$item_atgeir_himminafl"
+    },
+    {
+        "name": "AtgeirIron",
+        "itemName": "$item_atgeir_iron"
+    },
+    {
+        "name": "AxeBerzerkr",
+        "itemName": "$item_axe_berzerkr"
+    },
+    {
+        "name": "AxeBerzerkrBlood",
+        "itemName": "$item_axe_berzerkr_blood"
+    },
+    {
+        "name": "AxeBerzerkrLightning",
+        "itemName": "$item_axe_berzerkr_lightning"
+    },
+    {
+        "name": "AxeBerzerkrNature",
+        "itemName": "$item_axe_berzerkr_nature"
+    },
+    {
+        "name": "AxeBlackMetal",
+        "itemName": "$item_axe_blackmetal"
+    },
+    {
+        "name": "AxeBronze",
+        "itemName": "$item_axe_bronze"
+    },
+    {
+        "name": "AxeFlint",
+        "itemName": "$item_axe_flint"
+    },
+    {
+        "name": "AxeIron",
+        "itemName": "$item_axe_iron"
+    },
+    {
+        "name": "AxeJotunBane",
+        "itemName": "$item_axe_jotunbane"
+    },
+    {
+        "name": "AxeStone",
+        "itemName": "$item_axe_stone"
+    },
+    {
+        "name": "babyseeker_attack",
+        "itemName": "Dragon claw left"
+    },
+    {
+        "name": "BarberKit",
+        "itemName": "$item_barberkit"
+    },
+    {
+        "name": "Barley",
+        "itemName": "$item_barley"
+    },
+    {
+        "name": "BarleyFlour",
+        "itemName": "$item_barleyflour"
+    },
+    {
+        "name": "BarleyWine",
+        "itemName": "$item_barleywine"
+    },
+    {
+        "name": "BarleyWineBase",
+        "itemName": "$item_barleywinebase"
+    },
+    {
+        "name": "bat_melee",
+        "itemName": "Bat melee"
+    },
+    {
+        "name": "Battleaxe",
+        "itemName": "$item_battleaxe"
+    },
+    {
+        "name": "BattleaxeCrystal",
+        "itemName": "$item_battleaxe_crystal"
+    },
+    {
+        "name": "Beard1",
+        "itemName": "$customization_beard01"
+    },
+    {
+        "name": "Beard10",
+        "itemName": "$customization_beard10"
+    },
+    {
+        "name": "Beard11",
+        "itemName": "$customization_beard11"
+    },
+    {
+        "name": "Beard12",
+        "itemName": "$customization_beard12"
+    },
+    {
+        "name": "Beard13",
+        "itemName": "$customization_beard13"
+    },
+    {
+        "name": "Beard14",
+        "itemName": "$customization_beard14"
+    },
+    {
+        "name": "Beard15",
+        "itemName": "$customization_beard15"
+    },
+    {
+        "name": "Beard16",
+        "itemName": "$customization_beard16"
+    },
+    {
+        "name": "Beard17",
+        "itemName": "$customization_beard17"
+    },
+    {
+        "name": "Beard18",
+        "itemName": "$customization_beard18"
+    },
+    {
+        "name": "Beard19",
+        "itemName": "$customization_beard19"
+    },
+    {
+        "name": "Beard2",
+        "itemName": "$customization_beard02"
+    },
+    {
+        "name": "Beard20",
+        "itemName": "$customization_beard20"
+    },
+    {
+        "name": "Beard21",
+        "itemName": "$customization_beard21"
+    },
+    {
+        "name": "Beard3",
+        "itemName": "$customization_beard03"
+    },
+    {
+        "name": "Beard4",
+        "itemName": "$customization_beard04"
+    },
+    {
+        "name": "Beard5",
+        "itemName": "$customization_beard05"
+    },
+    {
+        "name": "Beard6",
+        "itemName": "$customization_beard06"
+    },
+    {
+        "name": "Beard7",
+        "itemName": "$customization_beard07"
+    },
+    {
+        "name": "Beard8",
+        "itemName": "$customization_beard08"
+    },
+    {
+        "name": "Beard9",
+        "itemName": "$customization_beard09"
+    },
+    {
+        "name": "BeardNone",
+        "itemName": "$customization_nobeard"
+    },
+    {
+        "name": "BeechSeeds",
+        "itemName": "$item_beechseeds"
+    },
+    {
+        "name": "Bell",
+        "itemName": "$item_bell"
+    },
+    {
+        "name": "BellFragment",
+        "itemName": "$item_bellfragment"
+    },
+    {
+        "name": "BeltStrength",
+        "itemName": "$item_beltstrength"
+    },
+    {
+        "name": "Bilebag",
+        "itemName": "$item_bilebag"
+    },
+    {
+        "name": "BirchSeeds",
+        "itemName": "$item_birchseeds"
+    },
+    {
+        "name": "BlackCore",
+        "itemName": "$item_blackcore"
+    },
+    {
+        "name": "BlackMarble",
+        "itemName": "$item_blackmarble"
+    },
+    {
+        "name": "BlackMetal",
+        "itemName": "$item_blackmetal"
+    },
+    {
+        "name": "BlackMetalScrap",
+        "itemName": "$item_blackmetalscrap"
+    },
+    {
+        "name": "BlackSoup",
+        "itemName": "$item_blacksoup"
+    },
+    {
+        "name": "Blackwood",
+        "itemName": "$item_blackwood"
+    },
+    {
+        "name": "blob_attack_aoe",
+        "itemName": "fart"
+    },
+    {
+        "name": "blobelite_attack_aoe",
+        "itemName": "fart"
+    },
+    {
+        "name": "blobLava_attack_aoe",
+        "itemName": ""
+    },
+    {
+        "name": "blobtar_attack",
+        "itemName": "fireballattack"
+    },
+    {
+        "name": "Bloodbag",
+        "itemName": "$item_bloodbag"
+    },
+    {
+        "name": "BloodPudding",
+        "itemName": "$item_bloodpudding"
+    },
+    {
+        "name": "Blueberries",
+        "itemName": "$item_blueberries"
+    },
+    {
+        "name": "boar_base_attack",
+        "itemName": "boar attack1"
+    },
+    {
+        "name": "BoarJerky",
+        "itemName": "$item_boarjerky"
+    },
+    {
+        "name": "BoltBlackmetal",
+        "itemName": "$item_bolt_blackmetal"
+    },
+    {
+        "name": "BoltBone",
+        "itemName": "$item_bolt_bone"
+    },
+    {
+        "name": "BoltCarapace",
+        "itemName": "$item_bolt_carapace"
+    },
+    {
+        "name": "BoltCharred",
+        "itemName": "$item_bolt_charred"
+    },
+    {
+        "name": "BoltIron",
+        "itemName": "$item_bolt_iron"
+    },
+    {
+        "name": "BombBile",
+        "itemName": "$item_bilebomb"
+    },
+    {
+        "name": "BombLava",
+        "itemName": "$item_lavabomb"
+    },
+    {
+        "name": "BombOoze",
+        "itemName": "$item_oozebomb"
+    },
+    {
+        "name": "BombSiege",
+        "itemName": "$item_catapult_ammo"
+    },
+    {
+        "name": "BombSmoke",
+        "itemName": "$item_smokebomb"
+    },
+    {
+        "name": "BoneFragments",
+        "itemName": "$item_bonefragments"
+    },
+    {
+        "name": "bonemass_attack_aoe",
+        "itemName": "heal"
+    },
+    {
+        "name": "bonemass_attack_punch",
+        "itemName": "slap"
+    },
+    {
+        "name": "bonemass_attack_spawn",
+        "itemName": "heal"
+    },
+    {
+        "name": "bonemass_attack_throw",
+        "itemName": "slime throw"
+    },
+    {
+        "name": "BonemawSerpent_bite",
+        "itemName": "Serpent bite"
+    },
+    {
+        "name": "BonemawSerpent_breath",
+        "itemName": "Fallen Valkyrie Poison Breath"
+    },
+    {
+        "name": "BonemawSerpent_ram",
+        "itemName": "Serpent bite"
+    },
+    {
+        "name": "BonemawSerpent_spit",
+        "itemName": "bonemaw spit"
+    },
+    {
+        "name": "BonemawSerpent_taunt",
+        "itemName": "Serpent Taunt"
+    },
+    {
+        "name": "BoneMawSerpentMeat",
+        "itemName": "$item_bonemawmeat"
+    },
+    {
+        "name": "BonemawSerpentScale",
+        "itemName": "$item_bonemawscale"
+    },
+    {
+        "name": "BonemawSerpentTooth",
+        "itemName": "$item_bonemawtooth"
+    },
+    {
+        "name": "Bow",
+        "itemName": "$item_bow"
+    },
+    {
+        "name": "BowAshlands",
+        "itemName": "$item_bow_ashlands"
+    },
+    {
+        "name": "BowAshlandsBlood",
+        "itemName": "$item_bow_ashlandsblood"
+    },
+    {
+        "name": "BowAshlandsRoot",
+        "itemName": "$item_bow_ashlandsroot"
+    },
+    {
+        "name": "BowAshlandsStorm",
+        "itemName": "$item_bow_ashlandsstorm"
+    },
+    {
+        "name": "BowDraugrFang",
+        "itemName": "$item_bow_draugrfang"
+    },
+    {
+        "name": "BowFineWood",
+        "itemName": "$item_bow_finewood"
+    },
+    {
+        "name": "BowHuntsman",
+        "itemName": "$item_bow_huntsman"
+    },
+    {
+        "name": "BowSpineSnap",
+        "itemName": "$item_bow_snipesnap"
+    },
+    {
+        "name": "Bread",
+        "itemName": "$item_bread"
+    },
+    {
+        "name": "BreadDough",
+        "itemName": "$item_breaddough"
+    },
+    {
+        "name": "Bronze",
+        "itemName": "$item_bronze"
+    },
+    {
+        "name": "BronzeNails",
+        "itemName": "$item_bronzenails"
+    },
+    {
+        "name": "BronzeScrap",
+        "itemName": "$item_bronzescrap"
+    },
+    {
+        "name": "BugMeat",
+        "itemName": "$item_bug_meat"
+    },
+    {
+        "name": "CapeAsh",
+        "itemName": "$item_cape_ash"
+    },
+    {
+        "name": "CapeAsksvin",
+        "itemName": "$item_cape_asksvin"
+    },
+    {
+        "name": "CapeDeerHide",
+        "itemName": "$item_cape_deerhide"
+    },
+    {
+        "name": "CapeFeather",
+        "itemName": "$item_cape_feather"
+    },
+    {
+        "name": "CapeLinen",
+        "itemName": "$item_cape_linen"
+    },
+    {
+        "name": "CapeLox",
+        "itemName": "$item_cape_lox"
+    },
+    {
+        "name": "CapeOdin",
+        "itemName": "$item_cape_odin"
+    },
+    {
+        "name": "CapeTest",
+        "itemName": "CAPE TEST"
+    },
+    {
+        "name": "CapeTrollHide",
+        "itemName": "$item_cape_trollhide"
+    },
+    {
+        "name": "CapeWolf",
+        "itemName": "$item_cape_wolf"
+    },
+    {
+        "name": "Carapace",
+        "itemName": "$item_carapace"
+    },
+    {
+        "name": "Carrot",
+        "itemName": "$item_carrot"
+    },
+    {
+        "name": "CarrotSeeds",
+        "itemName": "$item_carrotseeds"
+    },
+    {
+        "name": "CarrotSoup",
+        "itemName": "$item_carrotsoup"
+    },
+    {
+        "name": "Catapult_ammo",
+        "itemName": "$item_catapult_training_ammo"
+    },
+    {
+        "name": "CelestialFeather",
+        "itemName": "$item_celestialfeather"
+    },
+    {
+        "name": "CeramicPlate",
+        "itemName": "$item_ceramicplate"
+    },
+    {
+        "name": "Chain",
+        "itemName": "$item_chain"
+    },
+    {
+        "name": "CharcoalResin",
+        "itemName": "$item_charcoalresin"
+    },
+    {
+        "name": "charred_bow",
+        "itemName": "Bow"
+    },
+    {
+        "name": "charred_bow_Fader",
+        "itemName": "Bow"
+    },
+    {
+        "name": "charred_bow_volley",
+        "itemName": "Bow"
+    },
+    {
+        "name": "charred_bow_volley_Fader",
+        "itemName": "Bow"
+    },
+    {
+        "name": "Charred_Breastplate",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "charred_dyrnwyn_greatsword_feint",
+        "itemName": "Charred Sword"
+    },
+    {
+        "name": "charred_dyrnwyn_greatsword_swing",
+        "itemName": "Charred Sword"
+    },
+    {
+        "name": "charred_dyrnwyn_greatsword_thrust",
+        "itemName": "Charred Sword"
+    },
+    {
+        "name": "charred_dyrnwyn_greatsword_thrustfeint",
+        "itemName": "Charred Sword"
+    },
+    {
+        "name": "charred_fader_greatsword_feint",
+        "itemName": "Charred Sword"
+    },
+    {
+        "name": "charred_fader_greatsword_swing",
+        "itemName": "Charred Sword"
+    },
+    {
+        "name": "charred_fader_greatsword_thrust",
+        "itemName": "Charred Sword"
+    },
+    {
+        "name": "charred_fader_greatsword_thrustfeint",
+        "itemName": "Charred Sword"
+    },
+    {
+        "name": "charred_greatsword_feint",
+        "itemName": "Charred Sword"
+    },
+    {
+        "name": "charred_greatsword_swing",
+        "itemName": "Charred Sword"
+    },
+    {
+        "name": "charred_greatsword_thrust",
+        "itemName": "Charred Sword"
+    },
+    {
+        "name": "charred_greatsword_thrustfeint",
+        "itemName": "Charred Sword"
+    },
+    {
+        "name": "Charred_Helmet",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "Charred_HipCloth",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "Charred_MageCloths",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "charred_magestaff_fire",
+        "itemName": "Bow"
+    },
+    {
+        "name": "charred_magestaff_summon",
+        "itemName": "Bow"
+    },
+    {
+        "name": "charred_twitcher_scratch_l",
+        "itemName": "Charred Sword"
+    },
+    {
+        "name": "charred_twitcher_scratch_r",
+        "itemName": "Charred Sword"
+    },
+    {
+        "name": "charred_twitcher_throw",
+        "itemName": "Bow"
+    },
+    {
+        "name": "CharredBone",
+        "itemName": "$item_charredbone"
+    },
+    {
+        "name": "CharredCogwheel",
+        "itemName": "$item_charredcogwheel"
+    },
+    {
+        "name": "Charredskull",
+        "itemName": "$item_charredskull"
+    },
+    {
+        "name": "chest_hildir1",
+        "itemName": "$item_chest_hildir1"
+    },
+    {
+        "name": "chest_hildir2",
+        "itemName": "$item_chest_hildir2"
+    },
+    {
+        "name": "chest_hildir3",
+        "itemName": "$item_chest_hildir3"
+    },
+    {
+        "name": "ChickenEgg",
+        "itemName": "$item_chicken_egg"
+    },
+    {
+        "name": "ChickenMeat",
+        "itemName": "$item_chicken_meat"
+    },
+    {
+        "name": "Chitin",
+        "itemName": "$item_chitin"
+    },
+    {
+        "name": "Cloudberry",
+        "itemName": "$item_cloudberries"
+    },
+    {
+        "name": "Club",
+        "itemName": "$item_club"
+    },
+    {
+        "name": "Coal",
+        "itemName": "$item_coal"
+    },
+    {
+        "name": "Coins",
+        "itemName": "$item_coins"
+    },
+    {
+        "name": "CookedAsksvinMeat",
+        "itemName": "$item_asksvin_meat_cooked"
+    },
+    {
+        "name": "CookedBoneMawSerpentMeat",
+        "itemName": "$item_bonemawmeat_cooked"
+    },
+    {
+        "name": "CookedBugMeat",
+        "itemName": "$item_bug_meat_cooked"
+    },
+    {
+        "name": "CookedChickenMeat",
+        "itemName": "$item_chicken_meat_cooked"
+    },
+    {
+        "name": "CookedDeerMeat",
+        "itemName": "$item_deer_meat_cooked"
+    },
+    {
+        "name": "CookedEgg",
+        "itemName": "$item_egg_cooked"
+    },
+    {
+        "name": "CookedHareMeat",
+        "itemName": "$item_hare_meat_cooked"
+    },
+    {
+        "name": "CookedLoxMeat",
+        "itemName": "$item_loxmeat_cooked"
+    },
+    {
+        "name": "CookedMeat",
+        "itemName": "$item_boar_meat_cooked"
+    },
+    {
+        "name": "CookedVoltureMeat",
+        "itemName": "$item_volture_meat_cooked"
+    },
+    {
+        "name": "CookedWolfMeat",
+        "itemName": "$item_wolf_meat_cooked"
+    },
+    {
+        "name": "Copper",
+        "itemName": "$item_copper"
+    },
+    {
+        "name": "CopperOre",
+        "itemName": "$item_copperore"
+    },
+    {
+        "name": "CopperScrap",
+        "itemName": "$item_copperscrap"
+    },
+    {
+        "name": "CrossbowArbalest",
+        "itemName": "$item_crossbow_arbalest"
+    },
+    {
+        "name": "CrossbowRipper",
+        "itemName": "$item_crossbow_ripper"
+    },
+    {
+        "name": "CrossbowRipperBlood",
+        "itemName": "$item_crossbow_ripper_blood"
+    },
+    {
+        "name": "CrossbowRipperLightning",
+        "itemName": "$item_crossbow_ripper_lightning"
+    },
+    {
+        "name": "CrossbowRipperNature",
+        "itemName": "$item_crossbow_ripper_nature"
+    },
+    {
+        "name": "CryptKey",
+        "itemName": "$item_cryptkey"
+    },
+    {
+        "name": "Crystal",
+        "itemName": "$item_crystal"
+    },
+    {
+        "name": "Cultivator",
+        "itemName": "$item_cultivator"
+    },
+    {
+        "name": "Dandelion",
+        "itemName": "$item_dandelion"
+    },
+    {
+        "name": "Deathsquito_sting",
+        "itemName": "Wraith melee"
+    },
+    {
+        "name": "DeerHide",
+        "itemName": "$item_deerhide"
+    },
+    {
+        "name": "DeerMeat",
+        "itemName": "$item_deer_meat"
+    },
+    {
+        "name": "DeerStew",
+        "itemName": "$item_deerstew"
+    },
+    {
+        "name": "Demister",
+        "itemName": "$item_demister"
+    },
+    {
+        "name": "dragon_bite",
+        "itemName": "Dragon claw left"
+    },
+    {
+        "name": "dragon_claw_left",
+        "itemName": "Dragon claw left"
+    },
+    {
+        "name": "dragon_claw_right",
+        "itemName": "Dragon claw left"
+    },
+    {
+        "name": "dragon_coldbreath",
+        "itemName": "dragon breath"
+    },
+    {
+        "name": "dragon_coldbreath_OLD",
+        "itemName": "dragon breath"
+    },
+    {
+        "name": "dragon_spit_shotgun",
+        "itemName": "cold ball"
+    },
+    {
+        "name": "dragon_taunt",
+        "itemName": "scream"
+    },
+    {
+        "name": "DragonEgg",
+        "itemName": "$item_dragonegg"
+    },
+    {
+        "name": "DragonTear",
+        "itemName": "$item_dragontear"
+    },
+    {
+        "name": "draugr_arrow",
+        "itemName": "Ironhead arrow"
+    },
+    {
+        "name": "draugr_axe",
+        "itemName": "Dragur axe"
+    },
+    {
+        "name": "draugr_bow",
+        "itemName": "Bow"
+    },
+    {
+        "name": "draugr_sword",
+        "itemName": "Dragur axe"
+    },
+    {
+        "name": "Dverger_melee",
+        "itemName": "Club"
+    },
+    {
+        "name": "Dverger_meleeAshlands",
+        "itemName": "Club"
+    },
+    {
+        "name": "DvergerArbalest",
+        "itemName": "$item_crossbow_arbalest"
+    },
+    {
+        "name": "DvergerArbalest_shoot",
+        "itemName": "$item_crossbow_arbalest"
+    },
+    {
+        "name": "DvergerArbalest_shootAshlands",
+        "itemName": "$item_crossbow_arbalest"
+    },
+    {
+        "name": "DvergerHairFemale",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "DvergerHairFemale_Redhair",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "DvergerHairMale",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "DvergerHairMale_Redbeard",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "DvergerMistile",
+        "itemName": "Club"
+    },
+    {
+        "name": "DvergerStaffBlocker",
+        "itemName": "Club"
+    },
+    {
+        "name": "DvergerStaffFire",
+        "itemName": "Club"
+    },
+    {
+        "name": "DvergerStaffFire_clusterbomb",
+        "itemName": "Club"
+    },
+    {
+        "name": "DvergerStaffFire_fireball",
+        "itemName": "Club"
+    },
+    {
+        "name": "DvergerStaffHeal",
+        "itemName": "Club"
+    },
+    {
+        "name": "DvergerStaffHeal_heal",
+        "itemName": "Club"
+    },
+    {
+        "name": "DvergerStaffIce",
+        "itemName": "Club"
+    },
+    {
+        "name": "DvergerStaffIce_icebolt",
+        "itemName": "Club"
+    },
+    {
+        "name": "DvergerStaffNova",
+        "itemName": "Club"
+    },
+    {
+        "name": "DvergerStaffSupport",
+        "itemName": "Club"
+    },
+    {
+        "name": "DvergerStaffSupport_buff",
+        "itemName": "Club"
+    },
+    {
+        "name": "DvergerSuitArbalest",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "DvergerSuitArbalest_Ashlands",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "DvergerSuitFire",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "DvergerSuitIce",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "DvergerSuitSupport",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "DvergrKey",
+        "itemName": "$item_dvergrkey"
+    },
+    {
+        "name": "DvergrKeyFragment",
+        "itemName": "$item_dvergrkeyfragment"
+    },
+    {
+        "name": "DvergrNeedle",
+        "itemName": "$item_dvergrneedle"
+    },
+    {
+        "name": "DyrnwynBladeFragment",
+        "itemName": "$item_Dyrnwyn_blade"
+    },
+    {
+        "name": "DyrnwynHiltFragment",
+        "itemName": "$item_Dyrnwyn_hilt"
+    },
+    {
+        "name": "DyrnwynTipFragment",
+        "itemName": "$item_Dyrnwyn_tip"
+    },
+    {
+        "name": "Eikthyr_antler",
+        "itemName": "StagAttack1"
+    },
+    {
+        "name": "Eikthyr_charge",
+        "itemName": "StagAttack2"
+    },
+    {
+        "name": "Eikthyr_flegs_OLD",
+        "itemName": "StagAttack1"
+    },
+    {
+        "name": "Eikthyr_stomp",
+        "itemName": "slap"
+    },
+    {
+        "name": "Eitr",
+        "itemName": "$item_eitr"
+    },
+    {
+        "name": "ElderBark",
+        "itemName": "$item_elderbark"
+    },
+    {
+        "name": "Entrails",
+        "itemName": "$item_entrails"
+    },
+    {
+        "name": "Eyescream",
+        "itemName": "$item_eyescream"
+    },
+    {
+        "name": "Fader_Bite",
+        "itemName": "Fader Bite"
+    },
+    {
+        "name": "Fader_Claw_Left",
+        "itemName": "Fader Claw Left"
+    },
+    {
+        "name": "Fader_Claw_Right",
+        "itemName": "Fader Claw Right"
+    },
+    {
+        "name": "Fader_Fissure",
+        "itemName": "Fader Fissure"
+    },
+    {
+        "name": "Fader_Fissure_Intense",
+        "itemName": "Fader Fissure"
+    },
+    {
+        "name": "Fader_Flamebreath",
+        "itemName": "Fader Firebreath"
+    },
+    {
+        "name": "Fader_Jump",
+        "itemName": "Fader Jump"
+    },
+    {
+        "name": "Fader_Jump_Left",
+        "itemName": "Fader Jump"
+    },
+    {
+        "name": "Fader_Jump_Right",
+        "itemName": "Fader Jump"
+    },
+    {
+        "name": "Fader_Meteors",
+        "itemName": "spawn"
+    },
+    {
+        "name": "Fader_Meteors_Intense",
+        "itemName": "spawn"
+    },
+    {
+        "name": "Fader_Roar",
+        "itemName": "Fader Roar"
+    },
+    {
+        "name": "Fader_Roar_Intense",
+        "itemName": "Fader Roar"
+    },
+    {
+        "name": "Fader_Spin",
+        "itemName": "Fader Spin"
+    },
+    {
+        "name": "Fader_Taunt",
+        "itemName": "Fader Taunt"
+    },
+    {
+        "name": "Fader_WallOfFire",
+        "itemName": "Fader Wall of Fire"
+    },
+    {
+        "name": "FaderDrop",
+        "itemName": "$item_fader_drop"
+    },
+    {
+        "name": "fallenvalkyrie_claws",
+        "itemName": "Fallen Valkyrie Claws"
+    },
+    {
+        "name": "fallenvalkyrie_poisonbreath",
+        "itemName": "Fallen Valkyrie Poison Breath"
+    },
+    {
+        "name": "fallenvalkyrie_screech",
+        "itemName": "Fallen Valkyrie Claws"
+    },
+    {
+        "name": "fallenvalkyrie_spin",
+        "itemName": "Fallen Valkyrie Aoe Spin"
+    },
+    {
+        "name": "fallenvalkyrie_spit",
+        "itemName": "cold ball"
+    },
+    {
+        "name": "fallenvalkyrie_swoopattack",
+        "itemName": "Fallen Valkyrie swooping"
+    },
+    {
+        "name": "fallenvalkyrie_taunt",
+        "itemName": "Fallen Valkyrie Claws"
+    },
+    {
+        "name": "fallenvalkyrie_wingspin",
+        "itemName": "Fallen Valkyrie Wingspin"
+    },
+    {
+        "name": "Feathers",
+        "itemName": "$item_feathers"
+    },
+    {
+        "name": "Fenring_attack_claw",
+        "itemName": "claw"
+    },
+    {
+        "name": "Fenring_attack_fireclaw",
+        "itemName": "claw"
+    },
+    {
+        "name": "Fenring_attack_fireclaw_double",
+        "itemName": "claw"
+    },
+    {
+        "name": "Fenring_attack_flames",
+        "itemName": "Fenring cultist flames"
+    },
+    {
+        "name": "Fenring_attack_frost",
+        "itemName": "Fenring cultist frost"
+    },
+    {
+        "name": "Fenring_attack_iceclaw",
+        "itemName": "claw"
+    },
+    {
+        "name": "Fenring_attack_iceclaw_double",
+        "itemName": "claw"
+    },
+    {
+        "name": "Fenring_attack_IceNova",
+        "itemName": "Club"
+    },
+    {
+        "name": "Fenring_attack_jump",
+        "itemName": "claw"
+    },
+    {
+        "name": "Fenring_taunt",
+        "itemName": "scream"
+    },
+    {
+        "name": "Fiddleheadfern",
+        "itemName": "$item_fiddleheadfern"
+    },
+    {
+        "name": "FierySvinstew",
+        "itemName": "$item_fierysvinstew"
+    },
+    {
+        "name": "FineWood",
+        "itemName": "$item_finewood"
+    },
+    {
+        "name": "FirCone",
+        "itemName": "$item_fircone"
+    },
+    {
+        "name": "FireworksRocket_Blue",
+        "itemName": "$item_fireworkrocket_blue"
+    },
+    {
+        "name": "FireworksRocket_Cyan",
+        "itemName": "$item_fireworkrocket_cyan"
+    },
+    {
+        "name": "FireworksRocket_Green",
+        "itemName": "$item_fireworkrocket_green"
+    },
+    {
+        "name": "FireworksRocket_Purple",
+        "itemName": "$item_fireworkrocket_purple"
+    },
+    {
+        "name": "FireworksRocket_Red",
+        "itemName": "$item_fireworkrocket_red"
+    },
+    {
+        "name": "FireworksRocket_White",
+        "itemName": "$item_fireworkrocket_white"
+    },
+    {
+        "name": "FireworksRocket_Yellow",
+        "itemName": "$item_fireworkrocket_yellow"
+    },
+    {
+        "name": "Fish1",
+        "itemName": "$animal_fish1"
+    },
+    {
+        "name": "Fish10",
+        "itemName": "$animal_fish10"
+    },
+    {
+        "name": "Fish11",
+        "itemName": "$animal_fish11"
+    },
+    {
+        "name": "Fish12",
+        "itemName": "$animal_fish12"
+    },
+    {
+        "name": "Fish2",
+        "itemName": "$animal_fish2"
+    },
+    {
+        "name": "Fish3",
+        "itemName": "$animal_fish3"
+    },
+    {
+        "name": "Fish4_cave",
+        "itemName": "$animal_fish4"
+    },
+    {
+        "name": "Fish5",
+        "itemName": "$animal_fish5"
+    },
+    {
+        "name": "Fish6",
+        "itemName": "$animal_fish6"
+    },
+    {
+        "name": "Fish7",
+        "itemName": "$animal_fish7"
+    },
+    {
+        "name": "Fish8",
+        "itemName": "$animal_fish8"
+    },
+    {
+        "name": "Fish9",
+        "itemName": "$animal_fish9"
+    },
+    {
+        "name": "FishAndBread",
+        "itemName": "$item_fishandbread"
+    },
+    {
+        "name": "FishAndBreadUncooked",
+        "itemName": "$item_fishandbreaduncooked"
+    },
+    {
+        "name": "FishAnglerRaw",
+        "itemName": "$item_fish_raw"
+    },
+    {
+        "name": "FishCooked",
+        "itemName": "$item_fish_cooked"
+    },
+    {
+        "name": "FishingBait",
+        "itemName": "$item_fishingbait"
+    },
+    {
+        "name": "FishingBaitAshlands",
+        "itemName": "$item_fishingbait_ashlands"
+    },
+    {
+        "name": "FishingBaitCave",
+        "itemName": "$item_fishingbait_cave"
+    },
+    {
+        "name": "FishingBaitDeepNorth",
+        "itemName": "$item_fishingbait_deepnorth"
+    },
+    {
+        "name": "FishingBaitForest",
+        "itemName": "$item_fishingbait_forest"
+    },
+    {
+        "name": "FishingBaitMistlands",
+        "itemName": "$item_fishingbait_mistlands"
+    },
+    {
+        "name": "FishingBaitOcean",
+        "itemName": "$item_fishingbait_ocean"
+    },
+    {
+        "name": "FishingBaitPlains",
+        "itemName": "$item_fishingbait_plains"
+    },
+    {
+        "name": "FishingBaitSwamp",
+        "itemName": "$item_fishingbait_swamp"
+    },
+    {
+        "name": "FishingRod",
+        "itemName": "$item_fishingrod"
+    },
+    {
+        "name": "FishRaw",
+        "itemName": "$item_fish_raw"
+    },
+    {
+        "name": "FishWraps",
+        "itemName": "$item_fishwraps"
+    },
+    {
+        "name": "FistFenrirClaw",
+        "itemName": "$item_fistweapon_fenris"
+    },
+    {
+        "name": "Flametal",
+        "itemName": "$item_flametal_old"
+    },
+    {
+        "name": "FlametalNew",
+        "itemName": "$item_flametal"
+    },
+    {
+        "name": "FlametalOre",
+        "itemName": "$item_flametalore_old"
+    },
+    {
+        "name": "FlametalOreNew",
+        "itemName": "$item_flametalore"
+    },
+    {
+        "name": "Flax",
+        "itemName": "$item_flax"
+    },
+    {
+        "name": "Flint",
+        "itemName": "$item_flint"
+    },
+    {
+        "name": "FreezeGland",
+        "itemName": "$item_freezegland"
+    },
+    {
+        "name": "gd_king_punch",
+        "itemName": "jaws"
+    },
+    {
+        "name": "gd_king_rootspawn",
+        "itemName": "spawn"
+    },
+    {
+        "name": "gd_king_scream",
+        "itemName": "scream"
+    },
+    {
+        "name": "gd_king_shoot",
+        "itemName": "shaman attack"
+    },
+    {
+        "name": "gd_king_stomp",
+        "itemName": "jaws"
+    },
+    {
+        "name": "GemstoneBlue",
+        "itemName": "$item_gemstone_blue"
+    },
+    {
+        "name": "GemstoneGreen",
+        "itemName": "$item_gemstone_green"
+    },
+    {
+        "name": "GemstoneRed",
+        "itemName": "$item_gemstone_red"
+    },
+    {
+        "name": "Ghost_attack",
+        "itemName": "jaws"
+    },
+    {
+        "name": "GiantBloodSack",
+        "itemName": "$item_bloodclot"
+    },
+    {
+        "name": "gjall_attack_egg",
+        "itemName": "egg drop"
+    },
+    {
+        "name": "gjall_attack_shake",
+        "itemName": "gjall shake"
+    },
+    {
+        "name": "gjall_attack_spit",
+        "itemName": "gjall spit"
+    },
+    {
+        "name": "gjall_attack_taunt",
+        "itemName": "gjall taunt"
+    },
+    {
+        "name": "GoblinArmband",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "GoblinBrute_ArmGuard",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "GoblinBrute_Attack",
+        "itemName": "Brute sword"
+    },
+    {
+        "name": "GoblinBrute_Backbones",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "GoblinBrute_ExecutionerCap",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "GoblinBrute_HipCloth",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "GoblinBrute_LegBones",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "GoblinBrute_RageAttack",
+        "itemName": "Brute sword"
+    },
+    {
+        "name": "GoblinBrute_ShoulderGuard",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "GoblinBrute_Taunt",
+        "itemName": "Brute taunt"
+    },
+    {
+        "name": "GoblinBruteBros_Attack",
+        "itemName": "Brute sword"
+    },
+    {
+        "name": "GoblinBruteBros_RageAttack",
+        "itemName": "Brute sword"
+    },
+    {
+        "name": "GoblinClub",
+        "itemName": "Club"
+    },
+    {
+        "name": "GoblinHelmet",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "GoblinKing_Beam",
+        "itemName": "dragon breath"
+    },
+    {
+        "name": "GoblinKing_Meteors",
+        "itemName": "spawn"
+    },
+    {
+        "name": "GoblinKing_Nova",
+        "itemName": "slap"
+    },
+    {
+        "name": "GoblinKing_Taunt",
+        "itemName": "scream"
+    },
+    {
+        "name": "GoblinLegband",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "GoblinLoin",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "GoblinShaman_attack_fireball",
+        "itemName": "fireballattack"
+    },
+    {
+        "name": "GoblinShaman_attack_fireball_hildir",
+        "itemName": "fireballattack"
+    },
+    {
+        "name": "GoblinShaman_attack_poke",
+        "itemName": "Club"
+    },
+    {
+        "name": "GoblinShaman_attack_protect",
+        "itemName": "heal"
+    },
+    {
+        "name": "GoblinShaman_attack_protect_hildir",
+        "itemName": "heal"
+    },
+    {
+        "name": "GoblinShaman_Headdress_antlers",
+        "itemName": "Club"
+    },
+    {
+        "name": "GoblinShaman_Headdress_feathers",
+        "itemName": "Club"
+    },
+    {
+        "name": "GoblinShaman_Staff_Bones",
+        "itemName": "Club"
+    },
+    {
+        "name": "GoblinShaman_Staff_Feathers",
+        "itemName": "Club"
+    },
+    {
+        "name": "GoblinShaman_Staff_Hildir",
+        "itemName": "Club"
+    },
+    {
+        "name": "GoblinShoulders",
+        "itemName": "Iron plate armor"
+    },
+    {
+        "name": "GoblinSpear",
+        "itemName": "Flint spear"
+    },
+    {
+        "name": "GoblinSword",
+        "itemName": "Bronze sword"
+    },
+    {
+        "name": "GoblinTorch",
+        "itemName": "Torch"
+    },
+    {
+        "name": "GoblinTotem",
+        "itemName": "$item_goblintotem"
+    },
+    {
+        "name": "Grausten",
+        "itemName": "$item_grausten"
+    },
+    {
+        "name": "Greydwarf_attack",
+        "itemName": "jaws"
+    },
+    {
+        "name": "Greydwarf_elite_attack",
+        "itemName": "jaws"
+    },
+    {
+        "name": "Greydwarf_shaman_attack",
+        "itemName": "shaman attack"
+    },
+    {
+        "name": "Greydwarf_shaman_heal",
+        "itemName": "heal"
+    },
+    {
+        "name": "Greydwarf_throw",
+        "itemName": "throw stone"
+    },
+    {
+        "name": "GreydwarfEye",
+        "itemName": "$item_greydwarfeye"
+    },
+    {
+        "name": "Greyling_attack",
+        "itemName": "jaws"
+    },
+    {
+        "name": "Guck",
+        "itemName": "$item_guck"
+    },
+    {
+        "name": "Hair1",
+        "itemName": "$customization_hair01"
+    },
+    {
+        "name": "Hair10",
+        "itemName": "$customization_hair10"
+    },
+    {
+        "name": "Hair10_2",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair11",
+        "itemName": "$customization_hair11"
+    },
+    {
+        "name": "Hair11_2",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair11_3",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair12",
+        "itemName": "$customization_hair12"
+    },
+    {
+        "name": "Hair12_2",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair13",
+        "itemName": "$customization_hair13"
+    },
+    {
+        "name": "Hair13_2",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair13_3",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair14",
+        "itemName": "$customization_hair14"
+    },
+    {
+        "name": "Hair14_2",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair15",
+        "itemName": "$customization_hair15"
+    },
+    {
+        "name": "Hair15_2",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair15_3",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair16",
+        "itemName": "$customization_hair16"
+    },
+    {
+        "name": "Hair16_2",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair17",
+        "itemName": "$customization_hair17"
+    },
+    {
+        "name": "Hair17_2",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair18",
+        "itemName": "$customization_hair18"
+    },
+    {
+        "name": "Hair18_2",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair19",
+        "itemName": "$customization_hair19"
+    },
+    {
+        "name": "Hair2",
+        "itemName": "$customization_hair02"
+    },
+    {
+        "name": "Hair20",
+        "itemName": "$customization_hair20"
+    },
+    {
+        "name": "Hair21",
+        "itemName": "$customization_hair21"
+    },
+    {
+        "name": "Hair21_2",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair22",
+        "itemName": "$customization_hair22"
+    },
+    {
+        "name": "Hair22_2",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair23",
+        "itemName": "$customization_hair23"
+    },
+    {
+        "name": "Hair24",
+        "itemName": "$customization_hair24"
+    },
+    {
+        "name": "Hair24_2",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair24_3",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair25",
+        "itemName": "$customization_hair25"
+    },
+    {
+        "name": "Hair26",
+        "itemName": "$customization_hair26"
+    },
+    {
+        "name": "Hair27",
+        "itemName": "$customization_hair27"
+    },
+    {
+        "name": "Hair27_2",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair27_3",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair28",
+        "itemName": "$customization_hair28"
+    },
+    {
+        "name": "Hair28_2",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair28_3",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair29",
+        "itemName": "$customization_hair29"
+    },
+    {
+        "name": "Hair29_2",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair3",
+        "itemName": "$customization_hair03"
+    },
+    {
+        "name": "Hair3_2",
+        "itemName": "$customization_hair03"
+    },
+    {
+        "name": "Hair3_3",
+        "itemName": "$customization_hair03"
+    },
+    {
+        "name": "Hair30",
+        "itemName": "$customization_hair30"
+    },
+    {
+        "name": "Hair30_2",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair30_3",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair31",
+        "itemName": "$customization_hair31"
+    },
+    {
+        "name": "Hair31_2",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair31_3",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair4",
+        "itemName": "$customization_hair04"
+    },
+    {
+        "name": "Hair4_2",
+        "itemName": "$customization_hair03"
+    },
+    {
+        "name": "Hair4_3",
+        "itemName": "$customization_hair03"
+    },
+    {
+        "name": "Hair5",
+        "itemName": "$customization_hair05"
+    },
+    {
+        "name": "Hair5_2",
+        "itemName": "$customization_hair03"
+    },
+    {
+        "name": "Hair6",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair6_2",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair6_3",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair7",
+        "itemName": "$customization_hair07"
+    },
+    {
+        "name": "Hair7_2",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair8",
+        "itemName": "$customization_hair08"
+    },
+    {
+        "name": "Hair8_2",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "Hair9",
+        "itemName": "$customization_hair09"
+    },
+    {
+        "name": "Hair9_2",
+        "itemName": "$customization_hair06"
+    },
+    {
+        "name": "HairNone",
+        "itemName": "$customization_nohair"
+    },
+    {
+        "name": "Hammer",
+        "itemName": "$item_hammer"
+    },
+    {
+        "name": "HardAntler",
+        "itemName": "$item_hardantler"
+    },
+    {
+        "name": "HareMeat",
+        "itemName": "$item_hare_meat"
+    },
+    {
+        "name": "hatchling_spit_cold",
+        "itemName": "cold ball"
+    },
+    {
+        "name": "HealthUpgrade_Bonemass",
+        "itemName": "Bonemass heart"
+    },
+    {
+        "name": "HealthUpgrade_GDKing",
+        "itemName": "Elder heart"
+    },
+    {
+        "name": "HelmetAshlandsMediumHood",
+        "itemName": "$item_helmet_medium_ashlands"
+    },
+    {
+        "name": "HelmetBronze",
+        "itemName": "$item_helmet_bronze"
+    },
+    {
+        "name": "HelmetCarapace",
+        "itemName": "$item_helmet_carapace"
+    },
+    {
+        "name": "HelmetDrake",
+        "itemName": "$item_helmet_drake"
+    },
+    {
+        "name": "HelmetDverger",
+        "itemName": "$item_helmet_dverger"
+    },
+    {
+        "name": "HelmetFenring",
+        "itemName": "$item_helmet_fenris"
+    },
+    {
+        "name": "HelmetFishingHat",
+        "itemName": "$item_helmet_fishinghat"
+    },
+    {
+        "name": "HelmetFlametal",
+        "itemName": "$item_helmet_flametal"
+    },
+    {
+        "name": "HelmetHat1",
+        "itemName": "$item_helmet_hat1"
+    },
+    {
+        "name": "HelmetHat10",
+        "itemName": "$item_helmet_hat10"
+    },
+    {
+        "name": "HelmetHat2",
+        "itemName": "$item_helmet_hat2"
+    },
+    {
+        "name": "HelmetHat3",
+        "itemName": "$item_helmet_hat3"
+    },
+    {
+        "name": "HelmetHat4",
+        "itemName": "$item_helmet_hat4"
+    },
+    {
+        "name": "HelmetHat5",
+        "itemName": "$item_helmet_hat5"
+    },
+    {
+        "name": "HelmetHat6",
+        "itemName": "$item_helmet_hat6"
+    },
+    {
+        "name": "HelmetHat7",
+        "itemName": "$item_helmet_hat7"
+    },
+    {
+        "name": "HelmetHat8",
+        "itemName": "$item_helmet_hat8"
+    },
+    {
+        "name": "HelmetHat9",
+        "itemName": "$item_helmet_hat9"
+    },
+    {
+        "name": "HelmetIron",
+        "itemName": "$item_helmet_iron"
+    },
+    {
+        "name": "HelmetLeather",
+        "itemName": "$item_helmet_leather"
+    },
+    {
+        "name": "HelmetMage",
+        "itemName": "$item_helmet_mage"
+    },
+    {
+        "name": "HelmetMage_Ashlands",
+        "itemName": "$item_helmet_mage_ashlands"
+    },
+    {
+        "name": "HelmetMidsummerCrown",
+        "itemName": "$item_helmet_midsummercrown"
+    },
+    {
+        "name": "HelmetOdin",
+        "itemName": "$item_helmet_odin"
+    },
+    {
+        "name": "HelmetPadded",
+        "itemName": "$item_helmet_padded"
+    },
+    {
+        "name": "HelmetPointyHat",
+        "itemName": "$item_helmet_witchhat"
+    },
+    {
+        "name": "HelmetRoot",
+        "itemName": "$item_helmet_root"
+    },
+    {
+        "name": "HelmetTrollLeather",
+        "itemName": "$item_helmet_trollleather"
+    },
+    {
+        "name": "HelmetYule",
+        "itemName": "$item_helmet_yule"
+    },
+    {
+        "name": "HildirKey_forestcrypt",
+        "itemName": "$item_hildirkey1"
+    },
+    {
+        "name": "HildirKey_mountaincave",
+        "itemName": "$item_hildirkey2"
+    },
+    {
+        "name": "HildirKey_plainsfortress",
+        "itemName": "$item_hildirkey3"
+    },
+    {
+        "name": "hive_attack_aoe",
+        "itemName": "heal"
+    },
+    {
+        "name": "hive_attack_punch",
+        "itemName": "slap"
+    },
+    {
+        "name": "hive_attack_ranged",
+        "itemName": "dragon breath"
+    },
+    {
+        "name": "hive_attack_throw",
+        "itemName": "slime throw"
+    },
+    {
+        "name": "Hoe",
+        "itemName": "$item_hoe"
+    },
+    {
+        "name": "Honey",
+        "itemName": "$item_honey"
+    },
+    {
+        "name": "HoneyGlazedChicken",
+        "itemName": "$item_honeyglazedchicken"
+    },
+    {
+        "name": "HoneyGlazedChickenUncooked",
+        "itemName": "$item_honeyglazedchickenuncooked"
+    },
+    {
+        "name": "imp_fireball_attack",
+        "itemName": "fireballattack"
+    },
+    {
+        "name": "Iron",
+        "itemName": "$item_iron"
+    },
+    {
+        "name": "IronNails",
+        "itemName": "$item_ironnails"
+    },
+    {
+        "name": "IronOre",
+        "itemName": "$item_ironore"
+    },
+    {
+        "name": "Ironpit",
+        "itemName": "$item_ironpit"
+    },
+    {
+        "name": "IronScrap",
+        "itemName": "$item_ironscrap"
+    },
+    {
+        "name": "JuteBlue",
+        "itemName": "$item_juteblue"
+    },
+    {
+        "name": "JuteRed",
+        "itemName": "$item_jutered"
+    },
+    {
+        "name": "KnifeBlackMetal",
+        "itemName": "$item_knife_blackmetal"
+    },
+    {
+        "name": "KnifeButcher",
+        "itemName": "$item_knife_butcher"
+    },
+    {
+        "name": "KnifeChitin",
+        "itemName": "$item_knife_chitin"
+    },
+    {
+        "name": "KnifeCopper",
+        "itemName": "$item_knife_copper"
+    },
+    {
+        "name": "KnifeFlint",
+        "itemName": "$item_knife_flint"
+    },
+    {
+        "name": "KnifeSilver",
+        "itemName": "$item_knife_silver"
+    },
+    {
+        "name": "KnifeSkollAndHati",
+        "itemName": "$item_knife_skollandhati"
+    },
+    {
+        "name": "Lantern",
+        "itemName": "$item_lantern"
+    },
+    {
+        "name": "Larva",
+        "itemName": "$item_larva"
+    },
+    {
+        "name": "LeatherScraps",
+        "itemName": "$item_leatherscraps"
+    },
+    {
+        "name": "Leech_BiteAttack",
+        "itemName": "jaws"
+    },
+    {
+        "name": "LinenThread",
+        "itemName": "$item_linenthread"
+    },
+    {
+        "name": "lox_bite",
+        "itemName": "lox bite"
+    },
+    {
+        "name": "lox_stomp",
+        "itemName": "slap"
+    },
+    {
+        "name": "LoxMeat",
+        "itemName": "$item_loxmeat"
+    },
+    {
+        "name": "LoxPelt",
+        "itemName": "$item_loxpelt"
+    },
+    {
+        "name": "LoxPie",
+        "itemName": "$item_loxpie"
+    },
+    {
+        "name": "LoxPieUncooked",
+        "itemName": "$item_loxpie_uncooked"
+    },
+    {
+        "name": "MaceBronze",
+        "itemName": "$item_mace_bronze"
+    },
+    {
+        "name": "MaceEldner",
+        "itemName": "$item_mace_eldner"
+    },
+    {
+        "name": "MaceEldnerBlood",
+        "itemName": "$item_mace_eldner_blood"
+    },
+    {
+        "name": "MaceEldnerLightning",
+        "itemName": "$item_mace_eldner_lightning"
+    },
+    {
+        "name": "MaceEldnerNature",
+        "itemName": "$item_mace_eldner_nature"
+    },
+    {
+        "name": "MaceIron",
+        "itemName": "$item_mace_iron"
+    },
+    {
+        "name": "MaceNeedle",
+        "itemName": "$item_mace_needle"
+    },
+    {
+        "name": "MaceSilver",
+        "itemName": "$item_mace_silver"
+    },
+    {
+        "name": "MagicallyStuffedShroom",
+        "itemName": "$item_magicallystuffedmushroom"
+    },
+    {
+        "name": "MagicallyStuffedShroomUncooked",
+        "itemName": "$item_magicallystuffedmushroomuncooked"
+    },
+    {
+        "name": "Mandible",
+        "itemName": "$item_mandible"
+    },
+    {
+        "name": "MarinatedGreens",
+        "itemName": "$item_marinatedgreens"
+    },
+    {
+        "name": "MashedMeat",
+        "itemName": "$item_mashedmeat"
+    },
+    {
+        "name": "MeadBaseEitrLingering",
+        "itemName": "$item_meadbaseeitr_lingering"
+    },
+    {
+        "name": "MeadBaseEitrMinor",
+        "itemName": "$item_meadbaseeitr"
+    },
+    {
+        "name": "MeadBaseFrostResist",
+        "itemName": "$item_meadbasefrostresist"
+    },
+    {
+        "name": "MeadBaseHealthLingering",
+        "itemName": "$item_meadbasehealth_lingering"
+    },
+    {
+        "name": "MeadBaseHealthMajor",
+        "itemName": "$item_meadbasehealth_major"
+    },
+    {
+        "name": "MeadBaseHealthMedium",
+        "itemName": "$item_meadbasehealth_medium"
+    },
+    {
+        "name": "MeadBaseHealthMinor",
+        "itemName": "$item_meadbasehealth"
+    },
+    {
+        "name": "MeadBasePoisonResist",
+        "itemName": "$item_meadbasepoisonresist"
+    },
+    {
+        "name": "MeadBaseStaminaLingering",
+        "itemName": "$item_meadbasestamina_lingering"
+    },
+    {
+        "name": "MeadBaseStaminaMedium",
+        "itemName": "$item_meadbasestamina_medium"
+    },
+    {
+        "name": "MeadBaseStaminaMinor",
+        "itemName": "$item_meadbasestamina"
+    },
+    {
+        "name": "MeadBaseTasty",
+        "itemName": "$item_meadbasetasty"
+    },
+    {
+        "name": "MeadEitrLingering",
+        "itemName": "$item_mead_eitr_lingering"
+    },
+    {
+        "name": "MeadEitrMinor",
+        "itemName": "$item_mead_eitr_minor"
+    },
+    {
+        "name": "MeadFrostResist",
+        "itemName": "$item_mead_frostres"
+    },
+    {
+        "name": "MeadHealthLingering",
+        "itemName": "$item_mead_hp_lingering"
+    },
+    {
+        "name": "MeadHealthMajor",
+        "itemName": "$item_mead_hp_major"
+    },
+    {
+        "name": "MeadHealthMedium",
+        "itemName": "$item_mead_hp_medium"
+    },
+    {
+        "name": "MeadHealthMinor",
+        "itemName": "$item_mead_hp_minor"
+    },
+    {
+        "name": "MeadPoisonResist",
+        "itemName": "$item_mead_poisonres"
+    },
+    {
+        "name": "MeadStaminaLingering",
+        "itemName": "$item_mead_stamina_lingering"
+    },
+    {
+        "name": "MeadStaminaMedium",
+        "itemName": "$item_mead_stamina_medium"
+    },
+    {
+        "name": "MeadStaminaMinor",
+        "itemName": "$item_mead_stamina_minor"
+    },
+    {
+        "name": "MeadTasty",
+        "itemName": "$item_mead_tasty"
+    },
+    {
+        "name": "MeatPlatter",
+        "itemName": "$item_meatplatter"
+    },
+    {
+        "name": "MeatPlatterUncooked",
+        "itemName": "$item_meatplatteruncooked"
+    },
+    {
+        "name": "MechanicalSpring",
+        "itemName": "$item_mechanicalspring"
+    },
+    {
+        "name": "MinceMeatSauce",
+        "itemName": "$item_mincemeatsauce"
+    },
+    {
+        "name": "MisthareSupreme",
+        "itemName": "$item_mistharesupreme"
+    },
+    {
+        "name": "MisthareSupremeUncooked",
+        "itemName": "$item_mistharesupremeuncooked"
+    },
+    {
+        "name": "Mistile_kamikaze",
+        "itemName": "Mistile Kamikaze"
+    },
+    {
+        "name": "MoltenCore",
+        "itemName": "$item_moltencore"
+    },
+    {
+        "name": "Morgen_bite",
+        "itemName": "Dragon claw left"
+    },
+    {
+        "name": "Morgen_bodyslam",
+        "itemName": "Dragon claw left"
+    },
+    {
+        "name": "Morgen_roll_left",
+        "itemName": "Morgen Roll Left"
+    },
+    {
+        "name": "Morgen_roll_right",
+        "itemName": "Morgen Roll Right"
+    },
+    {
+        "name": "Morgen_swipe_1",
+        "itemName": "Dragon claw left"
+    },
+    {
+        "name": "Morgen_swipe_2",
+        "itemName": "Dragon claw left"
+    },
+    {
+        "name": "Morgen_swipe_3",
+        "itemName": "Dragon claw left"
+    },
+    {
+        "name": "Morgen_swipe_4",
+        "itemName": "Dragon claw left"
+    },
+    {
+        "name": "Morgen_swipe_5",
+        "itemName": "Dragon claw left"
+    },
+    {
+        "name": "Morgen_swipe_6",
+        "itemName": "Dragon claw left"
+    },
+    {
+        "name": "MorgenHeart",
+        "itemName": "$item_morgenheart"
+    },
+    {
+        "name": "MorgenSinew",
+        "itemName": "$item_morgensinew"
+    },
+    {
+        "name": "Mushroom",
+        "itemName": "$item_mushroomcommon"
+    },
+    {
+        "name": "MushroomBlue",
+        "itemName": "$item_mushroomblue"
+    },
+    {
+        "name": "MushroomJotunPuffs",
+        "itemName": "$item_jotunpuffs"
+    },
+    {
+        "name": "MushroomMagecap",
+        "itemName": "$item_magecap"
+    },
+    {
+        "name": "MushroomOmelette",
+        "itemName": "$item_mushroomomelette"
+    },
+    {
+        "name": "MushroomSmokePuff",
+        "itemName": "$item_smokepuff"
+    },
+    {
+        "name": "MushroomYellow",
+        "itemName": "$item_mushroomyellow"
+    },
+    {
+        "name": "Neck_BiteAttack",
+        "itemName": "jaws"
+    },
+    {
+        "name": "NeckTail",
+        "itemName": "$item_necktail"
+    },
+    {
+        "name": "NeckTailGrilled",
+        "itemName": "$item_necktailgrilled"
+    },
+    {
+        "name": "Needle",
+        "itemName": "$item_needle"
+    },
+    {
+        "name": "Obsidian",
+        "itemName": "$item_obsidian"
+    },
+    {
+        "name": "Onion",
+        "itemName": "$item_onion"
+    },
+    {
+        "name": "OnionSeeds",
+        "itemName": "$item_onionseeds"
+    },
+    {
+        "name": "OnionSoup",
+        "itemName": "$item_onionsoup"
+    },
+    {
+        "name": "Ooze",
+        "itemName": "$item_ooze"
+    },
+    {
+        "name": "PickaxeAntler",
+        "itemName": "$item_pickaxe_antler"
+    },
+    {
+        "name": "PickaxeBlackMetal",
+        "itemName": "$item_pickaxe_blackmetal"
+    },
+    {
+        "name": "PickaxeBronze",
+        "itemName": "$item_pickaxe_bronze"
+    },
+    {
+        "name": "PickaxeIron",
+        "itemName": "$item_pickaxe_iron"
+    },
+    {
+        "name": "PickaxeStone",
+        "itemName": "$item_pickaxe_stone"
+    },
+    {
+        "name": "PineCone",
+        "itemName": "$item_pinecone"
+    },
+    {
+        "name": "PiquantPie",
+        "itemName": "$item_piquantpie"
+    },
+    {
+        "name": "PiquantPieUncooked",
+        "itemName": "$item_piquantpie_uncooked"
+    },
+    {
+        "name": "PlayerUnarmed",
+        "itemName": "Unarmed"
+    },
+    {
+        "name": "Pot_Shard_Green",
+        "itemName": "$item_pot_shard_green"
+    },
+    {
+        "name": "Pot_Shard_Red",
+        "itemName": "$item_pot_shard_red"
+    },
+    {
+        "name": "ProustitePowder",
+        "itemName": "$item_proustitepowder"
+    },
+    {
+        "name": "Pukeberries",
+        "itemName": "$item_pukeberries"
+    },
+    {
+        "name": "QueenBee",
+        "itemName": "$item_queenbee"
+    },
+    {
+        "name": "QueenDrop",
+        "itemName": "$item_seekerqueen_drop"
+    },
+    {
+        "name": "QueensJam",
+        "itemName": "$item_queensjam"
+    },
+    {
+        "name": "Raspberry",
+        "itemName": "$item_raspberries"
+    },
+    {
+        "name": "RawMeat",
+        "itemName": "$item_boar_meat"
+    },
+    {
+        "name": "Resin",
+        "itemName": "$item_resin"
+    },
+    {
+        "name": "RoastedCrustPie",
+        "itemName": "$item_roastedcrustpie"
+    },
+    {
+        "name": "RoastedCrustPieUncooked",
+        "itemName": "$item_roastedcrustpie_uncooked"
+    },
+    {
+        "name": "Root",
+        "itemName": "$item_root"
+    },
+    {
+        "name": "RottenMeat",
+        "itemName": "$item_meat_rotten"
+    },
+    {
+        "name": "RoundLog",
+        "itemName": "$item_roundlog"
+    },
+    {
+        "name": "RoyalJelly",
+        "itemName": "$item_royaljelly"
+    },
+    {
+        "name": "Ruby",
+        "itemName": "$item_ruby"
+    },
+    {
+        "name": "SaddleAsksvin",
+        "itemName": "$item_saddleasksvin"
+    },
+    {
+        "name": "SaddleLox",
+        "itemName": "$item_saddlelox"
+    },
+    {
+        "name": "Salad",
+        "itemName": "$item_salad"
+    },
+    {
+        "name": "Sap",
+        "itemName": "$item_sap"
+    },
+    {
+        "name": "Sausages",
+        "itemName": "$item_sausages"
+    },
+    {
+        "name": "ScaleHide",
+        "itemName": "$item_scalehide"
+    },
+    {
+        "name": "ScorchingMedley",
+        "itemName": "$item_scorchingmedley"
+    },
+    {
+        "name": "seeker_claw_left",
+        "itemName": "Dragon claw left"
+    },
+    {
+        "name": "seeker_claw_right",
+        "itemName": "Dragon claw left"
+    },
+    {
+        "name": "seeker_groundslam",
+        "itemName": "Dragon claw left"
+    },
+    {
+        "name": "seeker_groundslam_flying",
+        "itemName": "Dragon claw left"
+    },
+    {
+        "name": "seeker_land",
+        "itemName": "land"
+    },
+    {
+        "name": "seeker_pincers",
+        "itemName": "Dragon claw left"
+    },
+    {
+        "name": "seeker_takeoff",
+        "itemName": "takeoff"
+    },
+    {
+        "name": "SeekerAspic",
+        "itemName": "$item_seekeraspic"
+    },
+    {
+        "name": "SeekerBrute_bite",
+        "itemName": "Dragon claw left"
+    },
+    {
+        "name": "SeekerBrute_groundslam",
+        "itemName": "slap"
+    },
+    {
+        "name": "SeekerBrute_ram",
+        "itemName": "Dragon claw left"
+    },
+    {
+        "name": "SeekerBrute_Taunt",
+        "itemName": "Brute taunt"
+    },
+    {
+        "name": "SeekerQueen_Bite",
+        "itemName": "slap"
+    },
+    {
+        "name": "SeekerQueen_Call",
+        "itemName": "Brute taunt"
+    },
+    {
+        "name": "SeekerQueen_PierceAOE",
+        "itemName": "slap"
+    },
+    {
+        "name": "SeekerQueen_Rush",
+        "itemName": "slap"
+    },
+    {
+        "name": "SeekerQueen_Slap",
+        "itemName": "slap"
+    },
+    {
+        "name": "SeekerQueen_Spit",
+        "itemName": "dragon breath"
+    },
+    {
+        "name": "SeekerQueen_Teleport",
+        "itemName": "Brute taunt"
+    },
+    {
+        "name": "Serpent_attack",
+        "itemName": "Serpent bite"
+    },
+    {
+        "name": "Serpent_taunt",
+        "itemName": "Serpent Taunt"
+    },
+    {
+        "name": "SerpentMeat",
+        "itemName": "$item_serpentmeat"
+    },
+    {
+        "name": "SerpentMeatCooked",
+        "itemName": "$item_serpentmeatcooked"
+    },
+    {
+        "name": "SerpentScale",
+        "itemName": "$item_serpentscale"
+    },
+    {
+        "name": "SerpentStew",
+        "itemName": "$item_serpentstew"
+    },
+    {
+        "name": "SharpeningStone",
+        "itemName": "$item_sharpeningstone"
+    },
+    {
+        "name": "ShieldBanded",
+        "itemName": "$item_shield_banded"
+    },
+    {
+        "name": "ShieldBlackmetal",
+        "itemName": "$item_shield_blackmetal"
+    },
+    {
+        "name": "ShieldBlackmetalTower",
+        "itemName": "$item_shield_blackmetal_tower"
+    },
+    {
+        "name": "ShieldBoneTower",
+        "itemName": "$item_shield_bonetower"
+    },
+    {
+        "name": "ShieldBronzeBuckler",
+        "itemName": "$item_shield_bronzebuckler"
+    },
+    {
+        "name": "ShieldCarapace",
+        "itemName": "$item_shield_carapace"
+    },
+    {
+        "name": "ShieldCarapaceBuckler",
+        "itemName": "$item_shield_carapacebuckler"
+    },
+    {
+        "name": "ShieldCore",
+        "itemName": "$item_shieldcore"
+    },
+    {
+        "name": "ShieldFlametal",
+        "itemName": "$item_shield_flametal"
+    },
+    {
+        "name": "ShieldFlametalTower",
+        "itemName": "$item_shield_flametal_tower"
+    },
+    {
+        "name": "ShieldIronBuckler",
+        "itemName": "$item_shield_ironbuckler"
+    },
+    {
+        "name": "ShieldIronSquare",
+        "itemName": "$item_shield_iron_square"
+    },
+    {
+        "name": "ShieldIronTower",
+        "itemName": "$item_shield_iron_tower"
+    },
+    {
+        "name": "ShieldKnight",
+        "itemName": "$item_shield_knight"
+    },
+    {
+        "name": "ShieldSerpentscale",
+        "itemName": "$item_shield_serpentscale"
+    },
+    {
+        "name": "ShieldSilver",
+        "itemName": "$item_shield_silver"
+    },
+    {
+        "name": "ShieldWood",
+        "itemName": "$item_shield_wood"
+    },
+    {
+        "name": "ShieldWoodTower",
+        "itemName": "$item_shield_woodtower"
+    },
+    {
+        "name": "ShocklateSmoothie",
+        "itemName": "$item_shocklatesmoothie"
+    },
+    {
+        "name": "Silver",
+        "itemName": "$item_silver"
+    },
+    {
+        "name": "SilverNecklace",
+        "itemName": "$item_silvernecklace"
+    },
+    {
+        "name": "SilverOre",
+        "itemName": "$item_silverore"
+    },
+    {
+        "name": "SizzlingBerryBroth",
+        "itemName": "$item_sizzlingberrybroth"
+    },
+    {
+        "name": "skeleton_bow",
+        "itemName": "Bow"
+    },
+    {
+        "name": "skeleton_bow2",
+        "itemName": "Bow"
+    },
+    {
+        "name": "skeleton_hildir_firenova",
+        "itemName": "Fire Skeleton Sword"
+    },
+    {
+        "name": "skeleton_mace",
+        "itemName": "Dragur axe"
+    },
+    {
+        "name": "skeleton_sword",
+        "itemName": "Dragur axe"
+    },
+    {
+        "name": "skeleton_sword_hildir",
+        "itemName": "Fire Skeleton Sword"
+    },
+    {
+        "name": "skeleton_sword2",
+        "itemName": "Dragur axe"
+    },
+    {
+        "name": "SledgeCheat",
+        "itemName": "Cheat sledge"
+    },
+    {
+        "name": "SledgeDemolisher",
+        "itemName": "$item_sledge_demolisher"
+    },
+    {
+        "name": "SledgeIron",
+        "itemName": "$item_sledge_iron"
+    },
+    {
+        "name": "SledgeStagbreaker",
+        "itemName": "$item_stagbreaker"
+    },
+    {
+        "name": "Softtissue",
+        "itemName": "$item_softtissue"
+    },
+    {
+        "name": "Sparkler",
+        "itemName": "$item_sparkler"
+    },
+    {
+        "name": "SparklingShroomshake",
+        "itemName": "$item_sparklingshroomshake"
+    },
+    {
+        "name": "SpearBronze",
+        "itemName": "$item_spear_bronze"
+    },
+    {
+        "name": "SpearCarapace",
+        "itemName": "$item_spear_carapace"
+    },
+    {
+        "name": "SpearChitin",
+        "itemName": "$item_spear_chitin"
+    },
+    {
+        "name": "SpearElderbark",
+        "itemName": "$item_spear_ancientbark"
+    },
+    {
+        "name": "SpearFlint",
+        "itemName": "$item_spear_flint"
+    },
+    {
+        "name": "SpearSplitner",
+        "itemName": "$item_spear_splitner"
+    },
+    {
+        "name": "SpearSplitner_Blood",
+        "itemName": "$item_spear_splitner_blood"
+    },
+    {
+        "name": "SpearSplitner_Lightning",
+        "itemName": "$item_spear_splitner_lightning"
+    },
+    {
+        "name": "SpearSplitner_Nature",
+        "itemName": "$item_spear_splitner_nature"
+    },
+    {
+        "name": "SpearWolfFang",
+        "itemName": "$item_spear_wolffang"
+    },
+    {
+        "name": "SpicyMarmalade",
+        "itemName": "$item_spicymarmalade"
+    },
+    {
+        "name": "staff_greenroots_tentaroot_attack",
+        "itemName": "Dragur axe"
+    },
+    {
+        "name": "StaffClusterbomb",
+        "itemName": "$item_staffclusterbomb"
+    },
+    {
+        "name": "StaffFireball",
+        "itemName": "$item_stafffireball"
+    },
+    {
+        "name": "StaffGreenRoots",
+        "itemName": "$item_staffgreenroots"
+    },
+    {
+        "name": "StaffIceShards",
+        "itemName": "$item_stafficeshards"
+    },
+    {
+        "name": "StaffLightning",
+        "itemName": "$item_staff_lightning"
+    },
+    {
+        "name": "StaffRedTroll",
+        "itemName": "$item_staffredtroll"
+    },
+    {
+        "name": "StaffShield",
+        "itemName": "$item_staffshield"
+    },
+    {
+        "name": "StaffSkeleton",
+        "itemName": "$item_staffskeleton"
+    },
+    {
+        "name": "StaminaUpgrade_Greydwarf",
+        "itemName": "Stamina Greydwarf"
+    },
+    {
+        "name": "StaminaUpgrade_Troll",
+        "itemName": "Stamina Troll"
+    },
+    {
+        "name": "StaminaUpgrade_Wraith",
+        "itemName": "Stamina Wraith"
+    },
+    {
+        "name": "Stone",
+        "itemName": "$item_stone"
+    },
+    {
+        "name": "stonegolem_attack_doublesmash",
+        "itemName": "slap"
+    },
+    {
+        "name": "stonegolem_attack_sonicboom_NOTUSED",
+        "itemName": "slap"
+    },
+    {
+        "name": "stonegolem_attack1_spike",
+        "itemName": "Spike attack"
+    },
+    {
+        "name": "stonegolem_attack2_left_groundslam",
+        "itemName": "One hand ground slam"
+    },
+    {
+        "name": "stonegolem_attack3_spikesweep",
+        "itemName": "Spike sweep"
+    },
+    {
+        "name": "StoneGolem_clubs",
+        "itemName": ""
+    },
+    {
+        "name": "StoneGolem_hat",
+        "itemName": ""
+    },
+    {
+        "name": "StoneGolem_spikes",
+        "itemName": ""
+    },
+    {
+        "name": "SulfurStone",
+        "itemName": "$item_sulfurstone"
+    },
+    {
+        "name": "SurtlingCore",
+        "itemName": "$item_surtlingcore"
+    },
+    {
+        "name": "SwordBlackmetal",
+        "itemName": "$item_sword_blackmetal"
+    },
+    {
+        "name": "SwordBronze",
+        "itemName": "$item_sword_bronze"
+    },
+    {
+        "name": "SwordCheat",
+        "itemName": "Cheat sword"
+    },
+    {
+        "name": "SwordDyrnwyn",
+        "itemName": "$item_sword_dyrnwyn"
+    },
+    {
+        "name": "SwordIron",
+        "itemName": "$item_sword_iron"
+    },
+    {
+        "name": "SwordIronFire",
+        "itemName": "$item_sword_fire"
+    },
+    {
+        "name": "SwordMistwalker",
+        "itemName": "$item_sword_mistwalker"
+    },
+    {
+        "name": "SwordNiedhogg",
+        "itemName": "$item_sword_niedhogg"
+    },
+    {
+        "name": "SwordNiedhoggBlood",
+        "itemName": "$item_sword_niedhogg_blood"
+    },
+    {
+        "name": "SwordNiedhoggLightning",
+        "itemName": "$item_sword_niedhogg_lightning"
+    },
+    {
+        "name": "SwordNiedhoggNature",
+        "itemName": "$item_sword_niedhogg_nature"
+    },
+    {
+        "name": "SwordSilver",
+        "itemName": "$item_sword_silver"
+    },
+    {
+        "name": "Tankard",
+        "itemName": "$item_tankard"
+    },
+    {
+        "name": "Tankard_dvergr",
+        "itemName": "$item_dvergrtankard"
+    },
+    {
+        "name": "TankardAnniversary",
+        "itemName": "$item_tankard_anniversary"
+    },
+    {
+        "name": "TankardOdin",
+        "itemName": "$item_tankard_odin"
+    },
+    {
+        "name": "Tar",
+        "itemName": "$item_tar"
+    },
+    {
+        "name": "tentaroot_attack",
+        "itemName": "Dragur axe"
+    },
+    {
+        "name": "Thistle",
+        "itemName": "$item_thistle"
+    },
+    {
+        "name": "THSwordKrom",
+        "itemName": "$item_sword_krom"
+    },
+    {
+        "name": "THSwordSlayer",
+        "itemName": "$item_sword_slayer"
+    },
+    {
+        "name": "THSwordSlayerBlood",
+        "itemName": "$item_sword_slayer_blood"
+    },
+    {
+        "name": "THSwordSlayerLightning",
+        "itemName": "$item_sword_slayer_lightning"
+    },
+    {
+        "name": "THSwordSlayerNature",
+        "itemName": "$item_sword_slayer_nature"
+    },
+    {
+        "name": "Thunderstone",
+        "itemName": "$item_thunderstone"
+    },
+    {
+        "name": "tick_attack",
+        "itemName": "boar attack1"
+    },
+    {
+        "name": "tick_attack_attach",
+        "itemName": "boar attack1"
+    },
+    {
+        "name": "Tin",
+        "itemName": "$item_tin"
+    },
+    {
+        "name": "TinOre",
+        "itemName": "$item_tinore"
+    },
+    {
+        "name": "Torch",
+        "itemName": "$item_torch"
+    },
+    {
+        "name": "TorchMist",
+        "itemName": "$item_torchmist"
+    },
+    {
+        "name": "troll_groundslam",
+        "itemName": "slap"
+    },
+    {
+        "name": "troll_log_swing_h",
+        "itemName": "LOG"
+    },
+    {
+        "name": "troll_log_swing_v",
+        "itemName": "LOG"
+    },
+    {
+        "name": "troll_punch",
+        "itemName": "slap"
+    },
+    {
+        "name": "troll_summoned_groundslam",
+        "itemName": "slap"
+    },
+    {
+        "name": "troll_summoned_log_swing_h",
+        "itemName": "LOG"
+    },
+    {
+        "name": "troll_summoned_log_swing_v",
+        "itemName": "LOG"
+    },
+    {
+        "name": "troll_summoned_punch",
+        "itemName": "slap"
+    },
+    {
+        "name": "troll_summoned_throw",
+        "itemName": "fireballattack"
+    },
+    {
+        "name": "troll_throw",
+        "itemName": "fireballattack"
+    },
+    {
+        "name": "TrollHide",
+        "itemName": "$item_trollhide"
+    },
+    {
+        "name": "TrophyAbomination",
+        "itemName": "$item_trophy_abomination"
+    },
+    {
+        "name": "TrophyAsksvin",
+        "itemName": "$item_trophy_asksvin"
+    },
+    {
+        "name": "TrophyBlob",
+        "itemName": "$item_trophy_blob"
+    },
+    {
+        "name": "TrophyBoar",
+        "itemName": "$item_trophy_boar"
+    },
+    {
+        "name": "TrophyBonemass",
+        "itemName": "$item_trophy_bonemass"
+    },
+    {
+        "name": "TrophyBonemawSerpent",
+        "itemName": "$item_trophy_bonemaw"
+    },
+    {
+        "name": "TrophyCharredArcher",
+        "itemName": "$item_trophy_charredarcher"
+    },
+    {
+        "name": "TrophyCharredMage",
+        "itemName": "$item_trophy_charredmage"
+    },
+    {
+        "name": "TrophyCharredMelee",
+        "itemName": "$item_trophy_charredmelee"
+    },
+    {
+        "name": "TrophyCultist",
+        "itemName": "$item_trophy_cultist"
+    },
+    {
+        "name": "TrophyCultist_Hildir",
+        "itemName": "$item_trophy_cultist_hildir"
+    },
+    {
+        "name": "TrophyDeathsquito",
+        "itemName": "$item_trophy_deathsquito"
+    },
+    {
+        "name": "TrophyDeer",
+        "itemName": "$item_trophy_deer"
+    },
+    {
+        "name": "TrophyDragonQueen",
+        "itemName": "$item_trophy_dragonqueen"
+    },
+    {
+        "name": "TrophyDraugr",
+        "itemName": "$item_trophy_draugr"
+    },
+    {
+        "name": "TrophyDraugrElite",
+        "itemName": "$item_trophy_draugrelite"
+    },
+    {
+        "name": "TrophyDraugrFem",
+        "itemName": "$item_trophy_draugr"
+    },
+    {
+        "name": "TrophyDvergr",
+        "itemName": "$item_trophy_dvergr"
+    },
+    {
+        "name": "TrophyEikthyr",
+        "itemName": "$item_trophy_eikthyr"
+    },
+    {
+        "name": "TrophyFader",
+        "itemName": "$item_trophy_fader"
+    },
+    {
+        "name": "TrophyFallenValkyrie",
+        "itemName": "$item_trophy_fallenvalkyrie"
+    },
+    {
+        "name": "TrophyFenring",
+        "itemName": "$item_trophy_fenring"
+    },
+    {
+        "name": "TrophyForestTroll",
+        "itemName": "$item_trophy_troll"
+    },
+    {
+        "name": "TrophyFrostTroll",
+        "itemName": "$item_trophy_troll"
+    },
+    {
+        "name": "TrophyGjall",
+        "itemName": "$item_trophy_gjall"
+    },
+    {
+        "name": "TrophyGoblin",
+        "itemName": "$item_trophy_goblin"
+    },
+    {
+        "name": "TrophyGoblinBrute",
+        "itemName": "$item_trophy_goblinbrute"
+    },
+    {
+        "name": "TrophyGoblinBruteBrosBrute",
+        "itemName": "$item_trophy_brutebro"
+    },
+    {
+        "name": "TrophyGoblinBruteBrosShaman",
+        "itemName": "$item_trophy_shamanbro"
+    },
+    {
+        "name": "TrophyGoblinKing",
+        "itemName": "$item_trophy_goblinking"
+    },
+    {
+        "name": "TrophyGoblinShaman",
+        "itemName": "$item_trophy_goblinshaman"
+    },
+    {
+        "name": "TrophyGreydwarf",
+        "itemName": "$item_trophy_greydwarf"
+    },
+    {
+        "name": "TrophyGreydwarfBrute",
+        "itemName": "$item_trophy_greydwarfbrute"
+    },
+    {
+        "name": "TrophyGreydwarfShaman",
+        "itemName": "$item_trophy_greydwarfshaman"
+    },
+    {
+        "name": "TrophyGrowth",
+        "itemName": "$item_trophy_growth"
+    },
+    {
+        "name": "TrophyHare",
+        "itemName": "$item_trophy_hare"
+    },
+    {
+        "name": "TrophyHatchling",
+        "itemName": "$item_trophy_hatchling"
+    },
+    {
+        "name": "TrophyLeech",
+        "itemName": "$item_trophy_leech"
+    },
+    {
+        "name": "TrophyLox",
+        "itemName": "$item_trophy_lox"
+    },
+    {
+        "name": "TrophyMorgen",
+        "itemName": "$item_trophy_morgen"
+    },
+    {
+        "name": "TrophyNeck",
+        "itemName": "$item_trophy_neck"
+    },
+    {
+        "name": "TrophySeeker",
+        "itemName": "$item_trophy_seeker"
+    },
+    {
+        "name": "TrophySeekerBrute",
+        "itemName": "$item_trophy_seeker_brute"
+    },
+    {
+        "name": "TrophySeekerQueen",
+        "itemName": "$item_trophy_seekerqueen"
+    },
+    {
+        "name": "TrophySerpent",
+        "itemName": "$item_trophy_serpent"
+    },
+    {
+        "name": "TrophySGolem",
+        "itemName": "$item_trophy_sgolem"
+    },
+    {
+        "name": "TrophySkeleton",
+        "itemName": "$item_trophy_skeleton"
+    },
+    {
+        "name": "TrophySkeletonHildir",
+        "itemName": "$item_trophy_skeleton_hildir"
+    },
+    {
+        "name": "TrophySkeletonPoison",
+        "itemName": "$item_trophy_skeletonpoison"
+    },
+    {
+        "name": "TrophySurtling",
+        "itemName": "$item_trophy_surtling"
+    },
+    {
+        "name": "TrophyTheElder",
+        "itemName": "$item_trophy_elder"
+    },
+    {
+        "name": "TrophyTick",
+        "itemName": "$item_trophy_tick"
+    },
+    {
+        "name": "TrophyUlv",
+        "itemName": "$item_trophy_ulv"
+    },
+    {
+        "name": "TrophyVolture",
+        "itemName": "$item_trophy_volture"
+    },
+    {
+        "name": "TrophyWolf",
+        "itemName": "$item_trophy_wolf"
+    },
+    {
+        "name": "TrophyWraith",
+        "itemName": "$item_trophy_wraith"
+    },
+    {
+        "name": "Turnip",
+        "itemName": "$item_turnip"
+    },
+    {
+        "name": "TurnipSeeds",
+        "itemName": "$item_turnipseeds"
+    },
+    {
+        "name": "TurnipStew",
+        "itemName": "$item_turnipstew"
+    },
+    {
+        "name": "TurretBolt",
+        "itemName": "$item_turretbolt"
+    },
+    {
+        "name": "TurretBoltBone",
+        "itemName": "$item_turretboltbone"
+    },
+    {
+        "name": "TurretBoltFlametal",
+        "itemName": "$item_turretbolt_flametal"
+    },
+    {
+        "name": "TurretBoltWood",
+        "itemName": "$item_turretboltwood"
+    },
+    {
+        "name": "Ulv_attack1_bite",
+        "itemName": "Bite Attack"
+    },
+    {
+        "name": "Ulv_attack2_slash",
+        "itemName": "Slash Attack"
+    },
+    {
+        "name": "VegvisirShard_Bonemass",
+        "itemName": "Yagluth thing"
+    },
+    {
+        "name": "Vineberry",
+        "itemName": "$item_vineberry"
+    },
+    {
+        "name": "VineberrySeeds",
+        "itemName": "$item_vineberryseeds"
+    },
+    {
+        "name": "volture_talons",
+        "itemName": "Volture Talons"
+    },
+    {
+        "name": "VoltureEgg",
+        "itemName": "$item_voltureegg"
+    },
+    {
+        "name": "VoltureMeat",
+        "itemName": "$item_volture_meat"
+    },
+    {
+        "name": "Wishbone",
+        "itemName": "$item_wishbone"
+    },
+    {
+        "name": "Wisp",
+        "itemName": "$item_wisp"
+    },
+    {
+        "name": "WitheredBone",
+        "itemName": "$item_witheredbone"
+    },
+    {
+        "name": "Wolf_Attack1",
+        "itemName": "WolfAttack1"
+    },
+    {
+        "name": "Wolf_Attack2",
+        "itemName": "WolfAttack2"
+    },
+    {
+        "name": "Wolf_Attack3",
+        "itemName": "WolfAttack3"
+    },
+    {
+        "name": "WolfClaw",
+        "itemName": "$item_wolfclaw"
+    },
+    {
+        "name": "WolfFang",
+        "itemName": "$item_wolffang"
+    },
+    {
+        "name": "WolfHairBundle",
+        "itemName": "$item_wolfhairbundle"
+    },
+    {
+        "name": "WolfJerky",
+        "itemName": "$item_wolfjerky"
+    },
+    {
+        "name": "WolfMeat",
+        "itemName": "$item_wolf_meat"
+    },
+    {
+        "name": "WolfMeatSkewer",
+        "itemName": "$item_wolf_skewer"
+    },
+    {
+        "name": "WolfPelt",
+        "itemName": "$item_wolfpelt"
+    },
+    {
+        "name": "Wood",
+        "itemName": "$item_wood"
+    },
+    {
+        "name": "wraith_melee",
+        "itemName": "Wraith melee"
+    },
+    {
+        "name": "YagluthDrop",
+        "itemName": "$item_yagluththing"
+    },
+    {
+        "name": "YggdrasilPorridge",
+        "itemName": "$item_yggdrasilporridge"
+    },
+    {
+        "name": "YggdrasilWood",
+        "itemName": "$item_yggdrasilwood"
+    },
+    {
+        "name": "YmirRemains",
+        "itemName": "$item_ymirremains"
+    }
+]
