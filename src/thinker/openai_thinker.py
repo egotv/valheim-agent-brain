@@ -18,11 +18,12 @@ class OpenaiThinker(Thinker):
     def think(self, game_input: InputObject) -> OutputObject:
 
         router_prompt = self.generate_from_router(game_input)
-        router_response = run(router_prompt, model="gpt-4o-mini")
+        router_response = run(router_prompt, model="gpt-4o-mini", temperature=0.5)
 
         if router_response == "roleplay":
             rp_prompt = self.generate_rp_prompt(game_input)
-            rp_response = run(rp_prompt)
+            rp_response = run(rp_prompt, temperature=1.2, max_tokens=256, frequency_penalty=1, presence_penalty=1)
+            # rp_response = run(rp_prompt, temperature=1.2, max_tokens=500, frequency_penalty=1.5, presence_penalty=1.5)
 
             return OutputObject([], rp_response)
 
@@ -82,11 +83,11 @@ class OpenaiThinker(Thinker):
         {game_input.player_instruction}
 
         Context:
-        The history of the last ten exchanges between the player and {game_input.agent_name} is as follows:
-        {filter_by_who_said(game_input.player_memory.get_last_n_conversation_lines(20), game_input.agent_name)}
+        The history of the last 50 exchanges between the player and {game_input.agent_name} is as follows:
+        {filter_by_who_said(game_input.player_memory.get_last_n_conversation_lines(100), game_input.agent_name)}
 
-        The history of the last ten actions taken by {game_input.agent_name} is as follows:
-        {game_input.player_memory.get_last_n_agent_commands(10)}
+        The history of the last 20 actions taken by {game_input.agent_name} is as follows:
+        {game_input.player_memory.get_last_n_agent_commands(20)}
         """
     
     def generate_prompt(self, game_input: InputObject) -> str:
@@ -142,7 +143,6 @@ The actions that you can take are as follows. You can only take these actions li
 - Inventory_DropAll()
 - Inventory_DropItem(item) // Item MUST be from the agent's inventory
 - Inventory_EquipItem(item) // Item MUST be from the agent's inventory
-- Inventory_PickupItem(item) // Item MUST be from nearby items
 
 [Category: Harvesting]
 - Harvesting_Start(item, quantity) // Item MUST be from nearby items
@@ -163,6 +163,7 @@ please respond with [] as action and "Sorry, I currently can't do that" as the t
 If the player asks about the inventory, nearby items, or other aspects of the game state, please respond as accurately as possible given the context and information above.
 If the player asks about the inventory, just tell the player what's in the inventory based on the game state and do NOT perform an action.
 If the player asks you to chop down trees, remember to chop down the logs too after chopping down the trees, and add that to the action list. If a player asks you to mine rocks, check if you have a pickaxe and then start mining rocks if you can.
+If the player asks you to stop doing something, have the action be stopping the last or current action you are doing.
 Always aim to be as accurate as possible given the personality, game state, and your inventory. Do not hallucinate.
 Think step by step.
 

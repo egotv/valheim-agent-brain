@@ -13,14 +13,21 @@ lemonfox_client = OpenAI(
 )
 
 
-def run(prompt: str, model="gpt-4o", temperature=0.9) -> str:
+def run(prompt: str, model="gpt-4o-2024-08-06", temperature=0.9, max_tokens=1000,
+        frequency_penalty=1, presence_penalty=1) -> str:
 
     start_timestamp = utils.get_timestamp()
 
     response = client.chat.completions.create(
         model=model,
         messages=[{"role": "user", "content": prompt}],
-        temperature=temperature
+        temperature=temperature,
+        max_tokens=max_tokens,
+        frequency_penalty=frequency_penalty,
+        presence_penalty=presence_penalty,
+        response_format = {
+            "type": "text"
+        },
     )
     result = response.choices[0].message.content
 

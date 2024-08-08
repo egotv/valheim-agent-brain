@@ -26,10 +26,16 @@ def synthesize_text(text: str, voice: str) -> str:
 
     start_timestamp = utils.get_timestamp()
 
-    response = deepgram.speak.v("1").save(random_filename, payload, deepgram_options, timeout=15)
-    response = response.to_dict()
-    
-    time_elapsed = utils.get_timestamp() - start_timestamp
-    log_async("DEEPGRAM_TTS_LATENCY", f"{time_elapsed}")
+    try:
+        response = deepgram.speak.v("1").save(random_filename, payload, deepgram_options, timeout=15)
+        response = response.to_dict()
+        log_async("DEEPGRAM_RESPONSE", f"{response}")
+        
+        time_elapsed = utils.get_timestamp() - start_timestamp
+        log_async("DEEPGRAM_TTS_LATENCY", f"{time_elapsed}")
+
+    except Exception as e:
+        print(f"Exception: {e}")
+        log_async("DEEPGRAM_ERROR", f"Exception: {e}")
 
     return random_file_id
