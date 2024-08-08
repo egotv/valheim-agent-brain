@@ -22,7 +22,8 @@ class OpenaiThinker(Thinker):
 
         if router_response == "roleplay":
             rp_prompt = self.generate_rp_prompt(game_input)
-            rp_response = run(rp_prompt, temperature=1.4, max_tokens=1000, frequency_penalty=2, presence_penalty=2)
+            rp_response = run(rp_prompt, temperature=1.2, max_tokens=256, frequency_penalty=1, presence_penalty=1)
+            # rp_response = run(rp_prompt, temperature=1.2, max_tokens=500, frequency_penalty=1.5, presence_penalty=1.5)
 
             return OutputObject([], rp_response)
 
