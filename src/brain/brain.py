@@ -31,9 +31,11 @@ class Brain:
 
         retrieved_items_list = self.knowledge_base.get_all_items()
         retrieved_monsters_list = self.knowledge_base.get_monsters()
+        retrieved_resources_list = self.knowledge_base.get_resources()
         retrieved_lists = {
             "items": retrieved_items_list,
-            "monsters": retrieved_monsters_list
+            "monsters": retrieved_monsters_list,
+            "resources": retrieved_resources_list
         }
 
         input = InputObject(player_instruction, game_state, player_memory, personality, agent_name, retrieved_lists=retrieved_lists, retrieved_knowledge=retrieved_knowledge)

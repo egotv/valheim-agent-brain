@@ -124,6 +124,10 @@ The list of possible monsters in the game are as follows:
 MONSTERS_LIST:
 {game_input.retrieved_lists['monsters']}
 
+The list of possible resources in the game are as follows:
+RESOURCE_LIST:
+{game_input.retrieved_lists['resources']}
+
 == Actions ==
 
 You are required to generate actions that the agent should take in response to the player instruction and the game state.
@@ -145,7 +149,7 @@ The actions that you can take are as follows. You can only take these actions li
 - Inventory_EquipItem(item) // Item MUST be from the agent's inventory
 
 [Category: Harvesting]
-- Harvesting_Start(item, quantity, resource) // Item MUST be from nearby items. Quantity must be returned ALWAYS. Resource (wood, stone, flint, etc.) is an optional argument. can return null for resource
+- Harvesting_Start(resource, quantity, item) // Resource MUST be from RESOURCE_LIST, item MUST be from nearby items
 - Harvesting_Stop()
 - Harvesting_Craft(item, quantity) // Item MUST be from the full items list
 
@@ -211,7 +215,7 @@ If you want the agent to stop attacking, return:
 
 If you want the agent to harvest some berries, return:
 [
-    "Harvesting_Start('berry', 5)"
+    "Harvesting_Start('berry', 5, 'RaspberryBush')"
 ]
 
 If you want the agent to equip a weapon and then attack a target, return:

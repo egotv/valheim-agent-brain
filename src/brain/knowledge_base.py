@@ -53,6 +53,7 @@ class KnowledgeBaseSystem:
         self.knowledge_base = self.load_knowledge_base()
         self.all_items_list = self.load_all_items()
         self.monsters_list = self.load_monsters()
+        self.resource_list = self.load_resources()
 
     def load_knowledge_base(self) -> Dict[str, Dict[str, dict]]:
             
@@ -81,11 +82,18 @@ class KnowledgeBaseSystem:
         loaded_json = self.json_loader(f"{BASE_DIR_PATH}/monsters.json")
         return list(map(lambda x: x['name'], loaded_json))
     
+    def load_resources(self) -> List[dict]:
+        loaded_json = self.json_loader(f"{BASE_DIR_PATH}/resource_list.json")
+        return list(loaded_json)
+    
     def get_all_items(self) -> List[dict]:
         return self.all_items_list
     
     def get_monsters(self) -> List[dict]:
         return self.monsters_list
+    
+    def get_monsters(self) -> List[dict]:
+        return self.resource_list
     
     '''
     The knowledge base is a collection of CSV files, which contain information on topics in Valheim gameplay.
