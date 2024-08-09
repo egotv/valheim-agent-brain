@@ -92,7 +92,7 @@ class KnowledgeBaseSystem:
     def get_monsters(self) -> List[dict]:
         return self.monsters_list
     
-    def get_monsters(self) -> List[dict]:
+    def get_resources(self) -> List[dict]:
         return self.resource_list
     
     '''
