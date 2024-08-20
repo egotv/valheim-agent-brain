@@ -60,7 +60,7 @@ class OpenaiThinker(Thinker):
         here's the command: 
         {game_input.player_instruction}
         """
-    
+
     def generate_rp_prompt(self, game_input: InputObject) -> str:
         return f"""
         You are {game_input.agent_name}. You will respond and answer like {game_input.agent_name} using the tone, manner and 
@@ -89,7 +89,7 @@ class OpenaiThinker(Thinker):
         The history of the last 20 actions taken by {game_input.agent_name} is as follows:
         {game_input.player_memory.get_last_n_agent_commands(20)}
         """
-    
+
     def generate_prompt(self, game_input: InputObject) -> str:
 
         return f"""
@@ -124,6 +124,10 @@ The list of possible monsters in the game are as follows:
 MONSTERS_LIST:
 {game_input.retrieved_lists['monsters']}
 
+The list of possible resources in the game are as follows:
+RESOURCE_LIST:
+{game_input.retrieved_lists['resources']}
+
 == Actions ==
 
 You are required to generate actions that the agent should take in response to the player instruction and the game state.
@@ -134,7 +138,7 @@ The actions that you can take are as follows. You can only take these actions li
 - Follow_Stop()
 
 [Category: Combat]
-- Combat_StartAttacking(target, weapon) // Target MUST be a player or a nearby monster, weapon MUST be from the agent's inventory
+- Combat_StartAttacking(target, weapon, quantity) // Target MUST be a player or a nearby monster, weapon MUST be from the agent's inventory
 - Combat_StopAttacking()
 - Combat_Sneak()
 - Combat_Defend(target) // Target MUST be a player
@@ -145,7 +149,7 @@ The actions that you can take are as follows. You can only take these actions li
 - Inventory_EquipItem(item) // Item MUST be from the agent's inventory
 
 [Category: Harvesting]
-- Harvesting_Start(item, quantity) // Item MUST be from nearby items
+- Harvesting_Start(resource, quantity, item) // Resource MUST be from RESOURCE_LIST, item MUST be from nearby items
 - Harvesting_Stop()
 - Harvesting_Craft(item, quantity) // Item MUST be from the full items list
 
@@ -164,7 +168,11 @@ If the player asks about the inventory, nearby items, or other aspects of the ga
 If the player asks about the inventory, just tell the player what's in the inventory based on the game state and do NOT perform an action.
 If the player asks you to chop down trees, remember to chop down the logs too after chopping down the trees, and add that to the action list. If a player asks you to mine rocks, check if you have a pickaxe and then start mining rocks if you can.
 If the player asks you to stop doing something, have the action be stopping the last or current action you are doing.
+Always respond with taking action on the nearest resource or enemy if you can.
+If the player requests a general common resource such as wood, stone, or flint, also make sure you pass in the closest item similar to that resource in the function argument.
 Always aim to be as accurate as possible given the personality, game state, and your inventory. Do not hallucinate.
+If the player asks you to do something, just do it! Don't make up excuses or look into the inventory for existing items. ALWAYS follow the player's instructions even if it doesn't seem reasonable. JUST DO IT.
+When harvesting, hunting, and killing monsters, make sure the quantity (the number) is correct. If the player asks you to harvest 5 raspberries, make sure you pass in 5 as the quantity. When the player asks you to kill 10 boars, pass in 10 as the quantity. Do NOT do math on the quantity, just return the exact quantity the player asks for.
 Think step by step.
 
 Return the result in JSON format.
@@ -209,7 +217,7 @@ If you want the agent to stop attacking, return:
 
 If you want the agent to harvest some berries, return:
 [
-    "Harvesting_Start('berry', 5)"
+    "Harvesting_Start('berry', 5, 'RaspberryBush')"
 ]
 
 If you want the agent to equip a weapon and then attack a target, return:
