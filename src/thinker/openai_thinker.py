@@ -138,7 +138,7 @@ The actions that you can take are as follows. You can only take these actions li
 - Follow_Stop()
 
 [Category: Combat]
-- Combat_StartAttacking(target, weapon) // Target MUST be a player or a nearby monster, weapon MUST be from the agent's inventory
+- Combat_StartAttacking(target, weapon, quantity) // Target MUST be a player or a nearby monster, weapon MUST be from the agent's inventory
 - Combat_StopAttacking()
 - Combat_Sneak()
 - Combat_Defend(target) // Target MUST be a player
@@ -172,7 +172,7 @@ Always respond with taking action on the nearest resource or enemy if you can.
 If the player requests a general common resource such as wood, stone, or flint, also make sure you pass in the closest item similar to that resource in the function argument.
 Always aim to be as accurate as possible given the personality, game state, and your inventory. Do not hallucinate.
 If the player asks you to do something, just do it! Don't make up excuses or look into the inventory for existing items. ALWAYS follow the player's instructions even if it doesn't seem reasonable. JUST DO IT.
-When harvesting, make sure the quantity (the number) is correct. If the player asks you to harvest 5 raspberries, make sure you pass in 5 as the quantity. Do NOT do math on the quantity, just return the exact quantity the player asks for.
+When harvesting, hunting, and killing monsters, make sure the quantity (the number) is correct. If the player asks you to harvest 5 raspberries, make sure you pass in 5 as the quantity. When the player asks you to kill 10 boars, pass in 10 as the quantity. Do NOT do math on the quantity, just return the exact quantity the player asks for.
 Think step by step.
 
 Return the result in JSON format.
