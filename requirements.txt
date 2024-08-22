@@ -10,3 +10,4 @@ pydub
 pandas
 numpy
 supabase
+sentry-sdk
