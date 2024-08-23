@@ -19,7 +19,10 @@ from memory.memory_manager import MemoryManager
 from brain.brain import Brain
 from game.game_state import GameState
 from flask_cors import CORS
-from flask import Flask, request, send_file
+from flask import Flask, request, send_file, jsonify
+
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
 
 load_dotenv()
 
@@ -30,6 +33,12 @@ sentry_sdk.init(
 
 app = Flask(__name__)
 CORS(app)
+
+limiter = Limiter(
+    get_remote_address,
+    app=app,
+    default_limits=["20000 per day", "4000 per hour"],
+)
 
 # Set up the variables
 if os.getenv("THINKER_AI_TOOLKIT") == "claude":
@@ -48,12 +57,19 @@ for file in os.listdir("audio_files"):
     os.remove(os.path.join("audio_files", file))
 
 
+# Function to get the key for rate limiting (IP or Steam ID)
+def get_limit_key():
+    steam_id = request.get_json()["player_id"]
+    return steam_id if steam_id else get_remote_address()
+
+
 @app.route('/hello_world')
 def hello_world():
     return "Hello, World!"
 
 
-@app.route('/instruct_agent', methods=['POST'])
+@app.route("/instruct_agent", methods=["POST"])
+@limiter.limit("4000/hour", key_func=get_limit_key)
 def instruct_agent():
 
     # Get request arguments
@@ -92,7 +108,7 @@ def instruct_agent():
         # Convert the audio file to text
         player_instruction = stt.transcribe_audio(
             player_instruction_audio_file_path)
-        
+
     else:
         player_instruction = request_json['player_instruction_text']
 
@@ -158,7 +174,8 @@ def instruct_agent():
     return output
 
 
-@app.route('/synthesize_audio', methods=['GET'])  # text-to-speech
+@app.route("/synthesize_audio", methods=["GET"])  # text-to-speech
+@limiter.limit("4000/hour", key_func=get_limit_key)
 def synthesize_audio():
 
     # Get the text to synthesize
@@ -175,7 +192,8 @@ def synthesize_audio():
     }
 
 
-@app.route('/get_audio_file', methods=['GET'])
+@app.route("/get_audio_file", methods=["GET"])
+@limiter.limit("4000/hour", key_func=get_limit_key)
 def get_audio_file():
 
     # Get the ID of the audio file
@@ -193,6 +211,7 @@ def get_audio_file():
 
 
 @app.route("/log_valheim", methods=["POST"])
+@limiter.limit("4000/hour", key_func=get_limit_key)
 def log_valheim():
 
     # Get request arguments
@@ -211,6 +230,11 @@ def log_valheim():
     log_async("MOD_CLIENT_LOGS", str(log_dict))
 
     return log_dict
+
+
+@app.errorhandler(429)
+def ratelimit_handler(e):
+    return jsonify({"error": "Rate limit exceeded", "description": e.description}), 429
 
 
 if __name__ == '__main__':
