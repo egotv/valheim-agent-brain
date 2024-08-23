@@ -4,6 +4,7 @@ import time
 import base64
 import uuid
 from dotenv import load_dotenv
+import sentry_sdk
 
 sys.path.append(os.path.abspath(os.path.join(
     os.path.dirname(__file__), '..', 'src')))
@@ -21,6 +22,11 @@ from flask_cors import CORS
 from flask import Flask, request, send_file
 
 load_dotenv()
+
+sentry_sdk.init(
+    dsn=os.getenv("SENTRY_DSN"),
+    enable_tracing=True,
+)
 
 app = Flask(__name__)
 CORS(app)
@@ -72,8 +78,12 @@ def instruct_agent():
     with open(player_instruction_audio_file_path, "wb") as file:
         file.write(player_instruction_audio_file_decoded_bytes)
 
-    log_async_audio(player_instruction_audio_file_path,
-                    f"instruction_{player_instruction_audio_file_id}.wav", str(player_id))
+    log_async_audio(
+        player_instruction_audio_file_path,
+        f"instruction_{player_instruction_audio_file_id}.wav",
+        str(player_id),
+        str(timestamp),
+    )
 
     # Convert the audio file to text
     player_instruction = stt.transcribe_audio(
@@ -115,8 +125,12 @@ def instruct_agent():
         agent_brain.get_memory_manager().get_player_memory(
             player_id).async_synthesize_log_reflection()
 
-    log_async_audio(f"audio_files/response_{agent_text_response_audio_file_id}.wav",
-                    f"response_{agent_text_response_audio_file_id}.wav", str(player_id))
+    log_async_audio(
+        f"audio_files/response_{agent_text_response_audio_file_id}.wav",
+        f"response_{agent_text_response_audio_file_id}.wav",
+        str(player_id),
+        str(timestamp),
+    )
 
     # Return the output object (agent commands and agent text response audio file)
     output = {
@@ -169,6 +183,27 @@ def get_audio_file():
         return send_file(fly_path)
     else:
         return send_file(local_path)
+
+
+@app.route("/log_valheim", methods=["POST"])
+def log_valheim():
+
+    # Get request arguments
+    request_json = request.get_json()
+    player_id = request_json["player_id"]
+    timestamp = request_json.get("timestamp", time.time())
+    log_string = request_json["log_string"]
+
+    # Log the request into the analytics system
+    log_dict = {
+        "player_id": player_id,
+        "timestamp": timestamp,
+        "log_string": log_string,
+    }
+
+    log_async("MOD_CLIENT_LOGS", str(log_dict))
+
+    return log_dict
 
 
 if __name__ == '__main__':
