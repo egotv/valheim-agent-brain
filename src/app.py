@@ -175,7 +175,6 @@ def instruct_agent():
 
 
 @app.route("/synthesize_audio", methods=["GET"])  # text-to-speech
-@limiter.limit("4000/hour", key_func=get_limit_key)
 def synthesize_audio():
 
     # Get the text to synthesize
@@ -193,7 +192,6 @@ def synthesize_audio():
 
 
 @app.route("/get_audio_file", methods=["GET"])
-@limiter.limit("4000/hour", key_func=get_limit_key)
 def get_audio_file():
 
     # Get the ID of the audio file
