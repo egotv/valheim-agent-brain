@@ -58,30 +58,37 @@ def instruct_agent():
     personality = request_json.get('personality', "")
     voice = request_json.get('voice', "asteria")
     agent_name = request_json.get('agent_name', "agent")
+    voice_or_text = request_json.get('voice_or_text', "voice")
 
-    # Get the audio file sent through the HTTP POST request
-    player_instruction_audio_file_encoded_string = request_json[
-        'player_instruction_audio_file_base64']
-    player_instruction_audio_file_decoded_bytes = base64.b64decode(
-        player_instruction_audio_file_encoded_string.encode("utf-8"))
+    player_instruction = ""
 
-    # Save the audio file to the audio_files folder
-    player_instruction_audio_file_id = uuid.uuid4()
-    player_instruction_audio_file_path = os.path.join(
-        "audio_files", f"instruction_{player_instruction_audio_file_id}.wav")
-    with open(player_instruction_audio_file_path, "wb") as file:
-        file.write(player_instruction_audio_file_decoded_bytes)
+    if voice_or_text == "voice":
+        # Get the audio file sent through the HTTP POST request
+        player_instruction_audio_file_encoded_string = request_json[
+            'player_instruction_audio_file_base64']
+        player_instruction_audio_file_decoded_bytes = base64.b64decode(
+            player_instruction_audio_file_encoded_string.encode("utf-8"))
 
-    log_async_audio(
-        player_instruction_audio_file_path,
-        f"instruction_{player_instruction_audio_file_id}.wav",
-        str(player_id),
-        str(timestamp),
-    )
+        # Save the audio file to the audio_files folder
+        player_instruction_audio_file_id = uuid.uuid4()
+        player_instruction_audio_file_path = os.path.join(
+            "audio_files", f"instruction_{player_instruction_audio_file_id}.wav")
+        with open(player_instruction_audio_file_path, "wb") as file:
+            file.write(player_instruction_audio_file_decoded_bytes)
 
-    # Convert the audio file to text
-    player_instruction = stt.transcribe_audio(
-        player_instruction_audio_file_path)
+        log_async_audio(
+            player_instruction_audio_file_path,
+            f"instruction_{player_instruction_audio_file_id}.wav",
+            str(player_id),
+            str(timestamp),
+        )
+
+        # Convert the audio file to text
+        player_instruction = stt.transcribe_audio(
+            player_instruction_audio_file_path)
+        
+    else:
+        player_instruction = request_json['player_instruction_text']
 
     # Log the request into the analytics system
     request_dict = {
