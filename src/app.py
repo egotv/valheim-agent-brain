@@ -4,6 +4,7 @@ import time
 import base64
 import uuid
 from dotenv import load_dotenv
+import sentry_sdk
 
 sys.path.append(os.path.abspath(os.path.join(
     os.path.dirname(__file__), '..', 'src')))
@@ -21,6 +22,11 @@ from flask_cors import CORS
 from flask import Flask, request, send_file
 
 load_dotenv()
+
+sentry_sdk.init(
+    dsn=os.getenv("SENTRY_DSN"),
+    enable_tracing=True,
+)
 
 app = Flask(__name__)
 CORS(app)
