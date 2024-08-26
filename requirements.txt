@@ -11,3 +11,4 @@ pandas
 numpy
 supabase
 sentry-sdk
+Flask-Limiter

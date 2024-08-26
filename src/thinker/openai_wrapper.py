@@ -67,7 +67,6 @@ def transcribe_audio_lemonfox(file_path: str) -> str:
 
     transcription = lemonfox_client.audio.transcriptions.create(
         model="whisper-1",
-        language="en",
         file=audio_file,
     )
     result = transcription.text
