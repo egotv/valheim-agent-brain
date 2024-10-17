@@ -12,7 +12,10 @@ import wave
 deepgram = speech_wrapper.deepgram
 cartesia = speech_wrapper.cartesia
 
-def synthesize_text(text: str, voice_name: str) -> str:
+def synthesize_text(text: str, voice_name: str, use_cartesia: bool) -> str:
+
+    if use_cartesia:
+        return synthesize_text_cartesia(text, voice_name)
 
     payload = {
         "text": text
@@ -49,8 +52,25 @@ def synthesize_text_cartesia(text: str, voice_name: str) -> str:
 
     start_timestamp = utils.get_timestamp()
 
-    voice_name = "Barbershop Man"
     voice_id = "a0e99841-438c-4a64-b679-ae501e7d6091"
+
+    if voice_name == "1920s Radioman":
+        voice_id = "41534e16-2966-4c6b-9670-111411def906"
+    elif voice_name == "ASMR Lady":
+        voice_id = "03496517-369a-4db1-8236-3d3ae459ddf7"
+    elif voice_name == "Hinglish Speaking Lady":
+        voice_id = "95d51f79-c397-46f9-b49a-23763d3eaa2d"
+    elif voice_name == "Madame Mischief":
+        voice_id = "e13cae5c-ec59-4f71-b0a6-266df3c9bb8e"
+    elif voice_name == "Pilot Over Intercom":
+        voice_id = "36b42fcb-60c5-4bec-b077-cb1a00a92ec6"
+    elif voice_name == "Princess":
+        voice_id = "8f091740-3df1-4795-8bd9-dc62d88e5131"
+    elif voice_name == "Wizardman":
+        voice_id = "87748186-23bb-4158-a1eb-332911b0b708"
+    else:
+        raise ValueError(f"Voice name {voice_name} not found")
+
     voice = cartesia.voices.get(id=voice_id)
 
     model_id = "sonic-english"
@@ -95,6 +115,3 @@ def synthesize_text_cartesia(text: str, voice_name: str) -> str:
     print(f"Audio saved to {random_filename}")
     return random_file_id
 
-
-if __name__ == "__main__":
-    synthesize_text_cartesia("Hello, how are you?", "Barbershop Man")
