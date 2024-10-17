@@ -12,7 +12,7 @@ import wave
 deepgram = speech_wrapper.deepgram
 cartesia = speech_wrapper.cartesia
 
-def synthesize_text(text: str, voice_name: str, use_cartesia: bool) -> str:
+def synthesize_text(text: str, voice_name: str, use_cartesia: bool = False) -> str:
 
     if use_cartesia:
         return synthesize_text_cartesia(text, voice_name)
@@ -105,7 +105,7 @@ def synthesize_text_cartesia(text: str, voice_name: str) -> str:
                 
                 # Write the audio data to the WAV file
                 wav_file.writeframes(audio_data.tobytes())
-                
+
         time_elapsed = utils.get_timestamp() - start_timestamp
         log_async("CARTESIA_TTS_LATENCY", f"{time_elapsed}")
     
