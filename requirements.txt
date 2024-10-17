@@ -13,4 +13,3 @@ supabase
 sentry-sdk
 Flask-Limiter
 cartesia
-pyaudio

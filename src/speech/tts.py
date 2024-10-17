@@ -105,6 +105,7 @@ def synthesize_text_cartesia(text: str, voice_name: str) -> str:
                 
                 # Write the audio data to the WAV file
                 wav_file.writeframes(audio_data.tobytes())
+                
         time_elapsed = utils.get_timestamp() - start_timestamp
         log_async("CARTESIA_TTS_LATENCY", f"{time_elapsed}")
     
