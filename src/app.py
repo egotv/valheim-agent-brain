@@ -190,12 +190,13 @@ def synthesize_audio():
         # Get the text to synthesize
         text = request.args.get('text')
         voice = request.args.get('voice', "asteria")
+        use_cartesia = request.args.get('use_cartesia', False) # use bool instead of string
 
         if not text:
             return jsonify({"error": "Missing 'text' parameter"}), 400
 
         # Synthesize the audio
-        audio_file_id = tts.synthesize_text(text, voice)
+        audio_file_id = tts.synthesize_text(text, voice, use_cartesia)
 
         return jsonify({
             "audio_file_id": audio_file_id,
