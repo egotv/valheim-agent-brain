@@ -86,6 +86,7 @@ def instruct_agent():
         voice = request_json.get('voice', "asteria")
         agent_name = request_json.get('agent_name', "agent")
         voice_or_text = request_json.get('voice_or_text', "voice")
+        use_cartesia = request_json.get('use_cartesia', False) # use bool instead of string
 
         player_instruction = ""
 
@@ -135,7 +136,7 @@ def instruct_agent():
 
         # Speak the agent text response
         agent_text_response_audio_file_id = tts.synthesize_text(
-            output.agent_text_response, voice)
+            output.agent_text_response, voice, use_cartesia)
 
         # Log this exchange
         agent_brain.get_memory_manager().get_player_memory(
@@ -189,12 +190,13 @@ def synthesize_audio():
         # Get the text to synthesize
         text = request.args.get('text')
         voice = request.args.get('voice', "asteria")
+        use_cartesia = request.args.get('use_cartesia', False) # use bool instead of string
 
         if not text:
             return jsonify({"error": "Missing 'text' parameter"}), 400
 
         # Synthesize the audio
-        audio_file_id = tts.synthesize_text(text, voice)
+        audio_file_id = tts.synthesize_text(text, voice, use_cartesia)
 
         return jsonify({
             "audio_file_id": audio_file_id,

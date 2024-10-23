@@ -12,3 +12,4 @@ numpy
 supabase
 sentry-sdk
 Flask-Limiter
+cartesia
